@@ -1,0 +1,15 @@
+ön test başlangıç 2026-11-11 19:30:08; günlük evidence/KAPI/on_test_1930.log; jobs 5 + a3 1; nice 0
+ontest çıkış kodu 0 2026-11-11 19:45:39
+geliştirme başlangıç 2026-11-11 19:48:22; günlük evidence/KAPI/gelistirme_1948.log; jobs 5; nice 0
+a3 çıkış kodu 0 2026-11-11 19:50:49
+geliştirme çıkış kodu 0 2026-11-11 20:42:28
+dogrula_ontest başlangıç 2026-11-11 20:47:25; günlük evidence/KAPI/dogrula_ontest_2047.log; jobs 5 gpu_jobs 1; dokumler <scratch>/a3s_dokum_s0; ek: ; SECIM cd4f4520183e0ee4; koşucu 55a91eb69839ea54
+dogrula_ontest çıkış kodu 0 2026-11-11 21:14:29
+dogrula_II başlangıç 2026-11-11 21:20:51; günlük evidence/KAPI/dogrula_II_2120.log; jobs 5 gpu_jobs 1; dokumler <scratch>/a3s_dokum_s14,<scratch>/a3s_dokum_s0; ek: ; SECIM cd4f4520183e0ee4; koşucu 55a91eb69839ea54
+dogrula_I başlangıç 2026-11-11 21:20:53; günlük evidence/KAPI/dogrula_I_2120.log; jobs 3 gpu_jobs 1; dokumler <scratch>/hizli_dokum; ek: --bekle --bellek_kabul 6500; SECIM cd4f4520183e0ee4; koşucu 55a91eb69839ea54
+dogrula_III başlangıç 2026-11-11 21:20:55; günlük evidence/KAPI/dogrula_III_2120.log; jobs 2 gpu_jobs 1; dokumler -; ek: --bellek_kabul 7500; SECIM cd4f4520183e0ee4; koşucu 55a91eb69839ea54
+dogrula_III çıkış kodu 0 2026-11-12 09:07:46
+dogrula_II çıkış kodu 0 2026-11-12 10:27:35
+dogrula_I başlangıç 2026-11-12 10:28:05; günlük evidence/KAPI/dogrula_I_1028.log; jobs 8 gpu_jobs 1; dokumler <scratch>/hizli_dokum; ek: --bekle --bellek_kabul 6500; SECIM cd4f4520183e0ee4; koşucu 55a91eb69839ea54
+dogrula_I çıkış kodu 0 2026-11-12 18:00:47
+I. parça bitti 2026-11-12 18:01:00: 702/702

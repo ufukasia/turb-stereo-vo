@@ -1,0 +1,11 @@
+# A3S ayırma kolu (ON_KAYIT_FAZ2.md §5 Sapma 4) — kimlik, 2026-11-11 13:32
+code_fp 08e28b83407c (turb.runner.code_fingerprint; ana ızgarayla aynı)
+ON_KAYIT_FAZ2.md sha256 140472d6ce49afbebda4926afaadeaaafd8424f8b2f074a2c172640a7aa9bf83
+dd9af6e1d92de832e3a9bc4dd30da7b6dac9db5e2c1413662b52e3966564524d  a3s_kos.py
+91b7f12072ce3573bcffa77f0f3eb2d5ac0e0c0bf42013bb51a539c12ec82aa4  a3s_analiz.py
+92e1dc7fdb1a05759a1e40ad93fc7fe3e3c1d2627ad0b117fcc9b0f646948aa1  config.yaml
+5d3164b6941204cc20ee501bb2d59d6cf810310f7b89c9cb6a520b0b69532ee9  turb/faz2_analiz.py
+cd788381a90ee1f0be6f53727b29a94e34c2321f341ae35d1b9f81df46109e95  evidence/pencereler_faz2_kapsam1m.json
+511b9a6fad062abb2026971797f9a24fe09b76d609865315754fe19529efb0fa  evidence/FAZ2/records.jsonl
+8c82f18ac6377ebdbb0cc980cb7b52b02afa7550b91184a03a367c975adaf988  evidence/A3S/ON_TEST.md (sonuç bölümü boşken; 13:34'te yalnız yazım saati 13:35 -> 13:32 düzeltildi)
+1b3eb98ffa91acc826147bb1706dc6e8c729fb7062c34b38f8645fac57825695  evidence/A3S/ON_TEST.md (sonuç bölümü dolduruldu, 14:14)

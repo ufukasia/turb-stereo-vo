@@ -1,0 +1,67 @@
+# ==========================================================================================
+#  PyEco-SLAM — Python bağımlılıkları
+#
+#  Sürümler makale sonuçlarının ÜRETİLDİĞİ ortamdan okunmuştur (`pip freeze`):
+#  Python 3.12.2, Ubuntu 24.04, CUDA 12.4 tekerlekleri (torch 2.5.1+cu124), RTX 3090.
+#  install.sh bu dosyayı kullanır ve torch'u CUDA indeksinden ayrıca kurar.
+#
+#  ┌─ ABI KIRAN BAĞIMLILIK — EN ÖNEMLİ SATIR ────────────────────────────────────────────┐
+#  │ gtsam'in pip tekerleği numpy 1.x'e karşı derlenmiştir. Ortama numpy 2.x girerse     │
+#  │ `import gtsam` ANINDA SEGFAULT eder (çekirdek dökümü, Python istisnası DEĞİL).      │
+#  │ Bu yüzden numpy 1.26.4'e KELEPÇELİDİR ve kurulumda EN SON sabitlenmelidir.          │
+#  └──────────────────────────────────────────────────────────────────────────────────────┘
+# ==========================================================================================
+
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+PyYAML==6.0.3
+matplotlib==3.11.1
+packaging==26.3
+pillow==12.3.0
+
+# torch/torchvision: install.sh CUDA indeksinden kurar (--index-url https://download.pytorch.org/whl/cu124);
+# CPU-only için --cpu. Referans: torch 2.5.1+cu124, torchvision 0.20.1.
+torch==2.5.1
+torchvision==0.20.1
+kornia==0.7.3
+kornia_rs==0.1.14
+
+gtsam==4.2.1
+
+# OpenGL bağları — yalnızca Pangolin yörünge penceresi için. Yoksa sistem OpenCV tabanlı
+# yedek pencereye (`Cv2TrajView`) düşer; koşum durmaz.
+PyOpenGL==3.1.7
+
+# OpenCV: numpy 1.x ile uyumlu son PyPI sürümü (referans ortamda da bu sürüm kuruludur).
+opencv-python==4.9.0.80
+#
+# Yerel 4.10.0.84 derlemesiyle birebir aynı ortamı istiyorsanız OpenCV'yi numpy 1.26.4
+# etkinken kaynaktan derleyin; bu depo bu tekerleği DAĞITMAZ.
+# Referans ortamda ayrıca `opencv-contrib-python==4.10.0.84` (aynı yerel derleme) kuruludur;
+# bu deponun kodu contrib modüllerini KULLANMAZ, dolayısıyla zorunlu değildir.
+
+# ==========================================================================================
+#  PyPI'DA OLMAYAN / AYRICA KURULAN BİLEŞENLER
+# ==========================================================================================
+#
+#  pypangolin  — 3B yörünge penceresi. PyPI'da YOKTUR, kaynaktan derlenir.
+#      Sürüme özgü bir C++ uzantısıdır: cp310 yorumlayıcısı için cp310 tekerleği gerekir.
+#      Derlemede `-DPython3_EXECUTABLE` ŞARTTIR (`-DPython_EXECUTABLE` YETMEZ; pybind11
+#      onu okumaz ve sistemin başka bir Python'unu seçip yanlış ABI üretir):
+#
+#          cmake -S ~/Pangolin -B ~/Pangolin/build310 -GNinja \
+#                -DPython3_EXECUTABLE="$PY" -DBUILD_EXAMPLES=OFF -DBUILD_TESTS=OFF
+#          cmake --build ~/Pangolin/build310 --target pypangolin -j8
+#
+#      OPSİYONELDİR: import edilemezse `run_realtime_vision.py` sessizce OpenCV tabanlı
+#      yedek yörünge penceresine düşer.
+#
+#  lightglue   — bu depoya VENDOR'LANMIŞTIR (`lightglue/`); pip ile KURULMAZ. Bkz. NOTICE.
+#
+#  flash_attn  — OPSİYONEL. `lightglue/lightglue.py` içinde try/except ile korunur; yoksa
+#                torch'un `scaled_dot_product_attention`'ı kullanılır (referans ortamda
+#                durum budur — flash_attn KURULU DEĞİL).
+#
+#  pycolmap    — OPSİYONEL. Yalnızca `lightglue/sift.py`'ın SIFT arka ucu için. Bu deponun
+#                varsayılan çıkarıcısı ALIKED olduğundan GEREKMEZ (referansta kurulu değil).

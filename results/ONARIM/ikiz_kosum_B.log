@@ -1,0 +1,534 @@
+[ikiz] code_fp 08e28b83407c (beklenen 08e28b83407c); eps 1e-12; kollar ('A0', 'A1'); çıktı <project>/pyeco_turb/evidence/ONARIM/ikiz.jsonl
+[ikiz] gönderildi: V2_01_easy__R5_dr8_s0
+[ikiz] gönderildi: V2_01_easy__R0_dr8_s0
+[ikiz] gönderildi: MH04__R5_dr8_s0
+[ikiz] gönderildi: MH04__R0_dr8_s0
+[ikiz] gönderildi: V2_02_medium__R5_dr8_s0
+[ikiz] gönderildi: V2_02_medium__R0_dr8_s0
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 38, poz 1, harita 0, mv tampon 110
+  kare 0: stereo=38, mono=0, yeni_lm=38, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 441 ms/kare (update 0, estimate 0), pencere lm 458, poz 54, harita 453, mv tampon 517
+  kare 100: stereo=14, mono=134, yeni_lm=5, gated=26, sbp=69, toplam_lm=0, mv_init(toplam)=56
+  [sure] kare 200: son 100 kare 3047 ms/kare (update 0, estimate 0), pencere lm 905, poz 61, harita 1221, mv tampon 461
+  kare 200: stereo=0, mono=143, yeni_lm=1, gated=23, sbp=68, toplam_lm=0, mv_init(toplam)=119
+  [sure] kare 300: son 100 kare 3534 ms/kare (update 0, estimate 0), pencere lm 1050, poz 61, harita 2130, mv tampon 1628
+  kare 300: stereo=18, mono=104, yeni_lm=11, gated=22, sbp=58, toplam_lm=0, mv_init(toplam)=215
+  [sure] kare 400: son 100 kare 2777 ms/kare (update 0, estimate 0), pencere lm 1187, poz 61, harita 3164, mv tampon 1365
+  kare 400: stereo=0, mono=58, yeni_lm=3, gated=16, sbp=32, toplam_lm=0, mv_init(toplam)=402
+  [sure] kare 500: son 100 kare 2367 ms/kare (update 0, estimate 0), pencere lm 1253, poz 61, harita 4341, mv tampon 3019
+  kare 500: stereo=45, mono=45, yeni_lm=31, gated=33, sbp=27, toplam_lm=0, mv_init(toplam)=499
+  [sure] kare 700: son 100 kare 2263 ms/kare (update 0, estimate 0), pencere lm 910, poz 61, harita 5421, mv tampon 6444
+  kare 700: stereo=0, mono=30, yeni_lm=1, gated=2, sbp=10, toplam_lm=0, mv_init(toplam)=774
+  [sure] kare 800: son 100 kare 1460 ms/kare (update 0, estimate 0), pencere lm 846, poz 61, harita 5964, mv tampon 1329
+  kare 800: stereo=79, mono=27, yeni_lm=76, gated=7, sbp=15, toplam_lm=0, mv_init(toplam)=930
+  [sure] kare 900: son 100 kare 1145 ms/kare (update 0, estimate 0), pencere lm 1094, poz 61, harita 6587, mv tampon 3142
+  kare 900: stereo=30, mono=33, yeni_lm=27, gated=48, sbp=11, toplam_lm=0, mv_init(toplam)=1059
+  [sure] kare 1200: son 100 kare 5720 ms/kare (update 0, estimate 0), pencere lm 1372, poz 61, harita 9691, mv tampon 1390
+  kare 1200: stereo=26, mono=131, yeni_lm=24, gated=20, sbp=84, toplam_lm=0, mv_init(toplam)=1661
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0_realtime.csv (1300 poz)
+ANAHTAR KARE: 868 anahtar, 431 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A0.npz (434 örnek; deneme 434, hata 0, Schur-red 0, koşul medyan 2.65e+02)
+YEREL HARITA: izdusen 791279, aday 35999, kabul 22318, faktor 16087, grafa geri donen 313, yeniden yakalama 7, oran red 37319, harita 10536 nokta, tekil sabitleme 0, tanimlayici konumlama 7 (aday 382)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393212255760384
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 38, poz 1, harita 0, mv tampon 110
+  kare 0: stereo=38, mono=0, yeni_lm=38, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 413 ms/kare (update 0, estimate 0), pencere lm 479, poz 49, harita 472, mv tampon 444
+  kare 100: stereo=16, mono=131, yeni_lm=7, gated=26, sbp=73, toplam_lm=0, mv_init(toplam)=44
+  [sure] kare 200: son 100 kare 2268 ms/kare (update 0, estimate 0), pencere lm 919, poz 61, harita 1205, mv tampon 447
+  kare 200: stereo=0, mono=141, yeni_lm=3, gated=25, sbp=70, toplam_lm=0, mv_init(toplam)=86
+  [sure] kare 300: son 100 kare 3470 ms/kare (update 0, estimate 0), pencere lm 1082, poz 61, harita 2074, mv tampon 1618
+  kare 300: stereo=17, mono=98, yeni_lm=11, gated=22, sbp=56, toplam_lm=0, mv_init(toplam)=181
+  [sure] kare 400: son 100 kare 2783 ms/kare (update 0, estimate 0), pencere lm 1284, poz 61, harita 3235, mv tampon 1313
+  kare 400: stereo=0, mono=83, yeni_lm=10, gated=15, sbp=39, toplam_lm=0, mv_init(toplam)=375
+  [sure] kare 500: son 100 kare 2571 ms/kare (update 0, estimate 0), pencere lm 1220, poz 61, harita 4494, mv tampon 3066
+  kare 500: stereo=42, mono=60, yeni_lm=27, gated=33, sbp=33, toplam_lm=0, mv_init(toplam)=494
+  [sure] kare 700: son 100 kare 2371 ms/kare (update 0, estimate 0), pencere lm 852, poz 61, harita 5614, mv tampon 6504
+  kare 700: stereo=0, mono=30, yeni_lm=1, gated=10, sbp=11, toplam_lm=0, mv_init(toplam)=707
+  [sure] kare 1200: son 100 kare 8277 ms/kare (update 0, estimate 1), pencere lm 1409, poz 61, harita 9795, mv tampon 1307
+  kare 1200: stereo=27, mono=132, yeni_lm=23, gated=16, sbp=86, toplam_lm=0, mv_init(toplam)=1617
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1_realtime.csv (1300 poz)
+ANAHTAR KARE: 859 anahtar, 440 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A1.npz (429 örnek; deneme 429, hata 0, Schur-red 0, koşul medyan 2.44e+02)
+YEREL HARITA: izdusen 733326, aday 36983, kabul 22606, faktor 15971, grafa geri donen 340, yeniden yakalama 15, oran red 39934, harita 10726 nokta, tekil sabitleme 0, tanimlayici konumlama 9 (aday 359)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393212255760384
+[ikiz] 1 hücre yazıldı, 84.8 dk: euroc/V2_01_easy__R5_dr8_s0/dr8/tc0.15/t00.0157/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R5_N_ikiz [('A0', 100, 'ok'), ('A0', 500, 'ok'), ('A0', 900, 'ok'), ('A1', 100, 'ok'), ('A1', 500, 'ok'), ('A1', 900, 'ok')]
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 38, poz 1, harita 0, mv tampon 110
+  kare 0: stereo=38, mono=0, yeni_lm=38, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 600: son 100 kare 3744 ms/kare (update 0, estimate 0), pencere lm 808, poz 61, harita 1880, mv tampon 391
+  kare 600: stereo=0, mono=74, yeni_lm=14, gated=55, sbp=19, toplam_lm=0, mv_init(toplam)=680
+  [sure] kare 700: son 100 kare 752 ms/kare (update 0, estimate 0), pencere lm 838, poz 61, harita 2156, mv tampon 825
+  kare 700: stereo=33, mono=19, yeni_lm=19, gated=16, sbp=11, toplam_lm=0, mv_init(toplam)=798
+  [sure] kare 1100: son 100 kare 4555 ms/kare (update 0, estimate 0), pencere lm 666, poz 61, harita 4125, mv tampon 3860
+  kare 1100: stereo=25, mono=71, yeni_lm=17, gated=8, sbp=40, toplam_lm=0, mv_init(toplam)=1547
+  [sure] kare 1200: son 100 kare 3006 ms/kare (update 0, estimate 0), pencere lm 781, poz 61, harita 4733, mv tampon 478
+  kare 1200: stereo=0, mono=154, yeni_lm=6, gated=16, sbp=66, toplam_lm=0, mv_init(toplam)=1741
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0_realtime.csv (1300 poz)
+ANAHTAR KARE: 528 anahtar, 771 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A0.npz (264 örnek; deneme 264, hata 0, Schur-red 0, koşul medyan 3.34e+02)
+YEREL HARITA: izdusen 387050, aday 26997, kabul 17268, faktor 8772, grafa geri donen 129, yeniden yakalama 1, oran red 26006, harita 5262 nokta, tekil sabitleme 0, tanimlayici konumlama 0 (aday 10)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393212255760384
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 38, poz 1, harita 0, mv tampon 110
+  kare 0: stereo=38, mono=0, yeni_lm=38, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 700: son 100 kare 3542 ms/kare (update 0, estimate 0), pencere lm 871, poz 61, harita 2115, mv tampon 2767
+  kare 700: stereo=32, mono=18, yeni_lm=20, gated=19, sbp=10, toplam_lm=0, mv_init(toplam)=730
+  [sure] kare 900: son 100 kare 1703 ms/kare (update 0, estimate 0), pencere lm 899, poz 61, harita 2833, mv tampon 4128
+  kare 900: stereo=0, mono=95, yeni_lm=25, gated=44, sbp=13, toplam_lm=0, mv_init(toplam)=1103
+  [sure] kare 1100: son 100 kare 2131 ms/kare (update 0, estimate 0), pencere lm 685, poz 61, harita 4041, mv tampon 5907
+  kare 1100: stereo=24, mono=70, yeni_lm=17, gated=9, sbp=36, toplam_lm=0, mv_init(toplam)=1496
+  [sure] kare 1200: son 100 kare 2367 ms/kare (update 0, estimate 0), pencere lm 752, poz 61, harita 4630, mv tampon 493
+  kare 1200: stereo=0, mono=153, yeni_lm=3, gated=14, sbp=68, toplam_lm=0, mv_init(toplam)=1663
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1_realtime.csv (1300 poz)
+ANAHTAR KARE: 530 anahtar, 769 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A1.npz (265 örnek; deneme 265, hata 0, Schur-red 0, koşul medyan 2.04e+02)
+YEREL HARITA: izdusen 387334, aday 26960, kabul 17318, faktor 8549, grafa geri donen 111, yeniden yakalama 0, oran red 24498, harita 5161 nokta, tekil sabitleme 1, tanimlayici konumlama 0 (aday 0)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_01_easy__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393212255760384
+[ikiz] 2 hücre yazıldı, 127.1 dk: euroc/V2_01_easy__R0_dr8_s0/dr8/tc0.15/t01/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R0_N_ikiz [('A0', 100, 'ok'), ('A0', 500, 'ok'), ('A0', 900, 'ok'), ('A1', 100, 'ok'), ('A1', 500, 'ok'), ('A1', 900, 'ok')]
+[ikiz] gönderildi: MH05__R0_dr8_s0
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1331 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 57, poz 1, harita 0, mv tampon 119
+  kare 0: stereo=57, mono=0, yeni_lm=57, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 601 ms/kare (update 0, estimate 0), pencere lm 1624, poz 61, harita 1575, mv tampon 1655
+  kare 100: stereo=75, mono=111, yeni_lm=64, gated=32, sbp=77, toplam_lm=0, mv_init(toplam)=2
+  [sure] kare 200: son 100 kare 5440 ms/kare (update 0, estimate 0), pencere lm 2647, poz 61, harita 3602, mv tampon 633
+  kare 200: stereo=61, mono=144, yeni_lm=36, gated=52, sbp=99, toplam_lm=0, mv_init(toplam)=5
+  [kare 211] smoother YENIDEN KURULDU (cipa=X(210), toplam kurtarma=1)
+  [kare 211] update hatası: Indeterminant linear system detected while working near variable | 7782220156096221323 (Symbol: l4235). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 300: son 100 kare 4512 ms/kare (update 0, estimate 0), pencere lm 798, poz 61, harita 4456, mv tampon 2473
+  kare 300: stereo=28, mono=63, yeni_lm=7, gated=22, sbp=34, toplam_lm=0, mv_init(toplam)=15
+  [kare 325] smoother YENIDEN KURULDU (cipa=X(324), toplam kurtarma=2)
+  [kare 325] update hatası: Indeterminant linear system detected while working near variable | 8646911284551352565 (Symbol: x245). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 400: son 100 kare 1629 ms/kare (update 0, estimate 0), pencere lm 783, poz 58, harita 5102, mv tampon 944
+  kare 400: stereo=17, mono=81, yeni_lm=8, gated=20, sbp=45, toplam_lm=0, mv_init(toplam)=17
+  [sure] kare 1000: son 100 kare 11762 ms/kare (update 0, estimate 2), pencere lm 2465, poz 61, harita 16648, mv tampon 587
+  kare 1000: stereo=37, mono=44, yeni_lm=24, gated=68, sbp=33, toplam_lm=0, mv_init(toplam)=131
+  [sure] kare 1200: son 100 kare 4019 ms/kare (update 0, estimate 1), pencere lm 1872, poz 61, harita 20751, mv tampon 1386
+  kare 1200: stereo=24, mono=37, yeni_lm=18, gated=26, sbp=24, toplam_lm=0, mv_init(toplam)=165
+  [kare 1235] smoother YENIDEN KURULDU (cipa=X(1234), toplam kurtarma=3)
+  [kare 1235] update hatası: Indeterminant linear system detected while working near variable | 8646911284551353484 (Symbol: x1164). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 1300: son 100 kare 1706 ms/kare (update 0, estimate 0), pencere lm 1372, poz 56, harita 22636, mv tampon 3604
+  kare 1300: stereo=16, mono=97, yeni_lm=12, gated=36, sbp=65, toplam_lm=0, mv_init(toplam)=174
+  [sure] kare 1330: son 100 kare 901 ms/kare (update 12, estimate 0), pencere lm 1772, poz 61, harita 23383, mv tampon 4238
+  kare 1330: stereo=30, mono=78, yeni_lm=29, gated=45, sbp=52, toplam_lm=0, mv_init(toplam)=181
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0_realtime.csv (1331 poz)
+ANAHTAR KARE: 891 anahtar, 439 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A0.npz (442 örnek; deneme 442, hata 0, Schur-red 0, koşul medyan 1.18e+03)
+YEREL HARITA: izdusen 1091712, aday 34794, kabul 20781, faktor 14007, grafa geri donen 1007, yeniden yakalama 7, oran red 34981, harita 23383 nokta, tekil sabitleme 86, tanimlayici konumlama 5 (aday 377)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0.csv (1331 poz)
+Anchor karesi: index 0, ts 1403638127295097088
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1331 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 57, poz 1, harita 0, mv tampon 119
+  kare 0: stereo=57, mono=0, yeni_lm=57, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 498 ms/kare (update 0, estimate 0), pencere lm 1527, poz 59, harita 1475, mv tampon 1573
+  kare 100: stereo=66, mono=115, yeni_lm=52, gated=43, sbp=79, toplam_lm=0, mv_init(toplam)=3
+  [sure] kare 200: son 100 kare 4843 ms/kare (update 0, estimate 0), pencere lm 2808, poz 61, harita 3434, mv tampon 603
+  kare 200: stereo=60, mono=139, yeni_lm=36, gated=53, sbp=102, toplam_lm=0, mv_init(toplam)=4
+  [kare 206] smoother YENIDEN KURULDU (cipa=X(205), toplam kurtarma=1)
+  [kare 206] update hatası: Indeterminant linear system detected while working near variable | 7782220156096217226 (Symbol: l138). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 300: son 100 kare 1289 ms/kare (update 0, estimate 0), pencere lm 786, poz 61, harita 4277, mv tampon 2566
+  kare 300: stereo=31, mono=60, yeni_lm=7, gated=16, sbp=31, toplam_lm=0, mv_init(toplam)=5
+  [kare 388] smoother YENIDEN KURULDU (cipa=X(387), toplam kurtarma=2)
+  [kare 388] update hatası: Indeterminant linear system detected while working near variable | 7782220156096226288 (Symbol: l9200). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 400: son 100 kare 2394 ms/kare (update 0, estimate 0), pencere lm 277, poz 10, harita 4956, mv tampon 1002
+  kare 400: stereo=18, mono=65, yeni_lm=8, gated=21, sbp=35, toplam_lm=0, mv_init(toplam)=8
+  [kare 657] smoother YENIDEN KURULDU (cipa=X(653), toplam kurtarma=3)
+  [kare 657] update hatası: Indeterminant linear system detected while working near variable | 7782220156096220013 (Symbol: l2925). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 700: son 100 kare 3479 ms/kare (update 0, estimate 1), pencere lm 1046, poz 23, harita 9917, mv tampon 3581
+  kare 700: stereo=61, mono=47, yeni_lm=23, gated=92, sbp=32, toplam_lm=0, mv_init(toplam)=47
+  [sure] kare 800: son 100 kare 864 ms/kare (update 0, estimate 0), pencere lm 2115, poz 61, harita 11534, mv tampon 976
+  kare 800: stereo=52, mono=19, yeni_lm=49, gated=29, sbp=15, toplam_lm=0, mv_init(toplam)=78
+  [sure] kare 1000: son 100 kare 3578 ms/kare (update 0, estimate 1), pencere lm 2510, poz 61, harita 16369, mv tampon 592
+  kare 1000: stereo=38, mono=56, yeni_lm=24, gated=61, sbp=34, toplam_lm=0, mv_init(toplam)=127
+  [sure] kare 1200: son 100 kare 3183 ms/kare (update 0, estimate 1), pencere lm 1896, poz 61, harita 20325, mv tampon 1284
+  kare 1200: stereo=26, mono=35, yeni_lm=18, gated=27, sbp=24, toplam_lm=0, mv_init(toplam)=146
+  [sure] kare 1300: son 100 kare 2081 ms/kare (update 0, estimate 0), pencere lm 1543, poz 61, harita 22266, mv tampon 3568
+  kare 1300: stereo=15, mono=96, yeni_lm=11, gated=38, sbp=70, toplam_lm=0, mv_init(toplam)=149
+  [sure] kare 1330: son 100 kare 721 ms/kare (update 8, estimate 0), pencere lm 1783, poz 61, harita 23009, mv tampon 4200
+  kare 1330: stereo=34, mono=77, yeni_lm=30, gated=42, sbp=46, toplam_lm=0, mv_init(toplam)=159
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1_realtime.csv (1331 poz)
+ANAHTAR KARE: 880 anahtar, 450 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A1.npz (436 örnek; deneme 437, hata 0, Schur-red 1, koşul medyan 8.47e+02)
+YEREL HARITA: izdusen 1029960, aday 32940, kabul 19554, faktor 13110, grafa geri donen 906, yeniden yakalama 13, oran red 33112, harita 23009 nokta, tekil sabitleme 60, tanimlayici konumlama 5 (aday 489)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1.csv (1331 poz)
+Anchor karesi: index 0, ts 1403638127295097088
+[ikiz] 3 hücre yazıldı, 216.7 dk: euroc/MH04__R5_dr8_s0/dr8/tc0.15/t00.0157/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R5_N_ikiz [('A0', 132, 'ok'), ('A0', 532, 'ok'), ('A0', 932, 'ok'), ('A1', 132, 'ok'), ('A1', 532, 'ok'), ('A1', 932, 'ok')]
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1331 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 34, poz 1, harita 0, mv tampon 142
+  kare 0: stereo=34, mono=0, yeni_lm=34, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 300: son 100 kare 2342 ms/kare (update 0, estimate 0), pencere lm 848, poz 61, harita 1608, mv tampon 1811
+  kare 300: stereo=19, mono=62, yeni_lm=5, gated=20, sbp=32, toplam_lm=0, mv_init(toplam)=19
+  [sure] kare 400: son 100 kare 777 ms/kare (update 0, estimate 0), pencere lm 366, poz 61, harita 1716, mv tampon 147
+  kare 400: stereo=30, mono=59, yeni_lm=5, gated=13, sbp=30, toplam_lm=0, mv_init(toplam)=19
+  [sure] kare 500: son 100 kare 621 ms/kare (update 0, estimate 0), pencere lm 1048, poz 61, harita 2327, mv tampon 529
+  kare 500: stereo=47, mono=47, yeni_lm=10, gated=85, sbp=22, toplam_lm=0, mv_init(toplam)=22
+  [sure] kare 600: son 100 kare 864 ms/kare (update 0, estimate 0), pencere lm 1300, poz 61, harita 3082, mv tampon 178
+  kare 600: stereo=35, mono=21, yeni_lm=7, gated=110, sbp=4, toplam_lm=0, mv_init(toplam)=70
+  [sure] kare 800: son 100 kare 1542 ms/kare (update 0, estimate 0), pencere lm 1376, poz 61, harita 4645, mv tampon 617
+  kare 800: stereo=0, mono=59, yeni_lm=15, gated=22, sbp=11, toplam_lm=0, mv_init(toplam)=309
+  [sure] kare 1000: son 100 kare 2069 ms/kare (update 0, estimate 0), pencere lm 1409, poz 61, harita 7363, mv tampon 215
+  kare 1000: stereo=14, mono=26, yeni_lm=17, gated=52, sbp=8, toplam_lm=0, mv_init(toplam)=548
+  [sure] kare 1200: son 100 kare 1537 ms/kare (update 0, estimate 0), pencere lm 1181, poz 61, harita 9180, mv tampon 801
+  kare 1200: stereo=19, mono=39, yeni_lm=11, gated=21, sbp=22, toplam_lm=0, mv_init(toplam)=630
+  [kare 1268] smoother YENIDEN KURULDU (cipa=X(1267), toplam kurtarma=1)
+  [kare 1268] update hatası: Indeterminant linear system detected while working near variable | 7782220156096234314 (Symbol: l17226). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 1300: son 100 kare 814 ms/kare (update 0, estimate 0), pencere lm 498, poz 23, harita 10397, mv tampon 2441
+  kare 1300: stereo=22, mono=55, yeni_lm=19, gated=30, sbp=31, toplam_lm=0, mv_init(toplam)=663
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0_realtime.csv (1331 poz)
+ANAHTAR KARE: 613 anahtar, 717 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A0.npz (305 örnek; deneme 305, hata 0, Schur-red 0, koşul medyan 1.28e+03)
+YEREL HARITA: izdusen 624246, aday 26950, kabul 16766, faktor 7430, grafa geri donen 260, yeniden yakalama 1, oran red 19759, harita 10743 nokta, tekil sabitleme 29, tanimlayici konumlama 0 (aday 26)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0.csv (1331 poz)
+Anchor karesi: index 0, ts 1403638127295097088
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1331 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 34, poz 1, harita 0, mv tampon 142
+  kare 0: stereo=34, mono=0, yeni_lm=34, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 300: son 100 kare 2390 ms/kare (update 0, estimate 0), pencere lm 1052, poz 61, harita 1682, mv tampon 1750
+  kare 300: stereo=16, mono=59, yeni_lm=4, gated=26, sbp=34, toplam_lm=0, mv_init(toplam)=53
+  [sure] kare 500: son 100 kare 1814 ms/kare (update 0, estimate 0), pencere lm 1062, poz 61, harita 2384, mv tampon 2328
+  kare 500: stereo=42, mono=50, yeni_lm=15, gated=93, sbp=29, toplam_lm=0, mv_init(toplam)=58
+  [sure] kare 600: son 100 kare 913 ms/kare (update 0, estimate 0), pencere lm 1431, poz 61, harita 3127, mv tampon 177
+  kare 600: stereo=44, mono=20, yeni_lm=5, gated=99, sbp=1, toplam_lm=0, mv_init(toplam)=104
+  [sure] kare 700: son 100 kare 870 ms/kare (update 0, estimate 0), pencere lm 1187, poz 61, harita 3854, mv tampon 501
+  kare 700: stereo=47, mono=35, yeni_lm=17, gated=77, sbp=13, toplam_lm=0, mv_init(toplam)=209
+  [sure] kare 1100: son 100 kare 3699 ms/kare (update 0, estimate 1), pencere lm 1503, poz 61, harita 8430, mv tampon 2918
+  kare 1100: stereo=0, mono=73, yeni_lm=1, gated=52, sbp=26, toplam_lm=0, mv_init(toplam)=581
+  [sure] kare 1200: son 100 kare 990 ms/kare (update 0, estimate 0), pencere lm 1179, poz 61, harita 9371, mv tampon 881
+  kare 1200: stereo=20, mono=36, yeni_lm=11, gated=22, sbp=16, toplam_lm=0, mv_init(toplam)=615
+  [kare 1270] smoother YENIDEN KURULDU (cipa=X(1269), toplam kurtarma=1)
+  [kare 1270] update hatası: Indeterminant linear system detected while working near variable | 7782220156096234488 (Symbol: l17400). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 1300: son 100 kare 796 ms/kare (update 0, estimate 0), pencere lm 439, poz 20, harita 10564, mv tampon 2578
+  kare 1300: stereo=22, mono=52, yeni_lm=19, gated=31, sbp=32, toplam_lm=0, mv_init(toplam)=649
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1_realtime.csv (1331 poz)
+ANAHTAR KARE: 618 anahtar, 712 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A1.npz (308 örnek; deneme 308, hata 0, Schur-red 0, koşul medyan 7.31e+02)
+YEREL HARITA: izdusen 646254, aday 27768, kabul 17046, faktor 7572, grafa geri donen 275, yeniden yakalama 0, oran red 20420, harita 10969 nokta, tekil sabitleme 20, tanimlayici konumlama 0 (aday 21)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH04__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1.csv (1331 poz)
+Anchor karesi: index 0, ts 1403638127295097088
+[ikiz] 4 hücre yazıldı, 254.1 dk: euroc/MH04__R0_dr8_s0/dr8/tc0.15/t01/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R0_N_ikiz [('A0', 132, 'ok'), ('A0', 532, 'ok'), ('A0', 932, 'ok'), ('A1', 132, 'ok'), ('A1', 532, 'ok'), ('A1', 932, 'ok')]
+[ikiz] gönderildi: MH05__R5_dr8_s0
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 39, poz 1, harita 0, mv tampon 105
+  kare 0: stereo=39, mono=0, yeni_lm=39, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 200: son 100 kare 2075 ms/kare (update 0, estimate 0), pencere lm 1337, poz 61, harita 1975, mv tampon 1164
+  kare 200: stereo=13, mono=68, yeni_lm=12, gated=16, sbp=51, toplam_lm=0, mv_init(toplam)=154
+  [sure] kare 300: son 100 kare 2005 ms/kare (update 0, estimate 0), pencere lm 1678, poz 61, harita 4021, mv tampon 3963
+  kare 300: stereo=0, mono=102, yeni_lm=0, gated=15, sbp=63, toplam_lm=0, mv_init(toplam)=264
+  [sure] kare 400: son 100 kare 2968 ms/kare (update 0, estimate 0), pencere lm 1632, poz 61, harita 5525, mv tampon 1189
+  kare 400: stereo=51, mono=35, yeni_lm=43, gated=20, sbp=21, toplam_lm=0, mv_init(toplam)=382
+  [sure] kare 500: son 100 kare 1194 ms/kare (update 0, estimate 0), pencere lm 991, poz 61, harita 6307, mv tampon 3153
+  kare 500: stereo=0, mono=74, yeni_lm=9, gated=26, sbp=31, toplam_lm=0, mv_init(toplam)=573
+  [sure] kare 700: son 100 kare 2252 ms/kare (update 0, estimate 0), pencere lm 1288, poz 61, harita 9153, mv tampon 7954
+  kare 700: stereo=0, mono=24, yeni_lm=3, gated=16, sbp=5, toplam_lm=0, mv_init(toplam)=813
+  [sure] kare 800: son 100 kare 950 ms/kare (update 0, estimate 0), pencere lm 1164, poz 61, harita 10171, mv tampon 2112
+  kare 800: stereo=0, mono=30, yeni_lm=7, gated=25, sbp=6, toplam_lm=0, mv_init(toplam)=1038
+  [sure] kare 900: son 100 kare 1241 ms/kare (update 0, estimate 0), pencere lm 1151, poz 61, harita 11623, mv tampon 4284
+  kare 900: stereo=17, mono=79, yeni_lm=12, gated=19, sbp=46, toplam_lm=0, mv_init(toplam)=1174
+  [sure] kare 1000: son 100 kare 2043 ms/kare (update 0, estimate 0), pencere lm 1337, poz 61, harita 12968, mv tampon 2103
+  kare 1000: stereo=49, mono=38, yeni_lm=48, gated=25, sbp=17, toplam_lm=0, mv_init(toplam)=1342
+  [sure] kare 1100: son 100 kare 1255 ms/kare (update 0, estimate 0), pencere lm 1322, poz 61, harita 14696, mv tampon 4394
+  kare 1100: stereo=41, mono=52, yeni_lm=38, gated=3, sbp=40, toplam_lm=0, mv_init(toplam)=1440
+  [sure] kare 1200: son 100 kare 1558 ms/kare (update 0, estimate 0), pencere lm 1495, poz 61, harita 16562, mv tampon 1156
+  kare 1200: stereo=23, mono=58, yeni_lm=20, gated=18, sbp=36, toplam_lm=0, mv_init(toplam)=1507
+  [sure] kare 1299: son 100 kare 1394 ms/kare (update 1, estimate 0), pencere lm 1362, poz 61, harita 18027, mv tampon 3995
+  kare 1299: stereo=0, mono=39, yeni_lm=3, gated=20, sbp=19, toplam_lm=0, mv_init(toplam)=1633
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0_realtime.csv (1300 poz)
+ANAHTAR KARE: 1034 anahtar, 265 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A0.npz (517 örnek; deneme 517, hata 0, Schur-red 0, koşul medyan 1.79e+02)
+YEREL HARITA: izdusen 1192519, aday 27209, kabul 16174, faktor 12861, grafa geri donen 317, yeniden yakalama 26, oran red 23884, harita 18027 nokta, tekil sabitleme 0, tanimlayici konumlama 11 (aday 739)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393886005760512
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 39, poz 1, harita 0, mv tampon 105
+  kare 0: stereo=39, mono=0, yeni_lm=39, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 200: son 100 kare 2072 ms/kare (update 0, estimate 0), pencere lm 1271, poz 61, harita 1978, mv tampon 1180
+  kare 200: stereo=13, mono=54, yeni_lm=11, gated=13, sbp=36, toplam_lm=0, mv_init(toplam)=164
+  [sure] kare 300: son 100 kare 1657 ms/kare (update 0, estimate 0), pencere lm 1685, poz 61, harita 4031, mv tampon 3980
+  kare 300: stereo=0, mono=112, yeni_lm=0, gated=14, sbp=68, toplam_lm=0, mv_init(toplam)=262
+  [sure] kare 400: son 100 kare 3178 ms/kare (update 0, estimate 0), pencere lm 1646, poz 61, harita 5464, mv tampon 1212
+  kare 400: stereo=52, mono=22, yeni_lm=46, gated=18, sbp=14, toplam_lm=0, mv_init(toplam)=359
+  [sure] kare 500: son 100 kare 1503 ms/kare (update 0, estimate 0), pencere lm 1005, poz 61, harita 6310, mv tampon 3126
+  kare 500: stereo=0, mono=70, yeni_lm=8, gated=29, sbp=34, toplam_lm=0, mv_init(toplam)=507
+  [sure] kare 600: son 100 kare 1405 ms/kare (update 0, estimate 0), pencere lm 1417, poz 61, harita 7767, mv tampon 1430
+  kare 600: stereo=0, mono=44, yeni_lm=4, gated=24, sbp=19, toplam_lm=0, mv_init(toplam)=704
+  [sure] kare 700: son 100 kare 1259 ms/kare (update 0, estimate 0), pencere lm 1264, poz 61, harita 9306, mv tampon 3717
+  kare 700: stereo=0, mono=31, yeni_lm=4, gated=13, sbp=9, toplam_lm=0, mv_init(toplam)=794
+  [sure] kare 800: son 100 kare 1044 ms/kare (update 0, estimate 0), pencere lm 1219, poz 61, harita 10327, mv tampon 1995
+  kare 800: stereo=0, mono=10, yeni_lm=0, gated=21, sbp=7, toplam_lm=0, mv_init(toplam)=975
+  [sure] kare 900: son 100 kare 1291 ms/kare (update 0, estimate 0), pencere lm 1159, poz 61, harita 11742, mv tampon 4213
+  kare 900: stereo=13, mono=83, yeni_lm=12, gated=19, sbp=54, toplam_lm=0, mv_init(toplam)=1091
+  [sure] kare 1000: son 100 kare 1541 ms/kare (update 0, estimate 0), pencere lm 1352, poz 61, harita 13111, mv tampon 2000
+  kare 1000: stereo=54, mono=34, yeni_lm=53, gated=18, sbp=14, toplam_lm=0, mv_init(toplam)=1276
+  [sure] kare 1100: son 100 kare 910 ms/kare (update 0, estimate 0), pencere lm 1281, poz 61, harita 14748, mv tampon 4205
+  kare 1100: stereo=42, mono=41, yeni_lm=38, gated=2, sbp=34, toplam_lm=0, mv_init(toplam)=1346
+  [sure] kare 1200: son 100 kare 1251 ms/kare (update 0, estimate 0), pencere lm 1430, poz 61, harita 16634, mv tampon 1150
+  kare 1200: stereo=21, mono=58, yeni_lm=19, gated=23, sbp=38, toplam_lm=0, mv_init(toplam)=1422
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1_realtime.csv (1300 poz)
+ANAHTAR KARE: 1023 anahtar, 276 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A1.npz (511 örnek; deneme 511, hata 0, Schur-red 0, koşul medyan 1.21e+02)
+YEREL HARITA: izdusen 1197587, aday 28044, kabul 16790, faktor 13425, grafa geri donen 337, yeniden yakalama 26, oran red 23375, harita 18180 nokta, tekil sabitleme 0, tanimlayici konumlama 12 (aday 709)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393886005760512
+[ikiz] 5 hücre yazıldı, 316.5 dk: euroc/V2_02_medium__R5_dr8_s0/dr8/tc0.15/t00.0157/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R5_N_ikiz [('A0', 100, 'ok'), ('A0', 500, 'ok'), ('A0', 900, 'ok'), ('A1', 100, 'ok'), ('A1', 500, 'ok'), ('A1', 900, 'ok')]
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 39, poz 1, harita 0, mv tampon 105
+  kare 0: stereo=39, mono=0, yeni_lm=39, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 79 ms/kare (update 0, estimate 0), pencere lm 153, poz 18, harita 148, mv tampon 187
+  kare 100: stereo=20, mono=49, yeni_lm=5, gated=27, sbp=25, toplam_lm=0, mv_init(toplam)=33
+  [sure] kare 200: son 100 kare 625 ms/kare (update 0, estimate 0), pencere lm 932, poz 61, harita 1040, mv tampon 649
+  kare 200: stereo=12, mono=75, yeni_lm=6, gated=19, sbp=48, toplam_lm=0, mv_init(toplam)=314
+  [sure] kare 300: son 100 kare 1440 ms/kare (update 0, estimate 0), pencere lm 1246, poz 61, harita 2411, mv tampon 2189
+  kare 300: stereo=40, mono=69, yeni_lm=26, gated=9, sbp=43, toplam_lm=0, mv_init(toplam)=401
+  [sure] kare 500: son 100 kare 3182 ms/kare (update 0, estimate 0), pencere lm 1092, poz 61, harita 3810, mv tampon 3759
+  kare 500: stereo=28, mono=60, yeni_lm=17, gated=20, sbp=36, toplam_lm=0, mv_init(toplam)=767
+  [sure] kare 600: son 100 kare 821 ms/kare (update 0, estimate 0), pencere lm 1257, poz 61, harita 4750, mv tampon 793
+  kare 600: stereo=28, mono=36, yeni_lm=15, gated=32, sbp=17, toplam_lm=0, mv_init(toplam)=1102
+  [sure] kare 800: son 100 kare 1878 ms/kare (update 0, estimate 0), pencere lm 1216, poz 61, harita 6865, mv tampon 1208
+  kare 800: stereo=9, mono=39, yeni_lm=13, gated=36, sbp=10, toplam_lm=0, mv_init(toplam)=1580
+  [sure] kare 900: son 100 kare 978 ms/kare (update 0, estimate 0), pencere lm 699, poz 61, harita 7707, mv tampon 2735
+  kare 900: stereo=6, mono=98, yeni_lm=1, gated=19, sbp=56, toplam_lm=0, mv_init(toplam)=1779
+  [kare 907] smoother YENIDEN KURULDU (cipa=X(906), toplam kurtarma=1)
+  [kare 907] update hatası: Indeterminant linear system detected while working near variable | 7782220156096237453 (Symbol: l20365). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 1000: son 100 kare 815 ms/kare (update 0, estimate 0), pencere lm 1087, poz 61, harita 8851, mv tampon 998
+  kare 1000: stereo=19, mono=31, yeni_lm=16, gated=14, sbp=16, toplam_lm=0, mv_init(toplam)=2157
+  [sure] kare 1100: son 100 kare 1081 ms/kare (update 0, estimate 0), pencere lm 1101, poz 61, harita 10083, mv tampon 2489
+  kare 1100: stereo=35, mono=64, yeni_lm=16, gated=8, sbp=43, toplam_lm=0, mv_init(toplam)=2298
+  [sure] kare 1200: son 100 kare 1741 ms/kare (update 0, estimate 0), pencere lm 1278, poz 61, harita 11698, mv tampon 918
+  kare 1200: stereo=17, mono=77, yeni_lm=6, gated=22, sbp=51, toplam_lm=0, mv_init(toplam)=2447
+  [sure] kare 1299: son 100 kare 1330 ms/kare (update 3, estimate 0), pencere lm 1139, poz 61, harita 12715, mv tampon 2638
+  kare 1299: stereo=0, mono=37, yeni_lm=7, gated=31, sbp=4, toplam_lm=0, mv_init(toplam)=2629
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0_realtime.csv (1300 poz)
+ANAHTAR KARE: 873 anahtar, 426 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A0.npz (435 örnek; deneme 435, hata 0, Schur-red 0, koşul medyan 1.86e+02)
+YEREL HARITA: izdusen 1006259, aday 26448, kabul 16203, faktor 11796, grafa geri donen 301, yeniden yakalama 3, oran red 24215, harita 12715 nokta, tekil sabitleme 5, tanimlayici konumlama 0 (aday 64)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393886005760512
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1300 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 39, poz 1, harita 0, mv tampon 105
+  kare 0: stereo=39, mono=0, yeni_lm=39, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 100: son 100 kare 115 ms/kare (update 0, estimate 0), pencere lm 153, poz 19, harita 146, mv tampon 196
+  kare 100: stereo=21, mono=50, yeni_lm=7, gated=24, sbp=22, toplam_lm=0, mv_init(toplam)=35
+  [sure] kare 200: son 100 kare 549 ms/kare (update 0, estimate 0), pencere lm 894, poz 61, harita 1064, mv tampon 598
+  kare 200: stereo=14, mono=84, yeni_lm=5, gated=18, sbp=56, toplam_lm=0, mv_init(toplam)=321
+  [sure] kare 300: son 100 kare 1090 ms/kare (update 0, estimate 0), pencere lm 1252, poz 61, harita 2443, mv tampon 2132
+  kare 300: stereo=39, mono=70, yeni_lm=26, gated=9, sbp=43, toplam_lm=0, mv_init(toplam)=391
+  [sure] kare 500: son 100 kare 2628 ms/kare (update 0, estimate 0), pencere lm 1211, poz 61, harita 3850, mv tampon 3653
+  kare 500: stereo=22, mono=57, yeni_lm=14, gated=30, sbp=32, toplam_lm=0, mv_init(toplam)=776
+  [sure] kare 600: son 100 kare 665 ms/kare (update 0, estimate 0), pencere lm 1295, poz 61, harita 4789, mv tampon 798
+  kare 600: stereo=29, mono=26, yeni_lm=14, gated=34, sbp=13, toplam_lm=0, mv_init(toplam)=1099
+  [sure] kare 900: son 100 kare 1968 ms/kare (update 0, estimate 0), pencere lm 752, poz 61, harita 7640, mv tampon 5260
+  kare 900: stereo=6, mono=96, yeni_lm=2, gated=16, sbp=54, toplam_lm=0, mv_init(toplam)=1785
+  [sure] kare 1100: son 100 kare 1887 ms/kare (update 0, estimate 0), pencere lm 1099, poz 61, harita 9997, mv tampon 8448
+  kare 1100: stereo=35, mono=60, yeni_lm=16, gated=8, sbp=42, toplam_lm=0, mv_init(toplam)=2287
+  [sure] kare 1200: son 100 kare 1192 ms/kare (update 0, estimate 0), pencere lm 1306, poz 61, harita 11617, mv tampon 909
+  kare 1200: stereo=22, mono=80, yeni_lm=6, gated=17, sbp=49, toplam_lm=0, mv_init(toplam)=2446
+  [sure] kare 1299: son 100 kare 847 ms/kare (update 4, estimate 0), pencere lm 1050, poz 61, harita 12548, mv tampon 2659
+  kare 1299: stereo=0, mono=37, yeni_lm=3, gated=27, sbp=9, toplam_lm=0, mv_init(toplam)=2627
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1_realtime.csv (1300 poz)
+ANAHTAR KARE: 852 anahtar, 447 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A1.npz (426 örnek; deneme 426, hata 0, Schur-red 0, koşul medyan 1.40e+02)
+YEREL HARITA: izdusen 940927, aday 25590, kabul 15601, faktor 11167, grafa geri donen 232, yeniden yakalama 2, oran red 23357, harita 12548 nokta, tekil sabitleme 0, tanimlayici konumlama 0 (aday 52)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_V2_02_medium__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1.csv (1300 poz)
+Anchor karesi: index 0, ts 1413393886005760512
+[ikiz] 6 hücre yazıldı, 358.3 dk: euroc/V2_02_medium__R0_dr8_s0/dr8/tc0.15/t01/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R0_N_ikiz [('A0', 100, 'ok'), ('A0', 500, 'ok'), ('A0', 900, 'ok'), ('A1', 100, 'ok'), ('A1', 500, 'ok'), ('A1', 900, 'ok')]
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1302 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 42, poz 1, harita 0, mv tampon 124
+  kare 0: stereo=42, mono=0, yeni_lm=42, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 600: son 100 kare 3546 ms/kare (update 0, estimate 0), pencere lm 1144, poz 61, harita 2980, mv tampon 136
+  kare 600: stereo=51, mono=37, yeni_lm=13, gated=82, sbp=6, toplam_lm=0, mv_init(toplam)=66
+  [sure] kare 1000: son 100 kare 2521 ms/kare (update 0, estimate 1), pencere lm 1569, poz 61, harita 6730, mv tampon 349
+  kare 1000: stereo=15, mono=24, yeni_lm=13, gated=41, sbp=6, toplam_lm=0, mv_init(toplam)=477
+  [sure] kare 1301: son 100 kare 2359 ms/kare (update 1, estimate 1), pencere lm 1340, poz 61, harita 9767, mv tampon 2810
+  kare 1301: stereo=23, mono=60, yeni_lm=14, gated=32, sbp=45, toplam_lm=0, mv_init(toplam)=595
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0_realtime.csv (1302 poz)
+ANAHTAR KARE: 586 anahtar, 715 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A0.npz (293 örnek; deneme 293, hata 0, Schur-red 0, koşul medyan 1.43e+03)
+YEREL HARITA: izdusen 602207, aday 26039, kabul 16408, faktor 7387, grafa geri donen 157, yeniden yakalama 0, oran red 19708, harita 9767 nokta, tekil sabitleme 22, tanimlayici konumlama 0 (aday 0)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A0.csv (1302 poz)
+Anchor karesi: index 0, ts 1403638518077829376
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1302 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 42, poz 1, harita 0, mv tampon 124
+  kare 0: stereo=42, mono=0, yeni_lm=42, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 500: son 100 kare 3451 ms/kare (update 0, estimate 0), pencere lm 1157, poz 61, harita 2440, mv tampon 2774
+  kare 500: stereo=44, mono=41, yeni_lm=20, gated=82, sbp=23, toplam_lm=0, mv_init(toplam)=34
+  [sure] kare 600: son 100 kare 641 ms/kare (update 0, estimate 0), pencere lm 1329, poz 61, harita 3036, mv tampon 131
+  kare 600: stereo=46, mono=33, yeni_lm=14, gated=88, sbp=6, toplam_lm=0, mv_init(toplam)=69
+  [sure] kare 700: son 100 kare 609 ms/kare (update 0, estimate 0), pencere lm 1060, poz 61, harita 3786, mv tampon 435
+  kare 700: stereo=46, mono=47, yeni_lm=38, gated=60, sbp=26, toplam_lm=0, mv_init(toplam)=158
+  [sure] kare 1100: son 100 kare 2528 ms/kare (update 0, estimate 1), pencere lm 1394, poz 61, harita 7448, mv tampon 2325
+  kare 1100: stereo=41, mono=33, yeni_lm=21, gated=75, sbp=14, toplam_lm=0, mv_init(toplam)=514
+  [sure] kare 1200: son 100 kare 760 ms/kare (update 0, estimate 0), pencere lm 1197, poz 61, harita 8511, mv tampon 390
+  kare 1200: stereo=24, mono=67, yeni_lm=14, gated=56, sbp=35, toplam_lm=0, mv_init(toplam)=569
+  [sure] kare 1300: son 100 kare 881 ms/kare (update 0, estimate 0), pencere lm 1321, poz 61, harita 9677, mv tampon 1806
+  kare 1300: stereo=25, mono=46, yeni_lm=14, gated=34, sbp=33, toplam_lm=0, mv_init(toplam)=585
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1_realtime.csv (1302 poz)
+ANAHTAR KARE: 579 anahtar, 722 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/cov_A1.npz (289 örnek; deneme 289, hata 0, Schur-red 0, koşul medyan 8.41e+02)
+YEREL HARITA: izdusen 613000, aday 25390, kabul 15916, faktor 7173, grafa geri donen 197, yeniden yakalama 0, oran red 20075, harita 9677 nokta, tekil sabitleme 11, tanimlayici konumlama 0 (aday 0)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R0_dr8_s0_dr8_tc0.15_t01_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R0_N_ikiz_eps1e-12/traj_A1.csv (1302 poz)
+Anchor karesi: index 0, ts 1403638518077829376
+[ikiz] 7 hücre yazıldı, 387.3 dk: euroc/MH05__R0_dr8_s0/dr8/tc0.15/t01/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R0_N_ikiz [('A0', 102, 'ok'), ('A0', 502, 'ok'), ('A0', 902, 'ok'), ('A1', 102, 'ok'), ('A1', 502, 'ok'), ('A1', 902, 'ok')]
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1302 kare işleniyor (BA, VO frame)...
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 42, poz 1, harita 0, mv tampon 124
+  kare 0: stereo=42, mono=0, yeni_lm=42, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [kare 179] smoother YENIDEN KURULDU (cipa=X(178), toplam kurtarma=1)
+  [kare 179] update hatası: Indeterminant linear system detected while working near variable | 8646911284551352407 (Symbol: x87). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 200: son 100 kare 1647 ms/kare (update 0, estimate 0), pencere lm 466, poz 11, harita 2844, mv tampon 899
+  kare 200: stereo=53, mono=75, yeni_lm=28, gated=73, sbp=49, toplam_lm=0, mv_init(toplam)=10
+  [sure] kare 400: son 100 kare 2735 ms/kare (update 0, estimate 0), pencere lm 963, poz 61, harita 4892, mv tampon 645
+  kare 400: stereo=20, mono=50, yeni_lm=10, gated=19, sbp=24, toplam_lm=0, mv_init(toplam)=12
+  [kare 506] smoother YENIDEN KURULDU (cipa=X(505), toplam kurtarma=2)
+  [kare 506] update hatası: Indeterminant linear system detected while working near variable | 8646911284551352781 (Symbol: x461). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 700: son 100 kare 2895 ms/kare (update 0, estimate 1), pencere lm 2169, poz 61, harita 9965, mv tampon 3336
+  kare 700: stereo=53, mono=98, yeni_lm=43, gated=53, sbp=78, toplam_lm=0, mv_init(toplam)=30
+  [sure] kare 1100: son 100 kare 4896 ms/kare (update 0, estimate 1), pencere lm 2305, poz 61, harita 17819, mv tampon 8092
+  kare 1100: stereo=63, mono=36, yeni_lm=49, gated=60, sbp=23, toplam_lm=0, mv_init(toplam)=130
+  [sure] kare 1200: son 100 kare 1178 ms/kare (update 0, estimate 0), pencere lm 1814, poz 61, harita 19927, mv tampon 783
+  kare 1200: stereo=47, mono=95, yeni_lm=39, gated=44, sbp=68, toplam_lm=0, mv_init(toplam)=150
+  [sure] kare 1300: son 100 kare 1390 ms/kare (update 0, estimate 0), pencere lm 1741, poz 61, harita 21901, mv tampon 3119
+  kare 1300: stereo=20, mono=65, yeni_lm=13, gated=31, sbp=49, toplam_lm=0, mv_init(toplam)=159
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0_realtime.csv (1302 poz)
+ANAHTAR KARE: 845 anahtar, 456 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A0.npz (420 örnek; deneme 420, hata 0, Schur-red 0, koşul medyan 1.26e+03)
+YEREL HARITA: izdusen 954173, aday 31316, kabul 18592, faktor 12259, grafa geri donen 804, yeniden yakalama 2, oran red 39051, harita 21901 nokta, tekil sabitleme 70, tanimlayici konumlama 2 (aday 139)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A0.csv (1302 poz)
+Anchor karesi: index 0, ts 1403638518077829376
+max_init_depth = 1000.000 m (b=0.11008 m)
+FIXED-LAG/LOCAL-BA smoother AÇIK: pencere=60 keyframe (batch, LM erken-durma: maxIter=5, relTol=0.001)
+KEYFRAME modu AÇIK: min_trans=0.1m, min_rot=0.052rad, tracked_ratio<0.75, aralık[1,8], lba_window=60
+SAĞLAMLIK KAPILARI: pnp_min_inliers=10, jump_max_trans=0.0m, chi2_gate_graph=AÇIK
+YEREL HARITA TAKIBI ACIK: yaricap 4.0 px (kayipta 15.0), tanimlayici 0.78, en az gozlem 3, onsel 0.1 m
+1302 kare işleniyor (BA, VO frame)...
+TÜRBÜLANS KOLU: A1 (korelasyon=empirical, sigma_oracle=2.189px, robust: Huber mono 2.4477 / stereo 2.7955, gözlem başına)
+  [sure] kare 0: son 100 kare 0 ms/kare (update 0, estimate 0), pencere lm 42, poz 1, harita 0, mv tampon 124
+  kare 0: stereo=42, mono=0, yeni_lm=42, gated=0, sbp=0, toplam_lm=0, mv_init(toplam)=0
+  [sure] kare 200: son 100 kare 1427 ms/kare (update 0, estimate 0), pencere lm 2265, poz 61, harita 2910, mv tampon 929
+  kare 200: stereo=57, mono=135, yeni_lm=24, gated=68, sbp=94, toplam_lm=0, mv_init(toplam)=3
+  [kare 235] smoother YENIDEN KURULDU (cipa=X(233), toplam kurtarma=1)
+  [kare 235] update hatası: Indeterminant linear system detected while working near variable | 7782220156096217202 (Symbol: l114). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 400: son 100 kare 3140 ms/kare (update 0, estimate 0), pencere lm 945, poz 61, harita 4996, mv tampon 704
+  kare 400: stereo=22, mono=49, yeni_lm=10, gated=20, sbp=25, toplam_lm=0, mv_init(toplam)=6
+  [kare 410] smoother YENIDEN KURULDU (cipa=X(409), toplam kurtarma=2)
+  [kare 410] update hatası: Indeterminant linear system detected while working near variable | 7782220156096225919 (Symbol: l8831). | Thrown when a linear system is ill-posed.  The most common cause for this
+  [sure] kare 500: son 100 kare 359 ms/kare (update 0, estimate 0), pencere lm 2092, poz 52, harita 6567, mv tampon 1647
+  kare 500: stereo=70, mono=73, yeni_lm=53, gated=41, sbp=52, toplam_lm=0, mv_init(toplam)=10
+  [sure] kare 1000: son 100 kare 4261 ms/kare (update 0, estimate 1), pencere lm 2476, poz 61, harita 16340, mv tampon 850
+  kare 1000: stereo=39, mono=45, yeni_lm=30, gated=75, sbp=31, toplam_lm=0, mv_init(toplam)=113
+  [sure] kare 1200: son 100 kare 1967 ms/kare (update 0, estimate 1), pencere lm 1845, poz 61, harita 20080, mv tampon 726
+  kare 1200: stereo=41, mono=79, yeni_lm=37, gated=52, sbp=51, toplam_lm=0, mv_init(toplam)=143
+  [sure] kare 1300: son 100 kare 1279 ms/kare (update 0, estimate 0), pencere lm 1846, poz 61, harita 22010, mv tampon 2976
+  kare 1300: stereo=21, mono=35, yeni_lm=13, gated=30, sbp=25, toplam_lm=0, mv_init(toplam)=149
+  [sure] kare 1301: son 100 kare 10 ms/kare (update 8, estimate 0), pencere lm 1799, poz 61, harita 22032, mv tampon 2989
+  kare 1301: stereo=13, mono=66, yeni_lm=9, gated=48, sbp=50, toplam_lm=0, mv_init(toplam)=149
+Nedensel trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1_realtime.csv (1302 poz)
+ANAHTAR KARE: 827 anahtar, 474 ara kare
+NEES kovaryans dökümü: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/cov_A1.npz (411 örnek; deneme 411, hata 0, Schur-red 0, koşul medyan 7.73e+02)
+YEREL HARITA: izdusen 1033562, aday 31513, kabul 18570, faktor 11988, grafa geri donen 781, yeniden yakalama 4, oran red 36179, harita 22032 nokta, tekil sabitleme 43, tanimlayici konumlama 4 (aday 194)
+
+Trajectory yazıldı: /tmp/turb_spool_onarim_ikiz/euroc_MH05__R5_dr8_s0_dr8_tc0.15_t00.0157_blurspeckle_global_tilt1_sc0_resnone_s0_onarim_R5_N_ikiz_eps1e-12/traj_A1.csv (1302 poz)
+Anchor karesi: index 0, ts 1403638518077829376
+[ikiz] 8 hücre yazıldı, 433.0 dk: euroc/MH05__R5_dr8_s0/dr8/tc0.15/t00.0157/blurspeckle_global/tilt1/sc0/resnone/s0/onarim_R5_N_ikiz [('A0', 102, 'ok'), ('A0', 502, 'ok'), ('A0', 902, 'ok'), ('A1', 102, 'ok'), ('A1', 502, 'ok'), ('A1', 902, 'ok')]
+[ikiz] bitti, 433.0 dk

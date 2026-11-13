@@ -1,0 +1,332 @@
+{
+ "G0a": {
+  "dr0": {
+   "ad_ayni": true,
+   "n_dosya": 54,
+   "farkli_dosya": [],
+   "meta_farkli_alanlar": [
+    "kod_parmak_izi.dosyalar.uret_sekans.py"
+   ],
+   "gecti": true
+  },
+  "dr8": {
+   "ad_ayni": true,
+   "n_dosya": 54,
+   "farkli_dosya": [],
+   "meta_farkli_alanlar": [
+    "kod_parmak_izi.dosyalar.uret_sekans.py"
+   ],
+   "gecti": true
+  },
+  "gecti": true
+ },
+ "G0b": {
+  "dr0": {
+   "ad": "MH02__dr0_tc0.15_t01_s0_speckle_global_sc0_n1_ns0__k600-620",
+   "n_kare": 20,
+   "piksel_farki_sensor_noise": 0,
+   "piksel_farki_kanca": 0,
+   "std_dn": 1.040481284624872,
+   "ort_dn": 0.00020653723058078208,
+   "cam01_korelasyon": -0.0005310608132905759,
+   "gecti": true
+  },
+  "dr8": {
+   "ad": "MH02__dr8_tc0.15_t01_s0_speckle_global_sc0_n1_ns0__k600-620",
+   "n_kare": 20,
+   "piksel_farki_sensor_noise": 0,
+   "piksel_farki_kanca": 0,
+   "std_dn": 1.0403736549975682,
+   "ort_dn": 0.00031579797637229615,
+   "cam01_korelasyon": -0.0004652015570140217,
+   "gecti": true
+  },
+  "gecti": true
+ },
+ "G0c": {
+  "hucreler": [
+   {
+    "D_over_r0": 0,
+    "tohum": 0,
+    "hash_pyeco": "0bde967e5a",
+    "hash_uretici": "0bde967e5a",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 0,
+    "tohum": 1,
+    "hash_pyeco": "bb2d9db644",
+    "hash_uretici": "bb2d9db644",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 0,
+    "tohum": 2,
+    "hash_pyeco": "036557149c",
+    "hash_uretici": "036557149c",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 8,
+    "tohum": 0,
+    "hash_pyeco": "f7d7193c1c",
+    "hash_uretici": "f7d7193c1c",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 8,
+    "tohum": 1,
+    "hash_pyeco": "7986a99f20",
+    "hash_uretici": "7986a99f20",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 8,
+    "tohum": 2,
+    "hash_pyeco": "2a52a10f2f",
+    "hash_uretici": "2a52a10f2f",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 16,
+    "tohum": 0,
+    "hash_pyeco": "5a8581afb1",
+    "hash_uretici": "5a8581afb1",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 16,
+    "tohum": 1,
+    "hash_pyeco": "84eafcf1aa",
+    "hash_uretici": "84eafcf1aa",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 16,
+    "tohum": 2,
+    "hash_pyeco": "d23b7dd9b6",
+    "hash_uretici": "d23b7dd9b6",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 24,
+    "tohum": 0,
+    "hash_pyeco": "892fd6700b",
+    "hash_uretici": "892fd6700b",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 24,
+    "tohum": 1,
+    "hash_pyeco": "61089cd101",
+    "hash_uretici": "61089cd101",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   },
+   {
+    "D_over_r0": 24,
+    "tohum": 2,
+    "hash_pyeco": "bf049cab75",
+    "hash_uretici": "bf049cab75",
+    "fark": {},
+    "pyeco_gurultu": [
+     1.0,
+     null
+    ],
+    "ayni": true
+   }
+  ],
+  "config": "/home/masa24/Desktop/makaleler/turbulans vio/pyeco_turb/config.yaml",
+  "gecti": true
+ },
+ "G0d": {
+  "n_png": 40,
+  "iki_kez_farkli": [],
+  "isci4_farkli": [],
+  "gecti": true
+ },
+ "G0e": {
+  "orbslam3": {
+   "cam0": {
+    "harita_sapma_maks_px": 7.62939453125e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 7.62939453125e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "droid": {
+   "cam0": {
+    "harita_sapma_maks_px": 9.07095941927625e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 9.07095941927625e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "airslam": {
+   "cam0": {
+    "harita_sapma_maks_px": 9.392602731510261e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 9.392602731510261e-06,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "T_BS_fark_cam1_maks": 9.000022949123831e-13,
+  "gecti": true
+ },
+ "G0f": {
+  "pyeco_stereo_extrinsics": "sensor_yaml",
+  "pyeco_baseline_matrisi": [
+   [
+    0.9999972564778812,
+    0.0023120671924238864,
+    0.0003760081024155938
+   ],
+   [
+    -0.0023171357232812354,
+    0.9998980485066438,
+    0.014089835846648196
+   ],
+   [
+    -0.0003433931205241621,
+    -0.01409066845271459,
+    0.9999006626377283
+   ],
+   [
+    -0.11007380812718678,
+    0.00039912154701414806,
+    -0.0008537025033580449
+   ]
+  ],
+  "ad_temiz": "MH02__dr0_tc0.15_t01_s0_speckle_global_sc0_sy__k600-620",
+  "sigma0_dr0_piksel_farki_pyeco_rectify": 0,
+  "sigma1_dr0_piksel_farki_pyeco_kanca": 0,
+  "ad_dr0": "MH02__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k600-620",
+  "sigma1_dr8_piksel_farki_pyeco_kanca": 0,
+  "ad_dr8": "MH02__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k600-620",
+  "dikey_kayma_sensor_yaml": {
+   "medyan_dy_px": -0.05065155029296875,
+   "medyan_abs_dy_px": 0.12883567810058594,
+   "abs_dy_le_1px_orani": 0.9635584137191854,
+   "n_eslesme": 933
+  },
+  "dikey_kayma_gomulu": {
+   "medyan_dy_px": -7.343013763427734,
+   "medyan_abs_dy_px": 7.343013763427734,
+   "abs_dy_le_1px_orani": 0.0,
+   "n_eslesme": 852
+  },
+  "gecti": true
+ },
+ "G0e_sy": {
+  "orbslam3": {
+   "cam0": {
+    "harita_sapma_maks_px": 2.785418005757655e-14,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 2.785418005757655e-14,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "droid": {
+   "cam0": {
+    "harita_sapma_maks_px": 2.288818359375e-05,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 2.288818359375e-05,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "airslam": {
+   "cam0": {
+    "harita_sapma_maks_px": 2.288818359375e-05,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "cam1": {
+    "harita_sapma_maks_px": 2.288818359375e-05,
+    "farkli_piksel": 0,
+    "farkli_oran": 0.0
+   },
+   "gecti": true
+  },
+  "T_BS_fark_cam1_maks": 8.999988254654312e-13,
+  "gecti": true
+ }
+}

@@ -1,0 +1,13 @@
+s7_ontest başlangıç 2026-11-12 22:41:52; günlük evidence/SAPMA7/s7_ontest.log; jobs 9 gpu_jobs 1; dokumler a3s_dokum_s0; koşucu f5fe8f902b338b01
+s7_ontest çıkış kodu 2 2026-11-13 04:01:09
+s7_ontest deneme 1 (jobs 9) bitti 2026-11-13 04:01:55: çıkış kodu 2; K1/K3 yalnız n_nees_pos_mean ve n_nees_rot_mean alanlarında bağıl ~1e-13 fark (m_ate_se3, m_rpe_trans, yörünge sha256 aynı); arka-uç 12118-19137 s (yük ortalaması ~240, 11 eşzamanlı arka-uç x 47 iş parçacığı). Kayıtlar s7_ontest_deneme1_jobs9.{jsonl,log} olarak saklandı. Tanı: jobs 5 ile yeniden koşum.
+s7_ontest deneme 2 başlangıç 2026-11-13 04:01:59; günlük evidence/SAPMA7/s7_ontest.log; jobs 5 gpu_jobs 1; dokumler a3s_dokum_s0; koşucu f5fe8f902b338b01
+s7_ontest deneme 2 (jobs 5) bitti: çıkış kodu 2, deneme 1 ile bit-aynı kayıtlar (fark yüke bağlı değil). NEDEN BULUNDU 2026-11-13 07:08:32: Sapma 6 koşumları OMP_NUM_THREADS=4 ile koşmuştu (dogrula_*.log ortam satırı); deneme 1-2 OMP_NUM_THREADS ayarsız başlatıldı (başlatma hatası). Kayıtlar s7_ontest_deneme2_jobs5.{jsonl,log} olarak saklandı.
+s7_ontest deneme 3 başlangıç 2026-11-13 07:08:32; günlük evidence/SAPMA7/s7_ontest.log; OMP_NUM_THREADS=4; jobs 5 gpu_jobs 1; dokumler a3s_dokum_s0; koşucu f5fe8f902b338b01
+s7_ontest deneme 3 çıkış kodu 0 2026-11-13 07:23:24
+s7_II başlangıç 2026-11-13 07:24:07; günlük evidence/SAPMA7/s7_II_0724.log; OMP_NUM_THREADS=4; jobs 5 gpu_jobs 1; dokumler <scratch>/a3s_dokum_s14,<scratch>/a3s_dokum_s0; ek: ; koşucu f5fe8f902b338b01
+s7_I başlangıç 2026-11-13 07:24:09; günlük evidence/SAPMA7/s7_I_0724.log; OMP_NUM_THREADS=4; jobs 3 gpu_jobs 1; dokumler <scratch>/hizli_dokum; ek: --bellek_kabul 6500; koşucu f5fe8f902b338b01
+s7_III başlangıç 2026-11-13 07:24:11; günlük evidence/SAPMA7/s7_III_0724.log; OMP_NUM_THREADS=4; jobs 2 gpu_jobs 1; dokumler -; ek: --bellek_kabul 7500; koşucu f5fe8f902b338b01
+s7_III çıkış kodu 0 2026-11-13 13:08:24
+s7_I çıkış kodu 0 2026-11-13 13:24:38
+s7_II çıkış kodu 0 2026-11-13 13:29:45

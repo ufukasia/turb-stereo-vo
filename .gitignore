@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pkl
+*.pth
+*.pt
+*.npy
+!turb/_tilt_corr_table.npz
+lightglue/superpoint.py
+/outputs/
+/results_*/
+*.log.tmp
+.orkestra/

@@ -1,0 +1,292 @@
+# PyEco-SLAM configuration = the paper's operating point (BE-CLAHE on). Every value has a stated source or
+# derivation in the comments (ORB3 = ORB-SLAM3, AIR = AirSLAM, file:line in their code). Nothing is derived from
+# ground truth; the pipeline reads the ground-truth file only to report ATE after the run.
+# The feature budget is frontend.max_keypoints; target_feature_count, replenish_threshold and
+# backend.stereo_uzak_min follow it through their *_ratio_kp keys (config.load applies them).
+# The data root can be overridden with $SLAM_DATA_ROOT. Every back-end key can also be given on the CLI.
+
+# ============================================================================ DATA
+dataset:
+  base_path: /data/euroc                       # EuRoC ASL layout; $SLAM_DATA_ROOT takes precedence
+  sequence: MH01                               # folder name (e.g. V1_01_easy)
+  max_frames: null                             # null = whole sequence
+
+# ============================================================================ FRONT-END
+frontend:
+  # --- Feature extraction and matching ---
+  extractor: aliked                  # aliked | sift  (superpoint is not distributed)
+  matcher: lightglue                 # LightGlue defaults (lightglue.py:339-341) for stereo matching
+  detection_threshold: 0.1           # theta_max (paper value; no principled source)
+  max_keypoints: 256                 # per-frame budget (kp)
+  export_keypoints: true             # dump descriptors (needed by search-by-projection)
+
+  # --- Stereo geometry ---
+  stereo_extrinsics: sensor_yaml     # EuRoC: T_c1_c0 = inv(T_BS_cam1) T_BS_cam0 (from the sensor calibration)
+  filter: y_axis_check
+  y_axis_threshold: 2.0              # [px] ORB3 Frame.cc:832 (r = 2 * scale^octave, octave 0)
+  lg_image_size_wh: true             # LightGlue expects image_size = (w, h) (lightglue.py normalize_keypoints)
+  min_stereo_disparity: 0.0
+  min_depth_baselines: 1.0           # minZ = b (ORB3 Frame.cc:841)
+  max_landmark_depth: .inf           # no upper depth limit (ORB3 Frame::ComputeStereoMatches)
+  th_depth_baselines: 40.0           # close/far threshold = 40 b (ORB-SLAM2 paper III-A; ORB3 TUM-VI.yaml:61)
+  stereo_depth_assoc_px: 1.5         # stereo point == same keypoint (ALIKED NMS radius 2 -> >= 3 px spacing)
+
+  # --- Opportunistic stereo trigger (targets scale with the budget; the runner applies the ratios) ---
+  target_feature_count: 176          # T at kp=256 (derived: round(target_ratio_kp * kp))
+  replenish_threshold: 51            # N_rep at kp=256 (derived: round(replenish_ratio_kp * kp))
+  target_ratio_kp: 0.6875            # T / kp (FLAG; nearest source AIR tracking_point_rate 0.65)
+  replenish_ratio_kp: 0.2            # AIR vo_euroc.yaml max_num_match 80 / max_keypoints 400
+  trigger_close_only: true           # count only close depth tracks, Z < 40 b (ORB3 Tracking.cc:3116 NeedNewKeyFrame)
+  stereo_track_rate: 0.0             # optional AIR tracking_point_rate rule (off)
+
+  # --- Temporal tracking ---
+  temporal_matcher: bf_lowe          # bf_lowe | lightglue (LightGlue frame-to-frame was worse on dev)
+  temporal_lg_saglik: 0.5            # LightGlue frame-to-frame when < 50 % of last frame's tracks continued (AirSLAM map_builder.cc:122 matches with LightGlue)
+  temporal_lowe_ratio: 0.8           # Lowe 2004; ORB3 Tracking.cc:3390 ORBmatcher(0.8)
+  temporal_ransac_threshold: 1.96    # [px] sqrt(3.841) * 1 px (ORB3 TwoViewReconstruction.cc:413)
+  temporal_ransac_confidence: 0.99   # OpenCV findFundamentalMat default
+  temporal_ransac_iters: 1000        # OpenCV findFundamentalMat default
+  bos_kare_duzelt: true              # failed stereo frame -> temporal only; failed frame -> empty observation
+  max_track_length: 0                # 0 = unlimited
+  max_track_age_unseen: 5            # FLAG
+  grid_rows: auto                    # cells ~ T with the image aspect ratio (ORB3 ORBextractor DistributeOctTree)
+  grid_cols: auto
+  parallax_check: false
+  cos_max_parallax: 0.99995
+
+  # --- Scale-aware stereo triggers (off) ---
+  scale_aware_trigger: false
+  scale_near_trigger: false
+  scale_near_depth: 8.0
+  scale_min_near_anchors: 12
+  scale_stale_trigger: false
+  scale_max_depth_age: 8
+  scale_max_stale_frac: 0.75
+
+  # --- Photometric arm: entropy-gated CLAHE (paper; kept) ---
+  adaptive_preprocessing: true       # CLAHE is applied when S_d > tau
+  adaptive_clahe_s_d_threshold: 0.4  # tau (paper rule on bright EuRoC)
+  adaptive_clahe_clip_min: 0.5
+  adaptive_clahe_clip_max: 2.5
+  adaptive_clahe_tile: 8             # OpenCV createCLAHE default tile grid
+  # BE-CLAHE (budget-matched clip limit): when the gate opens, the smallest clip c in the ladder whose candidate
+  # supply n0(c) (detections above the detector's own threshold) reaches the budget kp; else the largest c.
+  # Same c for the left and right image. false = S_d-scaled clip of the original arm (bit-identical to it).
+  adaptive_clahe_butce_eslesik: true
+  adaptive_clahe_be_merdiven: [0.5, 1.0, 1.5, 2.0, 2.5]
+  adaptive_clahe_be_arama: nedensel  # nedensel = start from the previous frame's rung (same rung as 'tam', fewer passes);
+                                     # tam = evaluate every rung in order, pick the smallest that reaches kp
+  adaptive_clahe_be_onbellek: true   # reuse the chosen rung's dense map in the left extraction (output unchanged)
+  adaptive_clahe_be_profil: false    # true = log n0(c) of every rung per frame (diagnostics)
+
+  # --- Detector-threshold arm: supply-deficit gated (linear; paper; kept) ---
+  adaptive_det_deficit: true
+  adaptive_det_deficit_ref: target
+  adaptive_det_deficit_margin: 1.0
+  adaptive_det_deficit_us: 0.0
+  adaptive_det_threshold_min: 1.0e-05   # theta_min (numerical floor)
+  adaptive_det_threshold_max: null      # null = detection_threshold
+  adaptive_det_threshold: false
+
+  # --- Visualisation ---
+  visualize: false
+  viz_interval: 1
+  save_visualizations: true
+
+# ============================================================================ BACK-END
+backend:
+  # --- Noise models and robust kernels (ORB3) ---
+  px_noise: 1.0                      # [px] sigma_0 = 1 px (ORB3 ORBextractor.cc:417)
+  stereo_sigma: 1.0                  # [px] same sigma for (u, v, u_R)
+  huber_mono_k: 2.4477               # sqrt(5.991) (ORB3 Optimizer.cc:852)
+  huber_stereo_k: 2.7955             # sqrt(7.815) (ORB3 Optimizer.cc:853)
+  landmark_prior_sigma: 10.0         # iSAM2 branch only (inactive with the fixed-lag smoother)
+  disparity_bias: 0.0                # no disparity bias
+  gt_capa: 0                         # 0 = ground truth is never read; output in the first body frame
+
+  # --- Close/far stereo points (ORB3) ---
+  max_init_depth: 1000.0             # no stereo depth limit (ORB3 uses every stereo depth; 40 b discarded far anchors)
+  th_depth_baselines: 40.0
+  stereo_uzak_min: 0                 # derived: round(stereo_uzak_min_ratio_kp * kp)
+  stereo_uzak_min_ratio_kp: 0.083333 # 100 / 1200 (ORB3 Tracking.cc:3254 maxPoint, EuRoC.yaml nFeatures)
+  stereo_ilk_hepsi: 1                # first frame: all stereo points z>0 (ORB3 Tracking.cc:2335)
+
+  # --- PnP initialisation (ORB3 Tracking.cc:3657 SetRansacParameters(0.99,10,300,6,0.5,5.991)) ---
+  pnp_reproj: 2.4477                 # [px] sqrt(5.991) * 1 px
+  pnp_iters: 300
+  pnp_confidence: 0.99
+  pnp_min_inliers: 10
+  pnp_min_inlier_frac: 0.5
+  jump_pnp_max: 1.0                  # [m] AIR map_builder.cc:319-321 (PnP pose > 1 m from last pose is rejected)
+  bootstrap_from_depth: 1            # FLAG
+
+  # --- Motion prior (FLAG; not in ORB3/AIR) ---
+  cv_motion: true
+  motion_trans_sigma: 0.44           # [m]
+  motion_rot_sigma: 0.062            # [rad]
+  motion_sigma_mode: adaptive
+  motion_sigma_rel: 0.5
+  motion_sigma_min: 0.02
+
+  # --- Motion-only BA and outlier handling (ORB3 PoseOptimization) ---
+  motion_only_ba: true
+  moba_ilk_kapi: 1                   # start from PnP-RANSAC inliers (ORB3 Tracking.cc:3700-3714)
+  moba_pencere_px: 7.0               # else 7 px around the prediction (ORB3 Tracking.cc:2879-2894)
+  chi2_reject: true
+  chi2_iters: 4                      # ORB3 Optimizer.cc:1003
+  chi2_thresh_mono: 5.991            # ORB3 Optimizer.cc:1001
+  chi2_thresh_stereo: 7.815          # ORB3 Optimizer.cc:1002
+  chi2_gate_graph: true              # outliers are kept out of the graph (ORB3 Tracking.cc:2911-2934)
+  chi2_gate_mult: 1.0
+  outlier_gate_px: 0.0               # 0 = off
+  jump_max_trans: 0.0                # no ground-truth-derived gate (AIR PnP check below)
+  jump_gate_ref: last_pose           # (inactive)
+  resync_velocity: last_good         # (inactive)
+  smoother_recover: 1                # rebuild the smoother after an indeterminate system
+  kurtarma_duzelt: 1                 # ... and reset the window bookkeeping
+  izleme_basari: 2                   # tracking failure (< izleme_basari_min inliers after motion-only BA):
+  izleme_basari_min: 6               #   motion model invalidated (ORB3 Tracking.cc:2205-2215); 6 = PnP minSet (Tracking.cc:3657)
+
+  # --- Sliding window (fixed lag) (FLAG; checked on the causal trajectory) ---
+  fixed_lag: 0                       # frame window off: the keyframe window below is used (0 + keyframe_mode off = iSAM2)
+  fl_lm_max_iters: 5
+  fl_lm_rel_err_tol: 0.001
+  relinearize_skip: 3                # iSAM2 only (fixed_lag = 0)
+  relinearize_threshold: 0.0013
+  extra_updates: 2
+  refresh_every: 28
+
+  # --- Adaptive keyframe window (rival-style local BA; in-between frames are tracked against the map) ---
+  keyframe_mode: true
+  kf_min_trans: 0.1                  # [m] new keyframe after this translation ...
+  kf_min_rot: 0.052                  # [rad] ... or 3 deg rotation since the last keyframe
+  kf_max_tracked_ratio: 0.75         # ... or tracked map points < 75 % of the reference keyframe (ORB3 thRefRatio)
+  kf_harita_say: 1                   # local-map matches count as tracked (ORB3 mnMatchesInliers)
+  kf_taze_aralik: 4                  # a fresh-stereo frame becomes a keyframe at most every 4 frames
+  kf_min_interval: 1
+  kf_max_interval: 8                 # at least one keyframe every 8 frames
+  lba_window: 60                     # window length [keyframes]
+  be_paralel: 1                      # window update in a background thread, joined at the next keyframe (deterministic)
+
+  # --- Budget-adaptive window: at kp <= butce_kare_esik the per-frame window below replaces the keyframe window ---
+  # (measured, causal ATE over the 10 EuRoC sequences: per-frame window wins at kp 64 / 128, keyframe window at kp 256)
+  butce_kare_esik: 128               # 0 = off (keyframe window at every budget)
+  butce_kare_ayar: {keyframe_mode: false, fixed_lag: 80, be_aralik: 3, be_aralik_deg: 3.0, be_paralel: 2}
+
+  # --- Local map tracking (ORB3 TrackLocalMap / AirSLAM) ---
+  yerel_harita: 1                    # persistent local map, projection matching (radius 4 px, desc 0.78)
+  yh_nn_orani: 0.8                   # ratio test (ORB3 ORBmatcher 0.8)
+  yh_konumla: 1                      # descriptor relocalisation on tracking loss (ORB3 TrackReferenceKeyFrame)
+  tekil_sabitle: 1                   # pin the singular variable instead of rebuilding the window
+  motion_rot_uyarlamali: 1           # rotation sigma of the constant-velocity prior scales with angular speed
+  moba_numpy: 1                      # numpy 6-DOF motion-only BA (same model as the GTSAM version, ~4x faster)
+
+  # --- Multi-view triangulation (MV) ---
+  mv_triangulation: true
+  mv_init_mode: factors
+  mv_min_obs: 3                      # FLAG
+  mv_min_parallax_deg: 1.146         # acos(0.9998) (ORB3 LocalMapping.cc:582-583)
+  mv_max_per_frame: 30               # FLAG
+  mv_max_track_age: 60               # FLAG
+  mv_max_reproj_err: 2.4477          # sqrt(5.991) * 1 px (ORB3 LocalMapping.cc:633)
+  mv_min_condition: 0.0              # off (parallax test is the criterion)
+  mv_prior_sigma: 0.3                # FLAG
+
+  # --- Search by projection (SBP) ---
+  search_by_projection: true
+  sbp_reproj_px: 4.0                 # ORB3 ORBmatcher.cc:215-220 RadiusByViewingCos (th = 1, Tracking.cc:3391)
+  sbp_desc_dist: 0.78                # 2 * TH_HIGH / 256 (ORB3 ORBmatcher.cc:35), chance-normalised
+
+# ============================================================================ MAP-POINT CULLING (off)
+culling:
+  cull_chi2_strikes: 0
+  cull_found_ratio: 0.0
+  cull_found_min_visible: 8
+  cull_pnp_strikes: 0
+  cull_allow_reinit: 1
+  cull_ransac_strikes: 0
+  cull_flicker_ratio: 0.0
+  cull_flicker_min_life: 10
+  stereo_reproj_check: false
+  stereo_reproj_max_px: 5.0
+  max_depth_sigma_rel: 0.0
+  stereo_disp_sigma_px: 1.0
+  cull_desc_drift_max: 0.0
+
+# ============================================================================ LOOP CLOSURE (off)
+loop:
+  enable: false
+  pgo: true
+  gba: false
+  min_keyframe_gap: 20
+  appearance_sim: 0.7
+  min_inliers: 50
+  max_candidates: 3
+  pgo_loop_sigma: 0.05
+  gba_iters: 10
+
+# ============================================================================ LIVE VIEW
+live:
+  refresh_every: 15
+  delay: 0.0
+  window_w: 1280
+  window_h: 768
+  show_frontend_window: true
+
+paths:
+  outputs: outputs
+
+# ============================================================================ TURBULENCE (research scaffold; off)
+# enabled: false -> the turb package is not imported, the front-end and back-end are bit-identical to PyEco (E0 gate).
+# Front-end: anisoplanatic distortion (tilt warp + short-exposure PSF + scintillation) on the RECTIFIED images,
+# BEFORE BE-CLAHE / pre-processing; the same realisation for cam0 and cam1 (footprint shifted by the baseline),
+# deterministic frame index = absolute index of the frame in the sequence.
+# Back-end: measurement-model arm (arm: A0 = PyEco unchanged). The arms change ONLY the covariance of the window
+# (smoother) reprojection factors; tracking (PnP, motion-only BA, chi2 gates) is identical in every arm. The robust
+# kernel is PyEco's (backend.huber_mono_k, backend.huber_stereo_k) in EVERY arm, including the patch factors, where
+# Huber is applied per observation (IRLS weight from the observation's own whitened norm).
+turbulence:
+  enabled: false
+  seed: 0
+  D_over_r0: 0.0              # distortion strength (0 = clean)
+  theta_c_over_fov: 0.15      # spatial correlation scale of the cell (oracle)
+  theta_c_nominal_over_fov: 0.15   # fixed nominal theta_c used by A3/A4 (theta_c is not estimable from VO residuals)
+  tau0_over_dt: 1.0
+  aperture_D: 0.10            # [m] declared aperture
+  wavelength: 5.5e-7          # [m]
+  px_per_rad: 170648.0        # f/p of the declared tele sensor (pixel-equivalent model; see audit B2/K3)
+  image_width: 752
+  frame_dt: 0.05              # [s] EuRoC 20 Hz
+  stereo_baseline: 0.11       # [m]
+  tilt: true
+  blur: speckle_global        # none | gaussian | speckle_global | speckle_grid
+  blur_grid: [3, 4]
+  psf_legacy_scale: false     # false: PSF resampled to the image pixel (physical scale, 2026-11-07)
+  scint_sigma_I2: 0.0
+  screen_N: 2048
+  screen_px_per_D: 8
+  subharmonics: 8
+  fine_N: 1024
+  fine_px_per_D: 32
+  tilt_calibration: 1.085
+  wind_angle_deg: 30.0
+  restoration: none           # none | temporal_median | lucky | elastic
+  restoration_window: 7
+  restoration_sharpen: 0.6
+  score_quality: true
+  # --- back-end arms ---
+  arm: A0                     # A0 | A0C | A1 | A2 | A3 | A4 | A5 | AG | A0C+A3
+  corr_model: empirical       # patch kernel (A3/A4/A5): empirical (E2) | physical | iso53
+  max_per_patch: 5
+  a4_keep_per_patch: 5
+  shrinkage: 0.05
+  cal_factor: 16.0            # A0C / A0C+A3 base multiplier k. OLD-PIPELINE value (in-sample, MH01); must be
+                              # re-calibrated on PyEco (out-of-sample, 95 % band) before use.
+  ind_over_tilt: 1.75         # A1/A5 oracle: total = hypot(1, ind_over_tilt) * sigma_tilt (E2)
+  dimm_version: 2             # A3/A4/A0C+A3: turb/dimm_v2 (empirical kernel, component-count fix)
+  dimm_window: 60             # graph frames in the DIMM window
+  dimm_update_every: 10       # structure-function fit every N graph frames
+  dimm_sigma_scale: 1.0       # sigma_turb = scale * sigma_hat. v2's sigma_hat is the TOTAL per-axis residual
+                              # sigma (nugget inside the kernel amplitude); the old code multiplied by
+                              # hypot(1, 1.75) = 2.016 (audit B3: likely double count). 2.016 = old behaviour.
+  ag_window: 60               # AG: graph frames whose reprojection residuals enter the RMS

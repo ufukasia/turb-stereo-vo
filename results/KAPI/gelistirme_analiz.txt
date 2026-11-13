@@ -1,0 +1,56 @@
+[analiz] 54 kayıt (beklenen 54), eksik koşum 0; code_fp {'bedca2849bb2': 54}
+  D1  kayıt 27; status ok 27; m_valid 27; n_valid 27; ıraksayan 0
+  D2  kayıt 27; status ok 27; m_valid 27; n_valid 27; ıraksayan 0
+== ATE (m_ate_se3): medyan eşli oran [en küçük, en büyük sekans] (oranı < 1 olan sekans / sekans) ==
+  D1  / A0 :  0.512 [0.42, 0.90] (9/9)
+  D2  / A0 :  0.522 [0.35, 1.19] (8/9)
+  D1  / A3S:  0.437 [0.28, 0.92] (9/9)
+  D2  / A3S:  0.430 [0.26, 1.28] (8/9)
+  D1  / A1 :  0.519 [0.29, 1.17] (8/9)
+  D2  / A1 :  0.490 [0.26, 1.12] (8/9)
+  D1  / A0g:  1.082 [0.91, 1.24] (2/9)
+  D2  / A0g:  1.009 [0.56, 1.65] (4/9)
+  A0g / A0 :  0.517 [0.38, 0.94] (9/9)
+  A1  / A0 :  1.214 [0.76, 1.71] (3/9)
+  A3S / A0 :  1.214 [0.90, 1.59] (2/9)
+  D2  / D1 :  0.913 [0.45, 1.60] (6/9)
+== konum ANEES'i (n_nees_pos_mean): medyan eşli oran [en küçük, en büyük sekans] (oranı < 1 olan sekans / sekans) ==
+  D1  / A0 :  0.174 [0.09, 1.35] (8/9)
+  D2  / A0 :  0.062 [0.02, 0.51] (9/9)
+  D1  / A3S:  0.514 [0.20, 1.18] (8/9)
+  D2  / A3S:  0.160 [0.07, 0.44] (9/9)
+  D1  / A1 :  1.909 [0.86, 7.57] (2/9)
+  D2  / A1 :  0.648 [0.20, 2.83] (6/9)
+  D1  / A0g:  3.993 [3.41, 5.32] (0/9)
+  D2  / A0g:  1.322 [0.80, 2.62] (1/9)
+  A0g / A0 :  0.044 [0.02, 0.38] (9/9)
+  A1  / A0 :  0.101 [0.06, 0.18] (9/9)
+  A3S / A0 :  0.351 [0.21, 1.14] (8/9)
+  D2  / D1 :  0.333 [0.18, 0.66] (9/9)
+== sekans bazında ATE oranı (kol / A0) ==
+  D1 : {'MH01': 0.498, 'V1_01_easy': 0.896, 'MH02': 0.512, 'V1_02_medium': 0.893, 'MH03': 0.447, 'V2_01_easy': 0.858, 'MH04': 0.454, 'V2_02_medium': 0.664, 'MH05': 0.415}
+  D2 : {'MH01': 0.795, 'V1_01_easy': 0.749, 'MH02': 0.522, 'V1_02_medium': 0.406, 'MH03': 0.408, 'V2_01_easy': 1.19, 'MH04': 0.352, 'V2_02_medium': 0.66, 'MH05': 0.372}
+  A0g: {'MH01': 0.48, 'V1_01_easy': 0.798, 'MH02': 0.517, 'V1_02_medium': 0.719, 'MH03': 0.396, 'V2_01_easy': 0.943, 'MH04': 0.426, 'V2_02_medium': 0.56, 'MH05': 0.384}
+  A3S: {'MH01': 1.139, 'V1_01_easy': 1.258, 'MH02': 1.214, 'V1_02_medium': 1.013, 'MH03': 1.587, 'V2_01_easy': 0.931, 'MH04': 1.257, 'V2_02_medium': 0.902, 'MH05': 1.28}
+== düzeyler: medyan ATE [m] / medyan konum ANEES'i / başarısız pencere / n ==
+  A0    0.1339 /    909.8 / 0 / 27
+  A1    0.1974 /     90.3 / 0 / 27
+  A3S   0.1729 /    366.2 / 0 / 27
+  A0g   0.1052 /     39.2 / 0 / 27
+  D1    0.1132 /    160.2 / 0 / 27
+  D2    0.1338 /     50.8 / 0 / 27
+== kapı sigması ve sigma_hat (sekans başına; arm_stats) ==
+  D1: kapı sigması medyanı (sekanslar) [1.971, 1.903, 1.995, 2.0, 1.983, 1.904, 2.009, 2.042, 1.953]; sekans medyanı 1.983; en büyük maks 2.282
+      sigma_hat medyanı [1.705, 1.632, 1.732, 1.773, 1.769, 1.643, 1.763, 1.789, 1.702] (kapısız A3S: [1.478, 1.298, 1.497, 1.521, 1.54, 1.451, 1.498, 1.636, 1.506]; oracle sigma_tilt 2.189, toplam 4.412)
+  D2: kapı sigması medyanı (sekanslar) [3.959, 3.742, 4.089, 3.922, 3.86, 3.722, 4.075, 3.955, 3.848]; sekans medyanı 3.922; en büyük maks 4.859
+      sigma_hat medyanı [1.912, 1.803, 1.96, 1.886, 1.933, 1.791, 1.993, 1.91, 1.874] (kapısız A3S: [1.478, 1.298, 1.497, 1.521, 1.54, 1.451, 1.498, 1.636, 1.506]; oracle sigma_tilt 2.189, toplam 4.412)
+== ön beyan: beklenen değerler ve seçim kuralı ==
+  G1 D2 / A0 ATE:  0.522 [0.35, 1.19] (8/9); beklenen 0.50-0.85 tuttu; başarısız 0/27; GEÇER mi: EVET
+  G2 D1 / A0 ATE:  0.512 [0.42, 0.90] (9/9); beklenen 0.60-0.95 tutmadı; başarısız 0/27; GEÇER mi: EVET
+  G3 D1 / A3S ATE:  0.437 [0.28, 0.92] (9/9); beklenen < 1 (D2: 0.5-0.9)
+  G4 D1 / A0g ATE:  1.082 [0.91, 1.24] (2/9); beklenen 1.0-1.6
+  G5 D1 / A0 konum ANEES'i:  0.174 [0.09, 1.35] (8/9); beklenen < 0.5
+  G3 D2 / A3S ATE:  0.430 [0.26, 1.28] (8/9); beklenen < 1 (D2: 0.5-0.9)
+  G4 D2 / A0g ATE:  1.009 [0.56, 1.65] (4/9); beklenen 1.0-1.6
+  G5 D2 / A0 konum ANEES'i:  0.062 [0.02, 0.51] (9/9); beklenen < 0.5
+  seçim: ikisi de geçer; medyan oranların oranı D2/D1 = 1.019 -> D1

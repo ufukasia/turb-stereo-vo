@@ -1,0 +1,36 @@
+[plan] 27 hücre, 135 rakip koşumu; tamamlanmış 0, kalan 135; kapılar: {'gpu': {'index': 1, 'uuid': 'GPU-9644c99d-b81c-4d78-6b84-24024c097929', 'name': 'NVIDIA GeForce RTX 3090', 'free_mb': 23126, 'bus': '00000000:2B:00.0'}, 'cikti_bos_gb': 881.2, 'sorun': []}
+[manifest] <project>/pyeco_turb/evidence/FAZ2_rakip_ek/manifest_20261111_104410.json  kimlik_fp=f578efb6ff85
+[üretim] MH01__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 62.5 s, 0.72 GB, sha256 2418dc4933e2
+[orbslam3] MH01 dr4 s0 onek w721 r0: durum=ok ATE=0.0160 kapsam=1.000 ok  (116 s, yük 4.3)
+[orbslam3] MH01 dr4 s0 onek w1121 r0: durum=ok ATE=0.0779 kapsam=1.000 ok  (116 s, yük 4.3)
+[orbslam3] MH01 dr4 s0 onek w1521 r0: durum=ok ATE=0.0900 kapsam=1.000 ok  (116 s, yük 4.3)
+[orbslam3] MH01 dr4 s0 onek w721 r1: durum=ok ATE=0.0148 kapsam=1.000 ok  (114 s, yük 9.4)
+[orbslam3] MH01 dr4 s0 onek w1121 r1: durum=ok ATE=0.0754 kapsam=1.000 ok  (114 s, yük 9.4)
+[orbslam3] MH01 dr4 s0 onek w1521 r1: durum=ok ATE=0.1016 kapsam=1.000 ok  (114 s, yük 9.4)
+[orbslam3] MH01 dr4 s0 onek w721 r2: durum=ok ATE=0.0107 kapsam=1.000 ok  (114 s, yük 3.5)
+[orbslam3] MH01 dr4 s0 onek w1121 r2: durum=ok ATE=0.0837 kapsam=1.000 ok  (114 s, yük 3.5)
+[orbslam3] MH01 dr4 s0 onek w1521 r2: durum=ok ATE=0.0906 kapsam=1.000 ok  (114 s, yük 3.5)
+[airslam] MH01 dr4 s0 onek w721 r0: durum=ok ATE=0.0267 kapsam=1.000 ok  (49 s, yük 4.5)
+[airslam] MH01 dr4 s0 onek w1121 r0: durum=ok ATE=0.1014 kapsam=1.000 ok  (49 s, yük 4.5)
+[airslam] MH01 dr4 s0 onek w1521 r0: durum=ok ATE=0.0598 kapsam=1.000 ok  (49 s, yük 4.5)
+[droid] MH01 dr4 s0 onek w721 r0: durum=ok ATE=0.0129 kapsam=1.000 ok  (119 s, yük 3.9)
+[droid] MH01 dr4 s0 onek w1121 r0: durum=ok ATE=0.0355 kapsam=1.000 ok  (119 s, yük 3.9)
+[droid] MH01 dr4 s0 onek w1521 r0: durum=ok ATE=0.0304 kapsam=1.000 ok  (119 s, yük 3.9)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_ek/rakip_kayitlari.jsonl: 15 pencere kaydı
+  kimlik_fp: {'f578efb6ff85': 15}
+  GPU: {('airslam', 'NVIDIA_GeForce_RTX_3090'): 3, ('droid', 'NVIDIA GeForce RTX 3090'): 3}
+  altyapı hatası (sonuç değil): 0
+  airslam   D/r0=   4:    3 pencere, başarısız   0 (0%), ATE medyan 0.0598 m, koşum süresi medyan 49 s
+  droid     D/r0=   4:    3 pencere, başarısız   0 (0%), ATE medyan 0.0304 m, koşum süresi medyan 119 s
+  orbslam3  D/r0=   4:    9 pencere, başarısız   0 (0%), ATE medyan 0.0779 m, koşum süresi medyan 114 s
+[denetim] TAMAM
+[dur] 1 hücre (--en_cok_hucre)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_ek/rakip_kayitlari.jsonl: 15 pencere kaydı
+  kimlik_fp: {'f578efb6ff85': 15}
+  GPU: {('airslam', 'NVIDIA_GeForce_RTX_3090'): 3, ('droid', 'NVIDIA GeForce RTX 3090'): 3}
+  altyapı hatası (sonuç değil): 0
+  airslam   D/r0=   4:    3 pencere, başarısız   0 (0%), ATE medyan 0.0598 m, koşum süresi medyan 49 s
+  droid     D/r0=   4:    3 pencere, başarısız   0 (0%), ATE medyan 0.0304 m, koşum süresi medyan 119 s
+  orbslam3  D/r0=   4:    9 pencere, başarısız   0 (0%), ATE medyan 0.0779 m, koşum süresi medyan 114 s
+[denetim] TAMAM
+BITTI 2026-11-11 10:53:52

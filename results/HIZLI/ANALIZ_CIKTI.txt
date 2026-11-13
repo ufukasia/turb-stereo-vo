@@ -1,0 +1,70 @@
+okuma: {'hizli': {'kayit': 1296}, 'ana': {'kayit': 2016, 'suzulen': 3864}}
+bütünlük: 1296/1296 kayıt; eksik 0 []; durum {'ok': 1296}; boş alanlı 'ok' 0; code_fp {'08e28b83407c': 1296}; tam = True
+F1 ATE kol / A0 (R5)
+   A1@4         oran 0.898 [0.853, 0.999] n=36 p=0.077 p_holm=0.693 düşen=0
+   A1@8         oran 1.030 [0.893, 1.083] n=36 p=0.81 p_holm=1 düşen=0
+   A3@4         oran 0.926 [0.877, 1.044] n=36 p=0.396 p_holm=1 düşen=0
+   A3@8         oran 0.913 [0.872, 0.981] n=36 p=0.00295 p_holm=0.0295 düşen=0
+   AG@4         oran 1.089 [0.974, 1.160] n=36 p=0.143 p_holm=1 düşen=0
+   AG@8         oran 1.015 [0.933, 1.106] n=36 p=0.539 p_holm=1 düşen=0
+   A0C@4        oran 1.005 [0.902, 1.152] n=36 p=0.432 p_holm=1 düşen=0
+   A0C@8        oran 1.054 [0.949, 1.112] n=36 p=0.489 p_holm=1 düşen=0
+   A0C+A3@4     oran 1.034 [0.923, 1.110] n=36 p=0.451 p_holm=1 düşen=0
+   A0C+A3@8     oran 1.030 [0.983, 1.099] n=36 p=0.239 p_holm=1 düşen=0
+F1 ANEES_poz kol / A0 (R5)
+   A1@4         oran 0.165 [0.147, 0.181] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A1@8         oran 0.078 [0.068, 0.088] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A3@4         oran 0.337 [0.310, 0.401] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A3@8         oran 0.227 [0.202, 0.269] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   AG@4         oran 0.493 [0.414, 0.542] n=36 p=1.6e-09 p_holm=1.6e-09 düşen=0
+   AG@8         oran 0.340 [0.298, 0.384] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A0C@4        oran 0.019 [0.016, 0.022] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A0C@8        oran 0.018 [0.015, 0.025] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A0C+A3@4     oran 0.019 [0.017, 0.023] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+   A0C+A3@8     oran 0.020 [0.017, 0.025] n=36 p=2.91e-11 p_holm=2.91e-10 düşen=0
+F3 ATE R5 / R0
+   A0@4         oran 1.037 [0.863, 1.255] n=36 p=0.669 p_holm=1 düşen=0
+   A0@8         oran 1.353 [1.186, 1.532] n=36 p=1.21e-05 p_holm=0.000121 düşen=0
+   A1@4         oran 1.000 [0.797, 1.096] n=36 p=0.75 p_holm=1 düşen=0
+   A1@8         oran 1.250 [1.143, 1.428] n=36 p=5.54e-07 p_holm=6.1e-06 düşen=0
+   A3@4         oran 1.050 [0.896, 1.294] n=36 p=0.371 p_holm=1 düşen=0
+   A3@8         oran 1.217 [1.081, 1.309] n=36 p=0.000172 p_holm=0.00138 düşen=0
+   AG@4         oran 1.055 [0.886, 1.342] n=36 p=0.226 p_holm=1 düşen=0
+   AG@8         oran 1.369 [1.157, 1.568] n=36 p=2.53e-07 p_holm=3.03e-06 düşen=0
+   A0C@4        oran 0.992 [0.881, 1.101] n=36 p=0.727 p_holm=1 düşen=0
+   A0C@8        oran 1.239 [1.073, 1.463] n=36 p=0.000476 p_holm=0.00333 düşen=0
+   A0C+A3@4     oran 0.978 [0.908, 1.128] n=36 p=0.846 p_holm=1 düşen=0
+   A0C+A3@8     oran 1.260 [1.114, 1.356] n=36 p=3.97e-05 p_holm=0.000357 düşen=0
+F3 ANEES_poz R5 / R0
+   A0@4         oran 0.810 [0.695, 0.903] n=36 p=0.0012 p_holm=0.0096 düşen=0
+   A0@8         oran 1.665 [1.248, 1.904] n=36 p=1.61e-05 p_holm=0.000193 düşen=0
+   A1@4         oran 0.753 [0.694, 0.855] n=36 p=0.00263 p_holm=0.0131 düşen=0
+   A1@8         oran 1.630 [1.238, 1.867] n=36 p=7.81e-05 p_holm=0.000703 düşen=0
+   A3@4         oran 0.750 [0.649, 0.775] n=36 p=0.00174 p_holm=0.0104 düşen=0
+   A3@8         oran 1.159 [0.891, 1.407] n=36 p=0.123 p_holm=0.293 düşen=0
+   AG@4         oran 0.738 [0.631, 0.836] n=36 p=0.00349 p_holm=0.014 düşen=0
+   AG@8         oran 1.409 [0.999, 1.744] n=36 p=0.00145 p_holm=0.0101 düşen=0
+   A0C@4        oran 0.819 [0.659, 0.898] n=36 p=0.0978 p_holm=0.293 düşen=0
+   A0C@8        oran 1.257 [1.072, 1.499] n=36 p=1.94e-05 p_holm=0.000213 düşen=0
+   A0C+A3@4     oran 1.040 [0.771, 1.182] n=36 p=0.907 p_holm=0.907 düşen=0
+   A0C+A3@8     oran 1.406 [1.060, 1.959] n=36 p=2.12e-05 p_holm=0.000213 düşen=0
+F2 ANEES_poz A3 / AG (R5)
+   D/r0=4       oran 0.738 [0.637, 0.824] n=36 p=2.3e-06 p_holm=2.31e-06 düşen=0 geçer
+   D/r0=8       oran 0.671 [0.576, 0.770] n=36 p=1.15e-06 p_holm=2.31e-06 düşen=0 geçer
+A0 ATE düzey / temiz (R0, D/r0 = 0)
+   R5@4         oran 2.96 [2.11, 3.36] n=36
+   R0@4         oran 2.70 [2.23, 3.28] n=36
+   R5@8         oran 14.54 [9.59, 21.09] n=36
+   R0@8         oran 11.32 [6.52, 16.13] n=36
+   kırılma (R5): K = 4.0; 0: 1.00x, ıraksama 0.00; 4: 2.52x, ıraksama 0.00; 8: 10.31x, ıraksama 0.00
+   kırılma (R0): K = 4.0; 0: 1.00x, ıraksama 0.00; 4: 2.18x, ıraksama 0.00; 8: 7.13x, ıraksama 0.00
+başarısız pencere oranı
+KARARLAR
+   HZ1: 14.54 [9.59, 21.09], K = 4.0 -> bozulma sürüyor (oran > 1.50)
+   HZ2 D/r0=4: 1.037 [0.863, 1.255] p_holm=1 -> fark anlamlı değil (GA bandı aşıyor)
+   HZ2 D/r0=8: 1.353 [1.186, 1.532] p_holm=0.000121 -> hızlı rejim daha kötü
+   HZ3 (i): {'A3@4': True, 'A3@8': True, 'A1@4': True, 'A1@8': True, 'AG@4': True, 'AG@8': True}
+   HZ3 (ii): A3 AG'yi Holm sonrası anlamlı geçiyor (D/r0: 4, 8)
+   HZ4: anlamlı >%10 ATE iyileşmesi: yok -> TUTTU
+   HZ5: {'A1@4': (0.753, True), 'A1@8': (1.63, False), 'A3@4': (0.75, True), 'A3@8': (1.159, False), 'AG@4': (0.738, True), 'AG@8': (1.409, False)}
+-> <project>/pyeco_turb/evidence/HIZLI/analiz.json

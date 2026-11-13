@@ -1,0 +1,2 @@
+ızgara A PID 2858995; günlük evidence/ONARIM/kosum_A_1507.log; başlangıç 2026-11-11 15:07:56; gpu_jobs 1 jobs 4; sekanslar V1_01_easy,MH01,MH02,V1_02_medium,MH03
+ızgara B PID 3491514; günlük evidence/ONARIM/kosum_B_1837.log; başlangıç 2026-11-11 18:37:44; gpu_jobs 1 jobs 5; sekanslar V2_01_easy,MH04,V2_02_medium,MH05

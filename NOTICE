@@ -1,0 +1,78 @@
+NOTICE — Üçüncü Taraf Kod ve Lisans Atıfları
+================================================================================
+
+Bu depo MIT lisanslıdır (bkz. LICENSE). Aşağıdaki bileşenler bu depoya VENDOR'LANMIŞ
+(kaynak ağacına kopyalanmış) üçüncü taraf koddur ve MIT lisansı KAPSAMINDA DEĞİLDİR.
+Her biri kendi orijinal lisansı altında kalır.
+
+
+1) lightglue/  —  LightGlue (ETH Zürich, Computer Vision and Geometry Group)
+--------------------------------------------------------------------------------
+    Üst kaynak : https://github.com/cvg/LightGlue
+    Lisans     : Apache License 2.0
+    Telif      : Copyright 2023 ETH Zurich
+
+    Bu dizin `pip install git+https://github.com/cvg/LightGlue.git` yerine doğrudan
+    kaynak ağacına kopyalanmıştır.
+
+    Üst kaynakla karşılaştırma (2026-09-20, cvg/LightGlue eb42fee, 2026-02-18):
+      utils.py, sift.py → bayt düzeyinde AYNI; disk.py, dog_hardnet.py, viz2d.py ve superpoint.py
+      bu depoda YOK (kullanılmıyor / dağıtılmıyor); __init__.py buna göre kısaltıldı
+      aliked.py   → yerel değişiklik: NMS sınır maskelemede iki `.item()` GPU senkronu tek
+                    `.tolist()` aktarımına indirildi (sayısal sonuç aynı); üst kaynağın daha
+                    sonra eklediği `describe()` yardımcı metodu ve ImagePreprocessor içe
+                    aktarımı bu kopyada yoktur.
+      lightglue.py→ yerel değişiklik: `custom_fwd` dekoratörü torch sürümünden bağımsız
+                    sarmalandı (torch 2.2 ile import hatası gideriliyor); ağırlık URL adı
+                    `{}_lightglue.pth`; üst kaynağın sonradan eklediği `raco-aliked` girişi yok.
+    Yerel değişiklikler Apache-2.0 kapsamında "değiştirilmiş dosya" olarak işaretlenmiştir.
+
+    Apache-2.0 metni: https://www.apache.org/licenses/LICENSE-2.0
+
+
+2) lightglue/aliked.py  —  ALIKED
+--------------------------------------------------------------------------------
+    Lisans : BSD 3-Clause License
+    Telif  : Copyright (c) 2022, Zhao Xiaoming — All rights reserved.
+    (Tam lisans metni dosyanın kendi başlığındadır; kaldırılmamalıdır.)
+
+    Bu deponun VARSAYILAN özellik çıkarıcısı budur (`config.yaml: frontend.extractor:
+    aliked`).
+
+
+3) SuperPoint  —  DAĞITILMAZ
+--------------------------------------------------------------------------------
+    Üst kaynaktaki `lightglue/superpoint.py` Magic Leap, Inc. (2020) telifli ve çoğaltma/
+    dağıtımı kısıtlayan bir bildirim taşır; açık kaynak lisansı DEĞİLDİR. Bu yüzden dosya
+    bu depoda YER ALMAZ (.gitignore ile dışlanmıştır). Kod, dosya yokken çalışır: varsayılan
+    çıkarıcı ALIKED'dir; `frontend.extractor: superpoint` seçilirse anlaşılır bir ImportError
+    verilir. Kullanmak isteyen, dosyayı cvg/LightGlue'dan kendi sorumluluğunda ekler.
+
+
+4) Çalışma zamanı bağımlılıkları (vendor'lanmamış, pip/conda ile kurulur)
+--------------------------------------------------------------------------------
+    Bu paketler depoda BULUNMAZ; kendi lisansları altında ayrıca kurulur:
+    numpy (BSD-3), scipy (BSD-3), pandas (BSD-3), matplotlib (PSF-benzeri),
+    PyYAML (MIT), OpenCV (Apache-2.0), PyTorch / torchvision (BSD-3),
+    kornia (Apache-2.0), GTSAM (BSD-3), PyOpenGL (BSD-3), Pangolin (MIT).
+
+
+5) Veri kümesi
+--------------------------------------------------------------------------------
+    EuRoC MAV Dataset — ETH Zürich ASL (makalenin ana kümesi). OIVIO (Kasper vd. 2019) ve
+    TUM VI (Schubert vd. 2018) kümeleri de depoya DAHİL DEĞİLDİR; kendi lisansları altında
+    ayrıca indirilir.
+    Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+    Depoya DAHİL DEĞİLDİR; kullanıcı ayrıca indirir (bkz. README "Veri yerleşimi").
+    Burr, Nikolic, Achtelik, Rehder, Omari, Siegwart — "The EuRoC micro aerial
+    vehicle datasets", IJRR 2016.
+
+
+6) Turbulence study additions (this repository)
+--------------------------------------------------------------------------------
+    Restoration networks (DATUM, TMT, MambaTM) are NOT distributed here: no code and no
+    weights. `onarim_kos.py` and `turb/restoration.py` contain only wrapper code written
+    for this study; the networks must be obtained from their authors under their terms.
+    The real imagery of Saha et al. (2022) and the EuRoC MAV images are NOT redistributed;
+    `results/` holds only numerical records and statistics derived in this study.
+    Third-party odometry systems (ORB-SLAM3, AirSLAM, DROID-SLAM) are not included.

@@ -1,0 +1,107 @@
+kod parmak izi bedca2849bb2; okuma: başvuru {'ana': {'kayit': 648}, 'a3s': {'kayit': 216}, 'hizli': {'kayit': 432}, 'sonda': {}}; AG {'kayit': 540}; Sapma 6 {'kayit': 1674}; Sapma 7 {'kayit': 864}
+bütünlük: 2916/2916; eksik 0 []; tam = True
+   R0-8|A0y     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-8|AGg     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-8|A0      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-8|AG      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-8|KAPI    s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-8|A1g     s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-8|AGg     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-8|A0      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-8|AG      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-8|KAPI    s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-8|A1g     s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-4|AGg     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-4|A0      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-4|AG      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-4|KAPI    s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R5-4|A1g     s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|A0y    yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|AGg    yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|A0     eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|AG     eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|KAPI   s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-16|A1g    s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-0|A0y     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-0|AGg     yeni   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-0|A0      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-0|AG      eski   108/ 108 durum {'ok': 108} boş 0 fp tamam
+   R0-0|KAPI    s6     108/ 108 durum {'ok': 108} boş 0 fp tamam
+doğrulamalar: V1 A0y ≡ A0 {'ayni': 324}; V2 ön-uç {'ayni': 216}; V3 AGg kapı {'tamam': 540}; V5 bayraklar {'tamam': 864}; V6 {}; tamam = True
+HG1
+   AGg/A0@R0-8      oran 0.542 [0.485, 0.700] n=36 azalan 35/36 p=8.73e-11 p_holm=2.62e-10 düşen=0
+   AGg/A0@R5-8      oran 0.440 [0.414, 0.542] n=36 azalan 36/36 p=2.91e-11 p_holm=1.16e-10 düşen=0
+   AGg/A0@R5-4      oran 0.672 [0.611, 0.709] n=36 azalan 32/36 p=7.36e-09 p_holm=7.36e-09 düşen=0
+   AGg/A0@R0-16     oran 0.849 [0.809, 0.891] n=36 azalan 34/36 p=4.07e-10 p_holm=8.15e-10 düşen=0
+HG2
+   KAPI/AGg@R0-8    oran 0.890 [0.842, 1.001] n=36 azalan 24/36 p=0.0105 p_holm=0.0314 düşen=0 | TOST ort 0.909 GA90 [0.858, 0.963] p 0.101 -
+   KAPI/AGg@R5-8    oran 0.895 [0.824, 0.951] n=36 azalan 26/36 p=0.0105 p_holm=0.0314 düşen=0 | TOST ort 0.917 GA90 [0.871, 0.966] p 0.0466 EŞDEĞER
+   KAPI/AGg@R5-4    oran 0.952 [0.923, 1.023] n=36 azalan 21/36 p=0.108 p_holm=0.108 düşen=0 | TOST ort 0.955 GA90 [0.914, 0.997] p 0.000485 EŞDEĞER
+   KAPI/AGg@R0-16   oran 0.953 [0.903, 0.988] n=36 azalan 24/36 p=0.00278 p_holm=0.0111 düşen=0 | TOST ort 0.953 GA90 [0.928, 0.978] p 4.61e-07 EŞDEĞER
+HG3
+   AGg/A0@R0-0      oran 0.989 [0.956, 1.023] n=36 azalan 20/36 p=0.822 p_holm=0.822 düşen=0
+S1
+   AGg/AG@R0-8      oran 0.540 [0.464, 0.653] n=36 azalan 36/36 p=2.91e-11 p_holm=1.16e-10 düşen=0
+   AGg/AG@R5-8      oran 0.449 [0.388, 0.473] n=36 azalan 36/36 p=2.91e-11 p_holm=1.16e-10 düşen=0
+   AGg/AG@R5-4      oran 0.636 [0.567, 0.718] n=36 azalan 35/36 p=9.6e-10 p_holm=9.6e-10 düşen=0
+   AGg/AG@R0-16     oran 0.820 [0.765, 0.871] n=36 azalan 35/36 p=8.73e-11 p_holm=1.75e-10 düşen=0
+S2
+   AGg/A1g@R0-8     oran 1.317 [1.188, 1.450] n=36 azalan 6/36 p=2.21e-07 p_holm=4.41e-07 düşen=0
+   AGg/A1g@R5-8     oran 1.340 [1.267, 1.444] n=36 azalan 0/36 p=2.91e-11 p_holm=1.16e-10 düşen=0
+   AGg/A1g@R5-4     oran 1.050 [1.014, 1.144] n=36 azalan 10/36 p=0.046 p_holm=0.046 düşen=0
+   AGg/A1g@R0-16    oran 1.447 [1.364, 1.524] n=36 azalan 0/36 p=2.91e-11 p_holm=1.16e-10 düşen=0
+S3
+   AGg/A0@R0-8      oran 0.209 [0.180, 0.258] n=36 azalan 36/36 p=2.91e-11 p_holm=3.49e-10 düşen=0
+   AGg/A0@R5-8      oran 0.109 [0.097, 0.117] n=36 azalan 36/36 p=2.91e-11 p_holm=3.49e-10 düşen=0
+   AGg/A0@R5-4      oran 0.472 [0.405, 0.656] n=36 azalan 36/36 p=2.91e-11 p_holm=3.49e-10 düşen=0
+   AGg/A0@R0-16     oran 0.286 [0.267, 0.349] n=36 azalan 36/36 p=2.91e-11 p_holm=3.49e-10 düşen=0
+   KAPI/AGg@R0-8    oran 0.819 [0.716, 0.849] n=36 azalan 34/36 p=2.22e-08 p_holm=1.55e-07 düşen=0
+   KAPI/AGg@R5-8    oran 0.743 [0.700, 0.802] n=36 azalan 34/36 p=2.53e-07 p_holm=1.1e-06 düşen=0
+   KAPI/AGg@R5-4    oran 0.843 [0.792, 0.890] n=36 azalan 29/36 p=1.21e-05 p_holm=3.62e-05 düşen=0
+   KAPI/AGg@R0-16   oran 0.794 [0.661, 0.848] n=36 azalan 30/36 p=2.21e-07 p_holm=1.1e-06 düşen=0
+   AGg/AG@R0-8      oran 0.540 [0.475, 0.652] n=36 azalan 31/36 p=5.06e-08 p_holm=3.04e-07 düşen=0
+   AGg/AG@R5-8      oran 0.332 [0.268, 0.413] n=36 azalan 35/36 p=5.82e-11 p_holm=4.66e-10 düşen=0
+   AGg/AG@R5-4      oran 1.037 [0.866, 1.173] n=36 azalan 16/36 p=0.895 p_holm=0.895 düşen=0
+   AGg/AG@R0-16     oran 1.150 [0.859, 1.377] n=36 azalan 15/36 p=0.157 p_holm=0.314 düşen=0
+T_ATE
+   KAPI/AGg@R0-0    oran 1.019 [0.999, 1.037] n=36 azalan 13/36 p=0.152 p_holm=0.304 düşen=0 | TOST ort 1.069 GA90 [0.970, 1.179] p 0.107 -
+   AGg/AG@R0-0      oran 1.006 [0.974, 1.030] n=36 azalan 17/36 p=0.822 p_holm=0.822 düşen=0 | TOST ort 1.002 GA90 [0.976, 1.030] p 1.78e-10 EŞDEĞER
+T_ANEES
+   AGg/A0@R0-0      oran 0.746 [0.712, 0.774] n=36 azalan 35/36 p=5.82e-11 p_holm=1.16e-10 düşen=0
+   KAPI/AGg@R0-0    oran 0.915 [0.901, 0.941] n=36 azalan 34/36 p=8.14e-06 p_holm=8.14e-06 düşen=0
+betimsel: kol n/başarısız, birim medyanı ATE [m], ANEES_poz, kapı sigması medyanı [aralık] maks
+   R0-8   A0    0/108 ATE 0.2647 ANEES 1068.3
+   R0-8   AG    0/108 ATE 0.2877 ANEES 444.1
+   R0-8   AGg   0/108 ATE 0.1951 ANEES 274.3 kapı σ 1.792 [1.649, 1.843] maks 4.34
+   R0-8   KAPI  0/108 ATE 0.1801 ANEES 226.0 kapı σ 2.011 [1.877, 2.063] maks 3.96
+   R0-8   A1g   0/108 ATE 0.1489 ANEES 48.9
+   R5-8   A0    0/108 ATE 0.4673 ANEES 1940.7
+   R5-8   AG    0/108 ATE 0.4464 ANEES 608.7
+   R5-8   AGg   0/108 ATE 0.2566 ANEES 273.8 kapı σ 1.974 [1.737, 2.037] maks 3.25
+   R5-8   KAPI  0/108 ATE 0.2481 ANEES 181.9 kapı σ 2.232 [1.945, 2.300] maks 3.34
+   R5-8   A1g   0/108 ATE 0.1746 ANEES 49.3
+   R5-4   A0    0/108 ATE 0.0781 ANEES 182.2
+   R5-4   AG    0/108 ATE 0.0758 ANEES 79.8
+   R5-4   AGg   0/108 ATE 0.0495 ANEES 84.0 kapı σ 1.549 [1.414, 1.729] maks 4.27
+   R5-4   KAPI  0/108 ATE 0.0478 ANEES 65.9 kapı σ 1.702 [1.547, 1.924] maks 2.23
+   R5-4   A1g   0/108 ATE 0.0430 ANEES 36.0
+   R0-16  A0    5/108 ATE 0.8181 ANEES 6929.8
+   R0-16  AG    11/108 ATE 0.8441 ANEES 1948.8
+   R0-16  AGg   5/108 ATE 0.6548 ANEES 2467.9 kapı σ 2.023 [1.927, 2.054] maks 12.68
+   R0-16  KAPI  5/108 ATE 0.6157 ANEES 1865.8 kapı σ 2.311 [2.224, 2.357] maks 14.05
+   R0-16  A1g   1/108 ATE 0.4874 ANEES 155.4
+   R0-0   A0    0/108 ATE 0.0262 ANEES 132.0
+   R0-0   AG    0/108 ATE 0.0261 ANEES 93.9
+   R0-0   AGg   0/108 ATE 0.0256 ANEES 105.8 kapı σ 1.195 [1.121, 1.457] maks 1.81
+   R0-0   KAPI  0/108 ATE 0.0263 ANEES 98.9 kapı σ 1.253 [1.154, 1.596] maks 2.02
+KARARLAR
+   HG1@R0-8: TUTTU
+   HG2@R0-8: KAPI daha doğru
+   HG1@R5-8: TUTTU
+   HG2@R5-8: KAPI daha doğru
+   HG1@R5-4: TUTTU
+   HG2@R5-4: ayırt edilemedi; TOST eşdeğer
+   HG1@R0-16: TUTTU
+   HG2@R0-16: KAPI daha doğru
+   HG3: GEÇTİ
+-> <project>/pyeco_turb_kapi/evidence/SAPMA7/s7_analiz.json

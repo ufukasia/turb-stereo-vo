@@ -1,0 +1,1351 @@
+{
+ "kayit_sayimi": {
+  "ana": {
+   "airslam@0": 81,
+   "airslam@8": 81,
+   "airslam@16": 81,
+   "airslam@24": 81,
+   "droid@0": 81,
+   "droid@8": 81,
+   "droid@16": 81,
+   "droid@24": 81,
+   "orbslam3@0": 243,
+   "orbslam3@8": 243,
+   "orbslam3@16": 243,
+   "orbslam3@24": 243
+  },
+  "ek": {
+   "airslam@4": 81,
+   "droid@4": 81,
+   "orbslam3@4": 243
+  },
+  "si": {
+   "orbslam3_si@0": 243,
+   "orbslam3_si@4": 243,
+   "orbslam3_si@8": 243,
+   "orbslam3_si@16": 243,
+   "orbslam3_si@24": 243
+  }
+ },
+ "kimlik_fp": {
+  "ana": [
+   "f578efb6ff85"
+  ],
+  "ek": [
+   "f578efb6ff85"
+  ],
+  "si": [
+   "2e0701051eb2"
+  ]
+ },
+ "HR1": {
+  "ad": "ön kayıtlı",
+  "rakipler": {
+   "orbslam3": {
+    "4": {
+     "n_pencere": 81,
+     "n_basarisiz": 3,
+     "basarisizlik": 0.037037037037037035,
+     "n_cift": 78,
+     "medyan_oran": 2.225048559026228,
+     "ga95": [
+      1.9521997269800488,
+      2.477024130053867
+     ],
+     "medyan_oran_basarisiz_dahil": 2.287309386612446,
+     "medyan_ate": 0.07520845355250652,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.3790230827968464,
+     "birim_ga95": [
+      1.8703061835053094,
+      3.0273459773801505
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.6489529454566076,
+      "ga95": [
+       1.9052710038987766,
+       3.1517925922990453
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "8": {
+     "n_pencere": 81,
+     "n_basarisiz": 5,
+     "basarisizlik": 0.06172839506172839,
+     "n_cift": 76,
+     "medyan_oran": 5.347535900282857,
+     "ga95": [
+      4.2898350766932145,
+      7.126844797799092
+     ],
+     "medyan_oran_basarisiz_dahil": 5.573747186545795,
+     "medyan_ate": 0.13370008344429635,
+     "birim_n": 27,
+     "birim_medyan_oran": 5.473654793947474,
+     "birim_ga95": [
+      4.277970283871435,
+      8.599211454484449
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 5.123832130097859,
+      "ga95": [
+       4.555215130433725,
+       10.441355950860132
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 81,
+     "n_basarisiz": 36,
+     "basarisizlik": 0.4444444444444444,
+     "n_cift": 45,
+     "medyan_oran": 20.17996461687713,
+     "ga95": [
+      13.40000489733493,
+      24.562702534098634
+     ],
+     "medyan_oran_basarisiz_dahil": 53.896834335091945,
+     "medyan_ate": 0.4121555538503199,
+     "birim_n": 26,
+     "birim_medyan_oran": 18.227091226623564,
+     "birim_ga95": [
+      7.095035416551802,
+      32.815796916141515
+     ],
+     "birim_wilcoxon_tek_p": 1.4901161193847656e-08,
+     "birim_aritmetik": {
+      "n": 26,
+      "medyan_oran": 17.86408966382204,
+      "ga95": [
+       7.179608397718106,
+       29.983070099186037
+      ],
+      "p": 2.9802322387695312e-08
+     }
+    },
+    "24": {
+     "n_pencere": 81,
+     "n_basarisiz": 64,
+     "basarisizlik": 0.7901234567901234,
+     "n_cift": 17,
+     "medyan_oran": 45.49969307419098,
+     "ga95": [
+      21.778866986625648,
+      50.01404570978309
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": 0.3895304569857417,
+     "birim_n": 8,
+     "birim_medyan_oran": 35.08532315629904,
+     "birim_ga95": [
+      3.406586128069393,
+      39.524544327241095
+     ],
+     "birim_wilcoxon_tek_p": 0.00390625,
+     "birim_aritmetik": {
+      "n": 8,
+      "medyan_oran": 27.431178332489903,
+      "ga95": [
+       3.406586128069393,
+       42.006674339617234
+      ],
+      "p": 0.0078125
+     }
+    },
+    "temiz": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "medyan": 0.03382178342383971,
+     "p10_p90": [
+      0.008518445053563757,
+      0.06328901329444554
+     ],
+     "tekrar_cv_medyan": 0.11971671836918056
+    }
+   },
+   "airslam": {
+    "4": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 78,
+     "medyan_oran": 1.6602401193073262,
+     "ga95": [
+      1.519117645376489,
+      1.8401019456175491
+     ],
+     "medyan_oran_basarisiz_dahil": 1.6602401193073262,
+     "medyan_ate": 0.05934467987122702,
+     "birim_n": 27,
+     "birim_medyan_oran": 1.6985535789610018,
+     "birim_ga95": [
+      1.4635132901102523,
+      2.078588944502226
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-08,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 1.6989534065721377,
+      "ga95": [
+       1.4322134860957616,
+       2.122201926157669
+      ],
+      "p": 2.8312206268310547e-07
+     }
+    },
+    "8": {
+     "n_pencere": 81,
+     "n_basarisiz": 3,
+     "basarisizlik": 0.037037037037037035,
+     "n_cift": 78,
+     "medyan_oran": 2.6244083862385352,
+     "ga95": [
+      2.1710623164229026,
+      3.749064046006164
+     ],
+     "medyan_oran_basarisiz_dahil": 2.6244083862385352,
+     "medyan_ate": 0.08587638093847434,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.7437783510956306,
+     "birim_ga95": [
+      1.9419097578778999,
+      3.254391300530806
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.777138080332869,
+      "ga95": [
+       2.156941982675908,
+       3.5057730235930427
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 81,
+     "n_basarisiz": 42,
+     "basarisizlik": 0.5185185185185185,
+     "n_cift": 39,
+     "medyan_oran": 10.493947006712157,
+     "ga95": [
+      7.664786432563878,
+      15.303760375967927
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": 0.20124462851340286,
+     "birim_n": 19,
+     "birim_medyan_oran": 10.795009237014868,
+     "birim_ga95": [
+      7.541951870075147,
+      17.513014642943595
+     ],
+     "birim_wilcoxon_tek_p": 1.9073486328125e-06,
+     "birim_aritmetik": {
+      "n": 19,
+      "medyan_oran": 10.795009237014868,
+      "ga95": [
+       7.66478643256388,
+       18.185522237518885
+      ],
+      "p": 3.814697265625e-06
+     }
+    },
+    "24": {
+     "n_pencere": 81,
+     "n_basarisiz": 81,
+     "basarisizlik": 1.0,
+     "n_cift": 0,
+     "medyan_oran": null,
+     "ga95": [
+      null,
+      null
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": null,
+     "birim_n": 0,
+     "birim_medyan_oran": null,
+     "birim_ga95": [
+      null,
+      null
+     ],
+     "birim_wilcoxon_tek_p": null,
+     "birim_aritmetik": null
+    },
+    "temiz": {
+     "n_pencere": 81,
+     "n_basarisiz": 3,
+     "medyan": 0.03312814806446874,
+     "p10_p90": [
+      0.01366301530539499,
+      0.08682055756070663
+     ],
+     "tekrar_cv_medyan": null
+    }
+   },
+   "droid": {
+    "4": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 1.8898971269068514,
+     "ga95": [
+      1.7208115153090764,
+      2.3956302082534515
+     ],
+     "medyan_oran_basarisiz_dahil": 1.8898971269068514,
+     "medyan_ate": 0.032775518221241855,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.123837057542408,
+     "birim_ga95": [
+      1.9720764549918117,
+      2.4612617260413923
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.0203064928814447,
+      "ga95": [
+       1.8138690707289575,
+       2.4247320312025784
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "8": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 3.9230456229845054,
+     "ga95": [
+      3.4512694045906853,
+      4.780220470669341
+     ],
+     "medyan_oran_basarisiz_dahil": 3.9230456229845054,
+     "medyan_ate": 0.07841754442481855,
+     "birim_n": 27,
+     "birim_medyan_oran": 3.687625687412124,
+     "birim_ga95": [
+      3.159454975695993,
+      6.091674038846583
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 4.092206124746013,
+      "ga95": [
+       3.1927128196020433,
+       6.227667753846216
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 7.3653633107086955,
+     "ga95": [
+      6.460579494600152,
+      8.830411603740165
+     ],
+     "medyan_oran_basarisiz_dahil": 7.3653633107086955,
+     "medyan_ate": 0.13881661868514927,
+     "birim_n": 27,
+     "birim_medyan_oran": 8.807358070058452,
+     "birim_ga95": [
+      7.472025548650281,
+      9.943792236222276
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 9.136996921168931,
+      "ga95": [
+       6.7971871250047355,
+       10.739093831930589
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "24": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 10.931742499141574,
+     "ga95": [
+      9.088199646606126,
+      12.04389155101627
+     ],
+     "medyan_oran_basarisiz_dahil": 10.931742499141574,
+     "medyan_ate": 0.20504219472096405,
+     "birim_n": 27,
+     "birim_medyan_oran": 12.183070994721364,
+     "birim_ga95": [
+      10.050795213272751,
+      14.703447806607782
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 11.043297469821297,
+      "ga95": [
+       9.073726311019307,
+       14.654451557397019
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "temiz": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "medyan": 0.02063046481718992,
+     "p10_p90": [
+      0.008792673259520167,
+      0.049270696903161
+     ],
+     "tekrar_cv_medyan": null
+    }
+   }
+  },
+  "oran>=2_olanlar": [
+   "orbslam3"
+  ],
+  "karar": "ÇÜRÜDÜ",
+  "toplama_duzeyine_gore": {
+   "pencere çiftleri": [
+    "orbslam3"
+   ],
+   "birim (pencere log-oran ortalaması)": [
+    "orbslam3",
+    "droid"
+   ],
+   "birim (ATE aritmetik ortalaması; PyEco ana analiziyle aynı)": [
+    "orbslam3",
+    "droid"
+   ]
+  }
+ },
+ "HR1_duyarlilik_airslam_V2_01_w100_haric": {
+  "ad": "AirSLAM V2_01 / pencere 100 hariç (sonradan duyarlılık)",
+  "rakipler": {
+   "orbslam3": {
+    "4": {
+     "n_pencere": 81,
+     "n_basarisiz": 3,
+     "basarisizlik": 0.037037037037037035,
+     "n_cift": 78,
+     "medyan_oran": 2.225048559026228,
+     "ga95": [
+      1.9521997269800488,
+      2.477024130053867
+     ],
+     "medyan_oran_basarisiz_dahil": 2.287309386612446,
+     "medyan_ate": 0.07520845355250652,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.3790230827968464,
+     "birim_ga95": [
+      1.8703061835053094,
+      3.0273459773801505
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.6489529454566076,
+      "ga95": [
+       1.9052710038987766,
+       3.1517925922990453
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "8": {
+     "n_pencere": 81,
+     "n_basarisiz": 5,
+     "basarisizlik": 0.06172839506172839,
+     "n_cift": 76,
+     "medyan_oran": 5.347535900282857,
+     "ga95": [
+      4.2898350766932145,
+      7.126844797799092
+     ],
+     "medyan_oran_basarisiz_dahil": 5.573747186545795,
+     "medyan_ate": 0.13370008344429635,
+     "birim_n": 27,
+     "birim_medyan_oran": 5.473654793947474,
+     "birim_ga95": [
+      4.277970283871435,
+      8.599211454484449
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 5.123832130097859,
+      "ga95": [
+       4.555215130433725,
+       10.441355950860132
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 81,
+     "n_basarisiz": 36,
+     "basarisizlik": 0.4444444444444444,
+     "n_cift": 45,
+     "medyan_oran": 20.17996461687713,
+     "ga95": [
+      13.40000489733493,
+      24.562702534098634
+     ],
+     "medyan_oran_basarisiz_dahil": 53.896834335091945,
+     "medyan_ate": 0.4121555538503199,
+     "birim_n": 26,
+     "birim_medyan_oran": 18.227091226623564,
+     "birim_ga95": [
+      7.095035416551802,
+      32.815796916141515
+     ],
+     "birim_wilcoxon_tek_p": 1.4901161193847656e-08,
+     "birim_aritmetik": {
+      "n": 26,
+      "medyan_oran": 17.86408966382204,
+      "ga95": [
+       7.179608397718106,
+       29.983070099186037
+      ],
+      "p": 2.9802322387695312e-08
+     }
+    },
+    "24": {
+     "n_pencere": 81,
+     "n_basarisiz": 64,
+     "basarisizlik": 0.7901234567901234,
+     "n_cift": 17,
+     "medyan_oran": 45.49969307419098,
+     "ga95": [
+      21.778866986625648,
+      50.01404570978309
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": 0.3895304569857417,
+     "birim_n": 8,
+     "birim_medyan_oran": 35.08532315629904,
+     "birim_ga95": [
+      3.406586128069393,
+      39.524544327241095
+     ],
+     "birim_wilcoxon_tek_p": 0.00390625,
+     "birim_aritmetik": {
+      "n": 8,
+      "medyan_oran": 27.431178332489903,
+      "ga95": [
+       3.406586128069393,
+       42.006674339617234
+      ],
+      "p": 0.0078125
+     }
+    },
+    "temiz": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "medyan": 0.03382178342383971,
+     "p10_p90": [
+      0.008518445053563757,
+      0.06328901329444554
+     ],
+     "tekrar_cv_medyan": 0.11971671836918056
+    }
+   },
+   "airslam": {
+    "4": {
+     "n_pencere": 78,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 78,
+     "medyan_oran": 1.6602401193073262,
+     "ga95": [
+      1.519117645376489,
+      1.8401019456175491
+     ],
+     "medyan_oran_basarisiz_dahil": 1.6602401193073262,
+     "medyan_ate": 0.05895637896811182,
+     "birim_n": 27,
+     "birim_medyan_oran": 1.6985535789610018,
+     "birim_ga95": [
+      1.4635132901102523,
+      2.078588944502226
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-08,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 1.6989534065721377,
+      "ga95": [
+       1.4322134860957616,
+       2.122201926157669
+      ],
+      "p": 2.8312206268310547e-07
+     }
+    },
+    "8": {
+     "n_pencere": 78,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 78,
+     "medyan_oran": 2.6244083862385352,
+     "ga95": [
+      2.1710623164229026,
+      3.749064046006164
+     ],
+     "medyan_oran_basarisiz_dahil": 2.6244083862385352,
+     "medyan_ate": 0.08587638093847434,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.7437783510956306,
+     "birim_ga95": [
+      1.9419097578778999,
+      3.254391300530806
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.777138080332869,
+      "ga95": [
+       2.156941982675908,
+       3.5057730235930427
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 78,
+     "n_basarisiz": 39,
+     "basarisizlik": 0.5,
+     "n_cift": 39,
+     "medyan_oran": 10.493947006712157,
+     "ga95": [
+      7.664786432563878,
+      15.303760375967927
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": 0.20124462851340286,
+     "birim_n": 19,
+     "birim_medyan_oran": 10.795009237014868,
+     "birim_ga95": [
+      7.541951870075147,
+      17.513014642943595
+     ],
+     "birim_wilcoxon_tek_p": 1.9073486328125e-06,
+     "birim_aritmetik": {
+      "n": 19,
+      "medyan_oran": 10.795009237014868,
+      "ga95": [
+       7.66478643256388,
+       18.185522237518885
+      ],
+      "p": 3.814697265625e-06
+     }
+    },
+    "24": {
+     "n_pencere": 78,
+     "n_basarisiz": 78,
+     "basarisizlik": 1.0,
+     "n_cift": 0,
+     "medyan_oran": null,
+     "ga95": [
+      null,
+      null
+     ],
+     "medyan_oran_basarisiz_dahil": "inf",
+     "medyan_ate": null,
+     "birim_n": 0,
+     "birim_medyan_oran": null,
+     "birim_ga95": [
+      null,
+      null
+     ],
+     "birim_wilcoxon_tek_p": null,
+     "birim_aritmetik": null
+    },
+    "temiz": {
+     "n_pencere": 78,
+     "n_basarisiz": 0,
+     "medyan": 0.03312814806446874,
+     "p10_p90": [
+      0.01366301530539499,
+      0.08682055756070663
+     ],
+     "tekrar_cv_medyan": null
+    }
+   },
+   "droid": {
+    "4": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 1.8898971269068514,
+     "ga95": [
+      1.7208115153090764,
+      2.3956302082534515
+     ],
+     "medyan_oran_basarisiz_dahil": 1.8898971269068514,
+     "medyan_ate": 0.032775518221241855,
+     "birim_n": 27,
+     "birim_medyan_oran": 2.123837057542408,
+     "birim_ga95": [
+      1.9720764549918117,
+      2.4612617260413923
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 2.0203064928814447,
+      "ga95": [
+       1.8138690707289575,
+       2.4247320312025784
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "8": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 3.9230456229845054,
+     "ga95": [
+      3.4512694045906853,
+      4.780220470669341
+     ],
+     "medyan_oran_basarisiz_dahil": 3.9230456229845054,
+     "medyan_ate": 0.07841754442481855,
+     "birim_n": 27,
+     "birim_medyan_oran": 3.687625687412124,
+     "birim_ga95": [
+      3.159454975695993,
+      6.091674038846583
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 4.092206124746013,
+      "ga95": [
+       3.1927128196020433,
+       6.227667753846216
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "16": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 7.3653633107086955,
+     "ga95": [
+      6.460579494600152,
+      8.830411603740165
+     ],
+     "medyan_oran_basarisiz_dahil": 7.3653633107086955,
+     "medyan_ate": 0.13881661868514927,
+     "birim_n": 27,
+     "birim_medyan_oran": 8.807358070058452,
+     "birim_ga95": [
+      7.472025548650281,
+      9.943792236222276
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 9.136996921168931,
+      "ga95": [
+       6.7971871250047355,
+       10.739093831930589
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "24": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "basarisizlik": 0.0,
+     "n_cift": 81,
+     "medyan_oran": 10.931742499141574,
+     "ga95": [
+      9.088199646606126,
+      12.04389155101627
+     ],
+     "medyan_oran_basarisiz_dahil": 10.931742499141574,
+     "medyan_ate": 0.20504219472096405,
+     "birim_n": 27,
+     "birim_medyan_oran": 12.183070994721364,
+     "birim_ga95": [
+      10.050795213272751,
+      14.703447806607782
+     ],
+     "birim_wilcoxon_tek_p": 7.450580596923828e-09,
+     "birim_aritmetik": {
+      "n": 27,
+      "medyan_oran": 11.043297469821297,
+      "ga95": [
+       9.073726311019307,
+       14.654451557397019
+      ],
+      "p": 1.4901161193847656e-08
+     }
+    },
+    "temiz": {
+     "n_pencere": 81,
+     "n_basarisiz": 0,
+     "medyan": 0.02063046481718992,
+     "p10_p90": [
+      0.008792673259520167,
+      0.049270696903161
+     ],
+     "tekrar_cv_medyan": null
+    }
+   }
+  },
+  "oran>=2_olanlar": [
+   "orbslam3"
+  ],
+  "karar": "ÇÜRÜDÜ",
+  "toplama_duzeyine_gore": {
+   "pencere çiftleri": [
+    "orbslam3"
+   ],
+   "birim (pencere log-oran ortalaması)": [
+    "orbslam3",
+    "droid"
+   ],
+   "birim (ATE aritmetik ortalaması; PyEco ana analiziyle aynı)": [
+    "orbslam3",
+    "droid"
+   ]
+  }
+ },
+ "HR1_son_yorunge": {
+  "airslam": {
+   "n_pencere": 81,
+   "n_basarisiz": 0,
+   "basarisizlik": 0.0,
+   "n_cift": 78,
+   "medyan_oran": 1.6361016106342534,
+   "ga95": [
+    1.5482446582610494,
+    1.8301562896399455
+   ],
+   "medyan_oran_basarisiz_dahil": 1.6361016106342534,
+   "medyan_ate": 0.05402279600846421,
+   "birim_n": 27,
+   "birim_medyan_oran": 1.7370180721237918,
+   "birim_ga95": [
+    1.435682981368134,
+    2.249805368681175
+   ],
+   "birim_wilcoxon_tek_p": 1.4156103134155273e-07
+  },
+  "droid": {
+   "n_pencere": 81,
+   "n_basarisiz": 0,
+   "basarisizlik": 0.0,
+   "n_cift": 81,
+   "medyan_oran": 1.6863516478153981,
+   "ga95": [
+    1.517836734818121,
+    1.8056181887231373
+   ],
+   "medyan_oran_basarisiz_dahil": 1.6863516478153981,
+   "medyan_ate": 0.02713843994329565,
+   "birim_n": 27,
+   "birim_medyan_oran": 1.7979257251221525,
+   "birim_ga95": [
+    1.5304809217347266,
+    2.060547971152579
+   ],
+   "birim_wilcoxon_tek_p": 7.450580596923828e-09
+  },
+  "orbslam3": {
+   "n_pencere": 81,
+   "n_basarisiz": 3,
+   "basarisizlik": 0.037037037037037035,
+   "n_cift": 78,
+   "medyan_oran": 2.143335610831184,
+   "ga95": [
+    1.740171400219261,
+    2.63422906963484
+   ],
+   "medyan_oran_basarisiz_dahil": 2.1712233085831265,
+   "medyan_ate": 0.05691119504197055,
+   "birim_n": 27,
+   "birim_medyan_oran": 2.326960654931654,
+   "birim_ga95": [
+    1.7714759690103716,
+    2.9400757594618607
+   ],
+   "birim_wilcoxon_tek_p": 7.450580596923828e-09
+  }
+ },
+ "HI1": {
+  "si": {
+   "0": {
+    "n_pencere": 81,
+    "n_basarisiz": 9,
+    "basarisizlik": 0.1111111111111111,
+    "n_cift": 72,
+    "medyan_oran": 1.0,
+    "ga95": [
+     1.0,
+     1.0
+    ],
+    "medyan_oran_basarisiz_dahil": 1.0,
+    "medyan_ate": 0.015503987781091307,
+    "birim_n": 27,
+    "birim_medyan_oran": 1.0,
+    "birim_ga95": [
+     1.0,
+     1.0
+    ],
+    "birim_wilcoxon_tek_p": null
+   },
+   "4": {
+    "n_pencere": 81,
+    "n_basarisiz": 9,
+    "basarisizlik": 0.1111111111111111,
+    "n_cift": 72,
+    "medyan_oran": 1.4585574538001045,
+    "ga95": [
+     1.3339428699020215,
+     1.756721970140887
+    ],
+    "medyan_oran_basarisiz_dahil": 1.4585574538001045,
+    "medyan_ate": 0.02473811095097602,
+    "birim_n": 27,
+    "birim_medyan_oran": 1.5322492133894792,
+    "birim_ga95": [
+     1.2941283325953001,
+     1.756828731859477
+    ],
+    "birim_wilcoxon_tek_p": 1.4156103134155273e-07
+   },
+   "8": {
+    "n_pencere": 81,
+    "n_basarisiz": 12,
+    "basarisizlik": 0.14814814814814814,
+    "n_cift": 69,
+    "medyan_oran": 2.2401277788029237,
+    "ga95": [
+     1.9781304485899867,
+     2.729480410490017
+    ],
+    "medyan_oran_basarisiz_dahil": 2.403825946661125,
+    "medyan_ate": 0.03878580494496329,
+    "birim_n": 27,
+    "birim_medyan_oran": 2.5368393873867157,
+    "birim_ga95": [
+     1.9773030995820213,
+     2.7528721158152716
+    ],
+    "birim_wilcoxon_tek_p": 2.2351741790771484e-08
+   },
+   "16": {
+    "n_pencere": 81,
+    "n_basarisiz": 31,
+    "basarisizlik": 0.38271604938271603,
+    "n_cift": 49,
+    "medyan_oran": 6.186483242462102,
+    "ga95": [
+     4.571094830543406,
+     7.561818426179621
+    ],
+    "medyan_oran_basarisiz_dahil": 7.935397592122856,
+    "medyan_ate": 0.10689318482344728,
+    "birim_n": 24,
+    "birim_medyan_oran": 6.016184996777902,
+    "birim_ga95": [
+     4.917484881634857,
+     6.980913478365485
+    ],
+    "birim_wilcoxon_tek_p": 5.960464477539063e-08
+   },
+   "24": {
+    "n_pencere": 81,
+    "n_basarisiz": 58,
+    "basarisizlik": 0.7160493827160493,
+    "n_cift": 23,
+    "medyan_oran": 10.386016204842113,
+    "ga95": [
+     8.382463538033651,
+     12.390163262546178
+    ],
+    "medyan_oran_basarisiz_dahil": "inf",
+    "medyan_ate": 0.25271790525896237,
+    "birim_n": 12,
+    "birim_medyan_oran": 10.595904854208115,
+    "birim_ga95": [
+     8.980283210489311,
+     13.742010574533168
+    ],
+    "birim_wilcoxon_tek_p": 0.000244140625
+   }
+  },
+  "stereo": {
+   "0": {
+    "n_pencere": 81,
+    "n_basarisiz": 0,
+    "basarisizlik": 0.0,
+    "n_cift": 81,
+    "medyan_oran": 1.0,
+    "ga95": [
+     1.0,
+     1.0
+    ],
+    "medyan_oran_basarisiz_dahil": 1.0,
+    "medyan_ate": 0.029467321143309067,
+    "birim_n": 27,
+    "birim_medyan_oran": 1.0,
+    "birim_ga95": [
+     1.0,
+     1.0
+    ],
+    "birim_wilcoxon_tek_p": null
+   },
+   "4": {
+    "n_pencere": 81,
+    "n_basarisiz": 3,
+    "basarisizlik": 0.037037037037037035,
+    "n_cift": 78,
+    "medyan_oran": 2.143335610831184,
+    "ga95": [
+     1.740171400219261,
+     2.63422906963484
+    ],
+    "medyan_oran_basarisiz_dahil": 2.1712233085831265,
+    "medyan_ate": 0.05691119504197055,
+    "birim_n": 27,
+    "birim_medyan_oran": 2.326960654931654,
+    "birim_ga95": [
+     1.7714759690103716,
+     2.9400757594618607
+    ],
+    "birim_wilcoxon_tek_p": 7.450580596923828e-09
+   },
+   "8": {
+    "n_pencere": 81,
+    "n_basarisiz": 5,
+    "basarisizlik": 0.06172839506172839,
+    "n_cift": 76,
+    "medyan_oran": 4.930324501823935,
+    "ga95": [
+     3.924155470948179,
+     6.294461771618616
+    ],
+    "medyan_oran_basarisiz_dahil": 5.2201839371762295,
+    "medyan_ate": 0.12419848713099885,
+    "birim_n": 27,
+    "birim_medyan_oran": 5.12794444957006,
+    "birim_ga95": [
+     3.9033253375790493,
+     8.012800248418005
+    ],
+    "birim_wilcoxon_tek_p": 7.450580596923828e-09
+   },
+   "16": {
+    "n_pencere": 81,
+    "n_basarisiz": 36,
+    "basarisizlik": 0.4444444444444444,
+    "n_cift": 45,
+    "medyan_oran": 19.419062886861187,
+    "ga95": [
+     12.916550414862376,
+     25.336363485412036
+    ],
+    "medyan_oran_basarisiz_dahil": 48.93237043972706,
+    "medyan_ate": 0.40553075629590324,
+    "birim_n": 26,
+    "birim_medyan_oran": 18.244206637827084,
+    "birim_ga95": [
+     6.94096352462563,
+     32.73076420979043
+    ],
+    "birim_wilcoxon_tek_p": 1.4901161193847656e-08
+   },
+   "24": {
+    "n_pencere": 81,
+    "n_basarisiz": 64,
+    "basarisizlik": 0.7901234567901234,
+    "n_cift": 17,
+    "medyan_oran": 40.80118208363855,
+    "ga95": [
+     23.51942880133637,
+     51.94334997802364
+    ],
+    "medyan_oran_basarisiz_dahil": "inf",
+    "medyan_ate": 0.3796601242842056,
+    "birim_n": 8,
+    "birim_medyan_oran": 35.40494688268569,
+    "birim_ga95": [
+     4.253700014596667,
+     41.34058162779634
+    ],
+    "birim_wilcoxon_tek_p": 0.00390625
+   }
+  },
+  "si_temiz": {
+   "n_pencere": 81,
+   "n_basarisiz": 9,
+   "medyan": 0.015503987781091307,
+   "p10_p90": [
+    0.009567649725423837,
+    0.04424295969363656
+   ],
+   "tekrar_cv_medyan": 0.07791579680042712
+  },
+  "stereo_temiz": {
+   "n_pencere": 81,
+   "n_basarisiz": 0,
+   "medyan": 0.029467321143309067,
+   "p10_p90": [
+    0.00856244997402521,
+    0.05670237214004618
+   ],
+   "tekrar_cv_medyan": 0.11525932990606017
+  },
+  "karar": {
+   "basarisizlik_si_16": 0.38271604938271603,
+   "basarisizlik_stereo_16": 0.4444444444444444,
+   "ilk_yari (SI < stereo)": true,
+   "si_oran_16_0": 6.186483242462102,
+   "si_oran_ga95": [
+    4.571094830543406,
+    7.561818426179621
+   ],
+   "ikinci_yari (oran >= 2)": true,
+   "HI1": "TUTTU"
+  },
+  "si_temizde_basarisiz_pencereler": [
+   "MH03/w162",
+   "MH04/w132",
+   "MH05/w102"
+  ],
+  "esli_basarisizlik_son_yorunge": {
+   "0": {
+    "n_ortak": 81,
+    "ikisi_de": 0,
+    "yalniz_si": 9,
+    "yalniz_stereo": 0,
+    "si": 9,
+    "stereo": 0,
+    "yapisal_haric_n": 72,
+    "yapisal_haric_si": 0,
+    "yapisal_haric_stereo": 0,
+    "mcnemar_kesin_p (sonradan, betimsel)": 0.00390625,
+    "uyumsuz_si_stereo (sonradan, betimsel)": [
+     9,
+     0
+    ],
+    "mcnemar_kesin_p_yapisal_haric (sonradan, betimsel)": null,
+    "uyumsuz_si_stereo_yapisal_haric (sonradan, betimsel)": [
+     0,
+     0
+    ]
+   },
+   "4": {
+    "n_ortak": 81,
+    "ikisi_de": 0,
+    "yalniz_si": 9,
+    "yalniz_stereo": 3,
+    "si": 9,
+    "stereo": 3,
+    "yapisal_haric_n": 72,
+    "yapisal_haric_si": 0,
+    "yapisal_haric_stereo": 3,
+    "mcnemar_kesin_p (sonradan, betimsel)": 0.14599609375,
+    "uyumsuz_si_stereo (sonradan, betimsel)": [
+     9,
+     3
+    ],
+    "mcnemar_kesin_p_yapisal_haric (sonradan, betimsel)": 0.25,
+    "uyumsuz_si_stereo_yapisal_haric (sonradan, betimsel)": [
+     0,
+     3
+    ]
+   },
+   "8": {
+    "n_ortak": 81,
+    "ikisi_de": 1,
+    "yalniz_si": 11,
+    "yalniz_stereo": 4,
+    "si": 12,
+    "stereo": 5,
+    "yapisal_haric_n": 72,
+    "yapisal_haric_si": 3,
+    "yapisal_haric_stereo": 5,
+    "mcnemar_kesin_p (sonradan, betimsel)": 0.11846923828124999,
+    "uyumsuz_si_stereo (sonradan, betimsel)": [
+     11,
+     4
+    ],
+    "mcnemar_kesin_p_yapisal_haric (sonradan, betimsel)": 0.6875,
+    "uyumsuz_si_stereo_yapisal_haric (sonradan, betimsel)": [
+     2,
+     4
+    ]
+   },
+   "16": {
+    "n_ortak": 81,
+    "ikisi_de": 13,
+    "yalniz_si": 18,
+    "yalniz_stereo": 23,
+    "si": 31,
+    "stereo": 36,
+    "yapisal_haric_n": 72,
+    "yapisal_haric_si": 23,
+    "yapisal_haric_stereo": 28,
+    "mcnemar_kesin_p (sonradan, betimsel)": 0.5327092552361137,
+    "uyumsuz_si_stereo (sonradan, betimsel)": [
+     18,
+     23
+    ],
+    "mcnemar_kesin_p_yapisal_haric (sonradan, betimsel)": 0.5223973804968411,
+    "uyumsuz_si_stereo_yapisal_haric (sonradan, betimsel)": [
+     17,
+     22
+    ]
+   },
+   "24": {
+    "n_ortak": 81,
+    "ikisi_de": 50,
+    "yalniz_si": 8,
+    "yalniz_stereo": 14,
+    "si": 58,
+    "stereo": 64,
+    "yapisal_haric_n": 72,
+    "yapisal_haric_si": 49,
+    "yapisal_haric_stereo": 55,
+    "mcnemar_kesin_p (sonradan, betimsel)": 0.28627872467041016,
+    "uyumsuz_si_stereo (sonradan, betimsel)": [
+     8,
+     14
+    ],
+    "mcnemar_kesin_p_yapisal_haric (sonradan, betimsel)": 0.28627872467041016,
+    "uyumsuz_si_stereo_yapisal_haric (sonradan, betimsel)": [
+     8,
+     14
+    ]
+   }
+  },
+  "si_nedensel (ikincil)": {
+   "0": {
+    "n_pencere": 81,
+    "n_basarisiz": 13,
+    "basarisizlik": 0.16049382716049382,
+    "n_cift": 68,
+    "medyan_oran": 1.0,
+    "ga95": [
+     1.0,
+     1.0
+    ],
+    "medyan_oran_basarisiz_dahil": 1.0,
+    "medyan_ate": 0.022597953775064593,
+    "birim_n": 27,
+    "birim_medyan_oran": 1.0,
+    "birim_ga95": [
+     1.0,
+     1.0
+    ],
+    "birim_wilcoxon_tek_p": null
+   },
+   "4": {
+    "n_pencere": 81,
+    "n_basarisiz": 10,
+    "basarisizlik": 0.12345679012345678,
+    "n_cift": 67,
+    "medyan_oran": 1.401402183563632,
+    "ga95": [
+     1.2925464202744277,
+     1.5496009636828765
+    ],
+    "medyan_oran_basarisiz_dahil": 1.4204806941710135,
+    "medyan_ate": 0.037438906840274816,
+    "birim_n": 27,
+    "birim_medyan_oran": 1.3598287423746593,
+    "birim_ga95": [
+     1.248900058297254,
+     1.4341661667516985
+    ],
+    "birim_wilcoxon_tek_p": 7.450580596923828e-09
+   },
+   "8": {
+    "n_pencere": 81,
+    "n_basarisiz": 13,
+    "basarisizlik": 0.16049382716049382,
+    "n_cift": 64,
+    "medyan_oran": 1.910996325074957,
+    "ga95": [
+     1.7845394930225202,
+     2.2604099077313466
+    ],
+    "medyan_oran_basarisiz_dahil": 1.977425364727303,
+    "medyan_ate": 0.05969639148668389,
+    "birim_n": 27,
+    "birim_medyan_oran": 2.1017156279312394,
+    "birim_ga95": [
+     1.783741909408358,
+     2.4870354830619554
+    ],
+    "birim_wilcoxon_tek_p": 7.450580596923828e-09
+   },
+   "16": {
+    "n_pencere": 81,
+    "n_basarisiz": 33,
+    "basarisizlik": 0.4074074074074074,
+    "n_cift": 43,
+    "medyan_oran": 6.839107413080731,
+    "ga95": [
+     4.466237756797242,
+     8.22987813442915
+    ],
+    "medyan_oran_basarisiz_dahil": 10.693882515439181,
+    "medyan_ate": 0.21876989080759407,
+    "birim_n": 24,
+    "birim_medyan_oran": 7.371061849543576,
+    "birim_ga95": [
+     4.977588103317646,
+     9.058495389443207
+    ],
+    "birim_wilcoxon_tek_p": 1.1920928955078125e-07
+   },
+   "24": {
+    "n_pencere": 81,
+    "n_basarisiz": 59,
+    "basarisizlik": 0.7283950617283951,
+    "n_cift": 20,
+    "medyan_oran": 10.038999818821772,
+    "ga95": [
+     7.98425597924872,
+     11.66003617095885
+    ],
+    "medyan_oran_basarisiz_dahil": "inf",
+    "medyan_ate": 0.34254440912977924,
+    "birim_n": 12,
+    "birim_medyan_oran": 10.428405733153781,
+    "birim_ga95": [
+     8.600533416887309,
+     14.433022670678591
+    ],
+    "birim_wilcoxon_tek_p": 0.000244140625
+   }
+  }
+ }
+}

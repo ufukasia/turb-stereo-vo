@@ -1,0 +1,250 @@
+[analiz] <project>/pyeco_turb/evidence/ONARIM/records.jsonl: 513 kayıt; durum {'ok': 513}; code_fp {'08e28b83407c': 513}; GPU {'NVIDIA GeForce RTX 3090': 405, None: 108}
+  alanı eksik kayıt: 0
+  sekans: 9; koşullar: [('R0', 'N'), ('R0', 'Ni'), ('R0', 'O'), ('R5', 'C'), ('R5', 'N'), ('R5', 'Ni'), ('R5', 'O')]
+
+== R5 N (dosya yolu) / sonda R5 fe0 (kanca yolu) ==
+  MH01 A0 w721: ATE 0.08868 / 0.09692 m (fark %8.51)   ANEES 952.3 / 871.9 (fark %9.23)
+  MH01 A0 w1121: ATE 0.28901 / 0.29565 m (fark %2.24)   ANEES 1440.0 / 1091.8 (fark %31.89)
+  MH01 A0 w1521: ATE 0.29632 / 0.23661 m (fark %25.24)   ANEES 1255.6 / 1572.4 (fark %20.15)
+  MH02 A0 w600: ATE 0.10034 / 0.09809 m (fark %2.29)   ANEES 635.3 / 2562.8 (fark %75.21)
+  MH02 A0 w1000: ATE 0.21473 / 0.19240 m (fark %11.61)   ANEES 4436.8 / 3233.4 (fark %37.22)
+  MH02 A0 w1400: ATE 0.22300 / 0.26088 m (fark %14.52)   ANEES 1522.2 / 1262.6 (fark %20.56)
+  MH03 A0 w162: ATE 0.08021 / 0.06604 m (fark %21.46)   ANEES 247.1 / 416.0 (fark %40.61)
+  MH03 A0 w562: ATE 1.94492 / 1.83047 m (fark %6.25)   ANEES 15538.1 / 8933.6 (fark %73.93)
+  MH03 A0 w962: ATE 0.81798 / 1.24809 m (fark %34.46)   ANEES 4182.1 / 9737.9 (fark %57.05)
+  MH04 A0 w132: ATE 0.21410 / 0.21571 m (fark %0.75)   ANEES 846.2 / 846.4 (fark %0.02)
+  MH04 A0 w532: ATE 1.22317 / 1.42406 m (fark %14.11)   ANEES 5214.8 / 6956.2 (fark %25.03)
+  MH04 A0 w932: ATE 1.05976 / 0.92490 m (fark %14.58)   ANEES 15921.5 / 12900.3 (fark %23.42)
+  MH05 A0 w102: ATE 0.17356 / 0.16802 m (fark %3.30)   ANEES 846.1 / 1144.6 (fark %26.08)
+  MH05 A0 w502: ATE 1.11015 / 0.85694 m (fark %29.55)   ANEES 4297.0 / 2898.7 (fark %48.24)
+  MH05 A0 w902: ATE 0.88335 / 1.17817 m (fark %25.02)   ANEES 5303.3 / 8057.9 (fark %34.19)
+  V1_01_easy A0 w100: ATE 0.10893 / 0.15295 m (fark %28.78)   ANEES 983.4 / 967.2 (fark %1.67)
+  V1_01_easy A0 w500: ATE 0.11440 / 0.14289 m (fark %19.93)   ANEES 613.9 / 735.6 (fark %16.55)
+  V1_01_easy A0 w900: ATE 0.19850 / 0.19637 m (fark %1.09)   ANEES 1510.7 / 1115.9 (fark %35.38)
+  V1_02_medium A0 w100: ATE 0.58087 / 0.57786 m (fark %0.52)   ANEES 1598.3 / 5030.2 (fark %68.23)
+  V1_02_medium A0 w500: ATE 0.40497 / 0.46222 m (fark %12.39)   ANEES 1295.0 / 1361.6 (fark %4.90)
+  V1_02_medium A0 w900: ATE 0.60238 / 0.63575 m (fark %5.25)   ANEES 1763.0 / 1940.2 (fark %9.13)
+  V2_01_easy A0 w100: ATE 0.25429 / 0.16885 m (fark %50.60)   ANEES 2213.0 / 1372.6 (fark %61.22)
+  V2_01_easy A0 w500: ATE 0.10608 / 0.10302 m (fark %2.97)   ANEES 579.8 / 493.9 (fark %17.40)
+  V2_01_easy A0 w900: ATE 0.14271 / 0.12001 m (fark %18.91)   ANEES 446.1 / 540.6 (fark %17.47)
+  V2_02_medium A0 w100: ATE 0.38155 / 0.45319 m (fark %15.81)   ANEES 3304.4 / 4085.6 (fark %19.12)
+  V2_02_medium A0 w500: ATE 0.73861 / 0.78807 m (fark %6.28)   ANEES 3059.0 / 1729.0 (fark %76.92)
+  V2_02_medium A0 w900: ATE 0.23068 / 0.34129 m (fark %32.41)   ANEES 3524.8 / 3207.3 (fark %9.90)
+  MH01 A1 w721: ATE 0.07836 / 0.09326 m (fark %15.98)   ANEES 50.1 / 67.4 (fark %25.72)
+  MH01 A1 w1121: ATE 0.20600 / 0.34017 m (fark %39.44)   ANEES 36.4 / 69.3 (fark %47.44)
+  MH01 A1 w1521: ATE 0.29885 / 0.34058 m (fark %12.25)   ANEES 156.8 / 226.2 (fark %30.68)
+  MH02 A1 w600: ATE 0.13971 / 0.18940 m (fark %26.24)   ANEES 62.4 / 26.7 (fark %133.49)
+  MH02 A1 w1000: ATE 0.10657 / 0.23661 m (fark %54.96)   ANEES 21.1 / 221.9 (fark %90.49)
+  MH02 A1 w1400: ATE 0.18890 / 0.17857 m (fark %5.79)   ANEES 79.3 / 110.8 (fark %28.41)
+  MH03 A1 w162: ATE 0.08039 / 0.06601 m (fark %21.79)   ANEES 17.4 / 13.7 (fark %27.44)
+  MH03 A1 w562: ATE 2.06295 / 1.73184 m (fark %19.12)   ANEES 1963.1 / 829.9 (fark %136.54)
+  MH03 A1 w962: ATE 1.10509 / 0.86949 m (fark %27.10)   ANEES 733.4 / 552.0 (fark %32.86)
+  MH04 A1 w132: ATE 0.21350 / 0.19665 m (fark %8.57)   ANEES 62.7 / 101.0 (fark %37.89)
+  MH04 A1 w532: ATE 1.04919 / 1.30782 m (fark %19.78)   ANEES 405.1 / 359.9 (fark %12.56)
+  MH04 A1 w932: ATE 1.03151 / 1.03648 m (fark %0.48)   ANEES 2214.8 / 993.1 (fark %123.02)
+  MH05 A1 w102: ATE 0.19089 / 0.18242 m (fark %4.64)   ANEES 57.9 / 66.7 (fark %13.13)
+  MH05 A1 w502: ATE 1.17567 / 1.40405 m (fark %16.27)   ANEES 235.1 / 468.3 (fark %49.80)
+  MH05 A1 w902: ATE 1.26704 / 1.10077 m (fark %15.11)   ANEES 1057.9 / 339.7 (fark %211.40)
+  V1_01_easy A1 w100: ATE 0.08850 / 0.11161 m (fark %20.71)   ANEES 48.9 / 38.2 (fark %27.81)
+  V1_01_easy A1 w500: ATE 0.13666 / 0.13390 m (fark %2.06)   ANEES 69.8 / 44.4 (fark %57.37)
+  V1_01_easy A1 w900: ATE 0.10552 / 0.17030 m (fark %38.04)   ANEES 83.4 / 63.9 (fark %30.60)
+  V1_02_medium A1 w100: ATE 0.64080 / 0.96213 m (fark %33.40)   ANEES 298.6 / 446.6 (fark %33.14)
+  V1_02_medium A1 w500: ATE 0.32983 / 0.31695 m (fark %4.06)   ANEES 96.0 / 105.5 (fark %9.01)
+  V1_02_medium A1 w900: ATE 0.69953 / 0.91390 m (fark %23.46)   ANEES 131.9 / 201.2 (fark %34.45)
+  V2_01_easy A1 w100: ATE 0.21701 / 0.21244 m (fark %2.15)   ANEES 77.1 / 132.5 (fark %41.81)
+  V2_01_easy A1 w500: ATE 0.10512 / 0.07564 m (fark %38.98)   ANEES 40.6 / 19.9 (fark %103.86)
+  V2_01_easy A1 w900: ATE 0.19165 / 0.11153 m (fark %71.85)   ANEES 86.2 / 30.5 (fark %182.25)
+  V2_02_medium A1 w100: ATE 0.28499 / 0.30160 m (fark %5.51)   ANEES 265.5 / 219.6 (fark %20.93)
+  V2_02_medium A1 w500: ATE 0.79580 / 0.69326 m (fark %14.79)   ANEES 185.2 / 154.2 (fark %20.08)
+  V2_02_medium A1 w900: ATE 0.21387 / 0.24029 m (fark %11.00)   ANEES 225.0 / 299.6 (fark %24.91)
+  -> ATE farkı medyan %14.95, en çok %71.85; ANEES farkı medyan %31.28, en çok %211.40
+
+== R0 N (dosya yolu) / ana ızgara tohum 0 (kanca yolu) ==
+  MH01 A0 w721: ATE 0.03699 / 0.03511 m (fark %5.36)   ANEES 246.3 / 582.6 (fark %57.72)
+  MH01 A0 w1121: ATE 0.45281 / 0.26886 m (fark %68.42)   ANEES 1417.8 / 490.9 (fark %188.80)
+  MH01 A0 w1521: ATE 0.22598 / 0.16437 m (fark %37.48)   ANEES 4181.9 / 1133.7 (fark %268.89)
+  MH02 A0 w600: ATE 0.05696 / 0.04932 m (fark %15.48)   ANEES 815.9 / 914.1 (fark %10.74)
+  MH02 A0 w1000: ATE 0.10408 / 0.07338 m (fark %41.83)   ANEES 381.9 / 194.1 (fark %96.73)
+  MH02 A0 w1400: ATE 0.14697 / 0.08995 m (fark %63.38)   ANEES 3854.5 / 1579.8 (fark %143.99)
+  MH03 A0 w162: ATE 0.04702 / 0.05273 m (fark %10.82)   ANEES 265.1 / 504.7 (fark %47.48)
+  MH03 A0 w562: ATE 0.53369 / 0.63860 m (fark %16.43)   ANEES 783.3 / 909.8 (fark %13.90)
+  MH03 A0 w962: ATE 0.65720 / 0.42170 m (fark %55.84)   ANEES 1286.0 / 866.2 (fark %48.47)
+  MH04 A0 w132: ATE 0.10290 / 0.13390 m (fark %23.15)   ANEES 566.5 / 1014.7 (fark %44.17)
+  MH04 A0 w532: ATE 0.68948 / 0.76532 m (fark %9.91)   ANEES 871.3 / 1538.8 (fark %43.38)
+  MH04 A0 w932: ATE 0.59702 / 0.64723 m (fark %7.76)   ANEES 4307.9 / 5387.2 (fark %20.03)
+  MH05 A0 w102: ATE 0.11212 / 0.12003 m (fark %6.59)   ANEES 379.8 / 404.3 (fark %6.05)
+  MH05 A0 w502: ATE 0.75692 / 0.84349 m (fark %10.26)   ANEES 1280.3 / 1546.0 (fark %17.19)
+  MH05 A0 w902: ATE 0.97378 / 0.48747 m (fark %99.76)   ANEES 13910.1 / 3385.9 (fark %310.82)
+  V1_01_easy A0 w100: ATE 0.05896 / 0.06955 m (fark %15.23)   ANEES 1628.0 / 283.9 (fark %473.50)
+  V1_01_easy A0 w500: ATE 0.17612 / 0.06741 m (fark %161.26)   ANEES 1370.1 / 267.2 (fark %412.68)
+  V1_01_easy A0 w900: ATE 0.21440 / 0.10177 m (fark %110.67)   ANEES 1560.4 / 933.3 (fark %67.19)
+  V1_02_medium A0 w100: ATE 0.45784 / 0.33675 m (fark %35.96)   ANEES 1044.6 / 1027.4 (fark %1.68)
+  V1_02_medium A0 w500: ATE 0.52213 / 0.41904 m (fark %24.60)   ANEES 1676.5 / 959.1 (fark %74.79)
+  V1_02_medium A0 w900: ATE 0.53487 / 0.46385 m (fark %15.31)   ANEES 913.0 / 687.1 (fark %32.87)
+  V2_01_easy A0 w100: ATE 0.23741 / 0.11720 m (fark %102.57)   ANEES 3766.0 / 361.8 (fark %941.05)
+  V2_01_easy A0 w500: ATE 0.07175 / 0.08377 m (fark %14.34)   ANEES 747.8 / 182.1 (fark %310.53)
+  V2_01_easy A0 w900: ATE 0.07295 / 0.08522 m (fark %14.40)   ANEES 489.4 / 775.1 (fark %36.87)
+  V2_02_medium A0 w100: ATE 0.28827 / 0.37734 m (fark %23.60)   ANEES 3192.1 / 3955.9 (fark %19.31)
+  V2_02_medium A0 w500: ATE 0.35688 / 0.39741 m (fark %10.20)   ANEES 600.9 / 896.9 (fark %33.00)
+  V2_02_medium A0 w900: ATE 0.15688 / 0.11628 m (fark %34.91)   ANEES 1195.7 / 1506.1 (fark %20.61)
+  MH01 A1 w721: ATE 0.04852 / 0.03359 m (fark %44.46)   ANEES 26.3 / 21.4 (fark %22.91)
+  MH01 A1 w1121: ATE 0.34973 / 0.21852 m (fark %60.04)   ANEES 80.7 / 26.5 (fark %204.48)
+  MH01 A1 w1521: ATE 0.18018 / 0.19740 m (fark %8.72)   ANEES 268.1 / 130.3 (fark %105.74)
+  MH02 A1 w600: ATE 0.05724 / 0.02427 m (fark %135.85)   ANEES 87.0 / 46.6 (fark %86.55)
+  MH02 A1 w1000: ATE 0.16243 / 0.20057 m (fark %19.01)   ANEES 47.4 / 93.0 (fark %48.98)
+  MH02 A1 w1400: ATE 0.11990 / 0.13912 m (fark %13.82)   ANEES 44.1 / 100.2 (fark %55.97)
+  MH03 A1 w162: ATE 0.04948 / 0.13652 m (fark %63.75)   ANEES 14.6 / 20.6 (fark %29.39)
+  MH03 A1 w562: ATE 0.61737 / 1.22766 m (fark %49.71)   ANEES 96.9 / 258.4 (fark %62.50)
+  MH03 A1 w962: ATE 0.36447 / 0.35438 m (fark %2.85)   ANEES 86.1 / 142.1 (fark %39.46)
+  MH04 A1 w132: ATE 0.11879 / 0.12840 m (fark %7.48)   ANEES 51.5 / 90.3 (fark %42.99)
+  MH04 A1 w532: ATE 0.73113 / 0.88690 m (fark %17.56)   ANEES 90.0 / 127.7 (fark %29.50)
+  MH04 A1 w932: ATE 0.78536 / 0.86200 m (fark %8.89)   ANEES 807.5 / 743.8 (fark %8.56)
+  MH05 A1 w102: ATE 0.10569 / 0.10149 m (fark %4.14)   ANEES 36.1 / 32.0 (fark %12.87)
+  MH05 A1 w502: ATE 1.14440 / 1.33589 m (fark %14.33)   ANEES 237.7 / 467.0 (fark %49.11)
+  MH05 A1 w902: ATE 0.60092 / 0.64770 m (fark %7.22)   ANEES 435.3 / 647.2 (fark %32.74)
+  V1_01_easy A1 w100: ATE 0.06967 / 0.06118 m (fark %13.88)   ANEES 70.0 / 66.3 (fark %5.48)
+  V1_01_easy A1 w500: ATE 0.10848 / 0.18828 m (fark %42.38)   ANEES 31.9 / 49.8 (fark %36.00)
+  V1_01_easy A1 w900: ATE 0.41752 / 0.11566 m (fark %260.99)   ANEES 173.5 / 121.7 (fark %42.62)
+  V1_02_medium A1 w100: ATE 0.52508 / 0.26245 m (fark %100.07)   ANEES 64.1 / 100.5 (fark %36.20)
+  V1_02_medium A1 w500: ATE 0.52464 / 0.38964 m (fark %34.65)   ANEES 119.3 / 75.1 (fark %58.82)
+  V1_02_medium A1 w900: ATE 0.22517 / 0.27708 m (fark %18.74)   ANEES 39.9 / 58.2 (fark %31.48)
+  V2_01_easy A1 w100: ATE 0.19564 / 0.13541 m (fark %44.47)   ANEES 233.7 / 26.0 (fark %798.87)
+  V2_01_easy A1 w500: ATE 0.11801 / 0.07804 m (fark %51.21)   ANEES 56.7 / 16.6 (fark %241.80)
+  V2_01_easy A1 w900: ATE 0.12778 / 0.08990 m (fark %42.13)   ANEES 65.8 / 36.9 (fark %78.14)
+  V2_02_medium A1 w100: ATE 0.37657 / 0.26581 m (fark %41.67)   ANEES 252.7 / 183.4 (fark %37.78)
+  V2_02_medium A1 w500: ATE 0.29858 / 0.49074 m (fark %39.16)   ANEES 40.3 / 78.8 (fark %48.89)
+  V2_02_medium A1 w900: ATE 0.07428 / 0.10167 m (fark %26.94)   ANEES 96.7 / 135.3 (fark %28.53)
+  MH01 A3 w721: ATE 0.02602 / 0.02828 m (fark %7.98)   ANEES 96.4 / 121.2 (fark %20.41)
+  MH01 A3 w1121: ATE 0.25357 / 0.35114 m (fark %27.79)   ANEES 126.3 / 378.2 (fark %66.60)
+  MH01 A3 w1521: ATE 0.15298 / 0.15742 m (fark %2.82)   ANEES 245.7 / 1082.0 (fark %77.29)
+  MH02 A3 w600: ATE 0.04901 / 0.04749 m (fark %3.21)   ANEES 112.7 / 379.5 (fark %70.32)
+  MH02 A3 w1000: ATE 0.09332 / 0.07025 m (fark %32.84)   ANEES 62.0 / 54.2 (fark %14.41)
+  MH02 A3 w1400: ATE 0.15675 / 0.11990 m (fark %30.73)   ANEES 866.7 / 695.1 (fark %24.70)
+  MH03 A3 w162: ATE 0.04876 / 0.03875 m (fark %25.85)   ANEES 97.7 / 64.7 (fark %50.99)
+  MH03 A3 w562: ATE 0.73704 / 1.10391 m (fark %33.23)   ANEES 537.2 / 804.3 (fark %33.21)
+  MH03 A3 w962: ATE 0.68101 / 0.29935 m (fark %127.50)   ANEES 688.5 / 223.5 (fark %208.11)
+  MH04 A3 w132: ATE 0.11647 / 0.12763 m (fark %8.74)   ANEES 220.1 / 216.1 (fark %1.85)
+  MH04 A3 w532: ATE 0.60956 / 0.93502 m (fark %34.81)   ANEES 293.0 / 505.8 (fark %42.07)
+  MH04 A3 w932: ATE 0.71848 / 0.79650 m (fark %9.79)   ANEES 1397.4 / 2914.7 (fark %52.06)
+  MH05 A3 w102: ATE 0.11183 / 0.09969 m (fark %12.19)   ANEES 147.3 / 139.8 (fark %5.33)
+  MH05 A3 w502: ATE 0.70498 / 1.42546 m (fark %50.54)   ANEES 499.9 / 1425.9 (fark %64.94)
+  MH05 A3 w902: ATE 0.66272 / 0.99091 m (fark %33.12)   ANEES 1781.9 / 1775.0 (fark %0.39)
+  V1_01_easy A3 w100: ATE 0.05155 / 0.06524 m (fark %20.99)   ANEES 546.4 / 460.9 (fark %18.55)
+  V1_01_easy A3 w500: ATE 0.09719 / 0.13309 m (fark %26.97)   ANEES 260.8 / 228.1 (fark %14.35)
+  V1_01_easy A3 w900: ATE 0.10610 / 0.18341 m (fark %42.15)   ANEES 215.1 / 547.2 (fark %60.69)
+  V1_02_medium A3 w100: ATE 0.28646 / 0.25121 m (fark %14.03)   ANEES 254.6 / 267.7 (fark %4.91)
+  V1_02_medium A3 w500: ATE 0.59972 / 0.54372 m (fark %10.30)   ANEES 768.1 / 658.5 (fark %16.65)
+  V1_02_medium A3 w900: ATE 0.19899 / 0.31419 m (fark %36.67)   ANEES 99.1 / 170.0 (fark %41.71)
+  V2_01_easy A3 w100: ATE 0.21453 / 0.23620 m (fark %9.17)   ANEES 841.7 / 703.6 (fark %19.63)
+  V2_01_easy A3 w500: ATE 0.18171 / 0.08226 m (fark %120.91)   ANEES 484.8 / 135.2 (fark %258.50)
+  V2_01_easy A3 w900: ATE 0.07744 / 0.10135 m (fark %23.59)   ANEES 191.4 / 170.0 (fark %12.61)
+  V2_02_medium A3 w100: ATE 0.36528 / 0.31153 m (fark %17.25)   ANEES 1100.2 / 889.1 (fark %23.74)
+  V2_02_medium A3 w500: ATE 0.28387 / 0.33466 m (fark %15.18)   ANEES 149.9 / 227.0 (fark %33.96)
+  V2_02_medium A3 w900: ATE 0.21813 / 0.22260 m (fark %2.00)   ANEES 586.1 / 489.2 (fark %19.81)
+  -> ATE farkı medyan %23.60, en çok %260.99; ANEES farkı medyan %41.71, en çok %941.05
+
+== Öngörüler ==
+  HD1  R0 ATE  O/N (A0)        beklenen [0.8, 1.25]: 1.001 [0.708, 1.376]  (n = 9, oran < 1: 4)
+  HD2a R5 ATE  O/N (A0)        beklenen >= 0.7    : 0.406 [0.218, 0.833]  (n = 9, oran < 1: 9)
+  HD2b R5 ATE  O/temiz (A0)    beklenen >= 2      : 4.704 [2.724, 11.949]  (n = 9, oran < 1: 0)
+  HD3  R0 ANEES A1/A0 (O)      beklenen <= 0.33   : 0.080 [0.043, 0.124]  (n = 9, oran < 1: 9)
+  HD3  R5 ANEES A1/A0 (O)      beklenen <= 0.33   : 0.102 [0.078, 0.137]  (n = 9, oran < 1: 9)
+  HD3  R5 ANEES A1/A0 (C)      beklenen <= 0.33   : 0.077 [0.057, 0.097]  (n = 9, oran < 1: 9)
+  HD4  R5 ATE  C/N (A0)        beklenen >= 0.8    : 0.755 [0.482, 1.034]  (n = 9, oran < 1: 7)
+
+== Sayısal ikiz denetimi N′ (Sapma 3 eki b): aynı N dökümü, fx ve fy × (1 + 1e-12) ==
+  R0 ATE   N′/N (A0): 0.970 [0.702, 1.028]  (n = 9, oran < 1: 6)   birim aralığı [0.525, 1.748], tipik çarpan ×/÷ 1.264
+  R0 ANEES N′/N (A0): 0.701 [0.501, 1.003]  (n = 9, oran < 1: 7)   birim aralığı [0.428, 2.257], tipik çarpan ×/÷ 1.433
+  R0 ATE   N′/N (A1): 0.975 [0.599, 1.345]  (n = 9, oran < 1: 5)   birim aralığı [0.353, 1.464], tipik çarpan ×/÷ 1.264
+  R0 ANEES N′/N (A1): 1.067 [0.602, 1.728]  (n = 9, oran < 1: 4)   birim aralığı [0.239, 1.801], tipik çarpan ×/÷ 1.422
+  R0 ANEES A1/A0 (N) : 0.075 [0.053, 0.086]  (n = 9, oran < 1: 9)
+  R0 ANEES A1/A0 (N′): 0.079 [0.046, 0.173]  (n = 9, oran < 1: 9)
+  R5 ATE   N′/N (A0): 1.074 [0.841, 1.206]  (n = 9, oran < 1: 3)   birim aralığı [0.841, 1.227], tipik çarpan ×/÷ 1.189
+  R5 ANEES N′/N (A0): 1.065 [0.804, 1.233]  (n = 9, oran < 1: 4)   birim aralığı [0.708, 1.260], tipik çarpan ×/÷ 1.222
+  R5 ATE   N′/N (A1): 1.102 [0.933, 1.187]  (n = 9, oran < 1: 3)   birim aralığı [0.856, 1.204], tipik çarpan ×/÷ 1.134
+  R5 ANEES N′/N (A1): 1.011 [0.860, 1.172]  (n = 9, oran < 1: 3)   birim aralığı [0.826, 1.864], tipik çarpan ×/÷ 1.148
+  R5 ANEES A1/A0 (N) : 0.078 [0.055, 0.101]  (n = 9, oran < 1: 9)
+  R5 ANEES A1/A0 (N′): 0.069 [0.059, 0.112]  (n = 9, oran < 1: 9)
+  karar notu (ön kayıt, Sapma 3 eki b): O/N ya da C/N medyanı, N′/N birim oranlarının [en küçük, en büyük] aralığının içindeyse karar 'sayısal gürültüden ayırt edilemiyor' notuyla raporlanır; eşikler değişmez
+  HD1  R0 ATE O/N (A0): medyan 1.001; N′/N birim aralığı [0.525, 1.748] (n = 9) -> sayısal gürültüden AYIRT EDİLEMİYOR
+  HD2a R5 ATE O/N (A0): medyan 0.406; N′/N birim aralığı [0.841, 1.227] (n = 9) -> aralığın dışında
+  HD4  R5 ATE C/N (A0): medyan 0.755; N′/N birim aralığı [0.841, 1.227] (n = 9) -> aralığın dışında
+
+== Betimsel oranlar ==
+  R0 ATE   O/N (A0): 1.001 [0.708, 1.376]  (n = 9, oran < 1: 4)
+  R0 ANEES O/N (A0): 0.660 [0.438, 1.318]  (n = 9, oran < 1: 7)
+  R0 ATE   O/N (A1): 0.915 [0.743, 1.155]  (n = 9, oran < 1: 7)
+  R0 ANEES O/N (A1): 0.694 [0.372, 1.427]  (n = 9, oran < 1: 6)
+  R0 ATE   O/N (A3): 1.134 [0.960, 1.362]  (n = 9, oran < 1: 2)
+  R0 ANEES O/N (A3): 0.959 [0.591, 1.441]  (n = 9, oran < 1: 5)
+  R0 ATE   A1/A0 (N): 1.004 [0.833, 1.177]  (n = 9, oran < 1: 4)
+  R0 ATE   A3/A0 (N): 0.971 [0.604, 1.185]  (n = 9, oran < 1: 5)
+  R0 ANEES A1/A0 (N): 0.075 [0.053, 0.086]  (n = 9, oran < 1: 9)
+  R0 ANEES A3/A0 (N): 0.269 [0.171, 0.384]  (n = 9, oran < 1: 9)
+  R0 ATE   A1/A0 (O): 1.008 [0.858, 1.194]  (n = 9, oran < 1: 4)
+  R0 ATE   A3/A0 (O): 1.044 [0.886, 1.211]  (n = 9, oran < 1: 3)
+  R0 ANEES A1/A0 (O): 0.080 [0.043, 0.124]  (n = 9, oran < 1: 9)
+  R0 ANEES A3/A0 (O): 0.317 [0.259, 0.450]  (n = 9, oran < 1: 9)
+  R0 ATE   N/temiz (A0): 13.067 [6.162, 17.194]  (n = 9, oran < 1: 0)
+  R5 ATE   O/N (A0): 0.406 [0.218, 0.833]  (n = 9, oran < 1: 9)
+  R5 ANEES O/N (A0): 0.295 [0.069, 0.590]  (n = 9, oran < 1: 9)
+  R5 ATE   O/N (A1): 0.533 [0.230, 0.755]  (n = 9, oran < 1: 9)
+  R5 ANEES O/N (A1): 0.355 [0.076, 0.487]  (n = 9, oran < 1: 8)
+  R5 ATE   O/N (A3): 0.461 [0.231, 0.716]  (n = 9, oran < 1: 8)
+  R5 ANEES O/N (A3): 0.383 [0.120, 0.777]  (n = 9, oran < 1: 9)
+  R5 ATE   C/N (A0): 0.755 [0.482, 1.034]  (n = 9, oran < 1: 7)
+  R5 ANEES C/N (A0): 0.541 [0.193, 0.687]  (n = 9, oran < 1: 8)
+  R5 ATE   C/N (A1): 0.708 [0.599, 1.242]  (n = 9, oran < 1: 7)
+  R5 ANEES C/N (A1): 0.453 [0.253, 0.795]  (n = 9, oran < 1: 9)
+  R5 ATE   C/N (A3): 0.625 [0.444, 0.926]  (n = 9, oran < 1: 8)
+  R5 ANEES C/N (A3): 0.469 [0.240, 1.008]  (n = 9, oran < 1: 7)
+  R5 ATE   A1/A0 (N): 0.958 [0.809, 1.143]  (n = 9, oran < 1: 5)
+  R5 ATE   A3/A0 (N): 1.023 [0.791, 1.143]  (n = 9, oran < 1: 3)
+  R5 ANEES A1/A0 (N): 0.078 [0.055, 0.101]  (n = 9, oran < 1: 9)
+  R5 ANEES A3/A0 (N): 0.260 [0.138, 0.325]  (n = 9, oran < 1: 9)
+  R5 ATE   A1/A0 (O): 1.070 [0.778, 1.342]  (n = 9, oran < 1: 4)
+  R5 ATE   A3/A0 (O): 1.140 [0.838, 1.452]  (n = 9, oran < 1: 3)
+  R5 ANEES A1/A0 (O): 0.102 [0.078, 0.137]  (n = 9, oran < 1: 9)
+  R5 ANEES A3/A0 (O): 0.402 [0.232, 0.514]  (n = 9, oran < 1: 9)
+  R5 ATE   A1/A0 (C): 1.087 [0.815, 1.416]  (n = 9, oran < 1: 3)
+  R5 ATE   A3/A0 (C): 0.961 [0.861, 1.052]  (n = 9, oran < 1: 6)
+  R5 ANEES A1/A0 (C): 0.077 [0.057, 0.097]  (n = 9, oran < 1: 9)
+  R5 ANEES A3/A0 (C): 0.284 [0.167, 0.338]  (n = 9, oran < 1: 9)
+  R5 ATE   N/temiz (A0): 13.700 [7.013, 25.662]  (n = 9, oran < 1: 0)
+  ATE   R5/R0 (N, A0): 1.317 [0.942, 1.797]  (n = 9, oran < 1: 2)
+
+== düzeyler: sekans medyanı ==
+  rejim mod kol   n_pencere  ATE_med[m]  ANEES_med  başarısız  sigma_hat_med(A3)
+  R0  N  A0     27      0.2260     1195.7     0       nan
+  R0  N  A1     27      0.1956       80.7     0       nan
+  R0  N  A3     27      0.1990      260.8     0     1.486
+  R0  Ni  A0     27      0.1641      763.5     0       nan
+  R0  Ni  A1     27      0.1762       60.3     0       nan
+  R0  O  A0     27      0.1894      727.6     0       nan
+  R0  O  A1     27      0.1578       61.3     0       nan
+  R0  O  A3     27      0.1757      235.4     0     1.411
+  R5  C  A0     27      0.1809      861.5     1       nan
+  R5  C  A1     27      0.1921       61.6     0       nan
+  R5  C  A3     27      0.1497      210.2     0     1.561
+  R5  N  A0     27      0.2543     1522.2     0       nan
+  R5  N  A1     27      0.2139       86.2     0       nan
+  R5  N  A3     27      0.2479      430.1     0     1.715
+  R5  Ni  A0     27      0.2736     1851.0     0       nan
+  R5  Ni  A1     27      0.2284      115.6     0       nan
+  R5  O  A0     27      0.0814      379.4     0       nan
+  R5  O  A1     27      0.1332       40.2     0       nan
+  R5  O  A3     27      0.1150      145.7     0     1.404
+
+== ön-uç istatistikleri (sekans ortalaması) ==
+  R0 N  n 9  kp1  223.8  stereo_es  83.66  ucgen  61.25  zamansal  113.2  aktif_derinlik   83.7  t_fe   253 s
+  R0 O  n 9  kp1  250.1  stereo_es  76.52  ucgen  56.71  zamansal  130.9  aktif_derinlik   91.7  t_fe   207 s
+  R5 C  n 9  kp1  248.1  stereo_es  79.40  ucgen  63.59  zamansal  123.5  aktif_derinlik   95.9  t_fe   176 s
+  R5 N  n 9  kp1  224.2  stereo_es  90.38  ucgen  67.03  zamansal  101.9  aktif_derinlik   84.9  t_fe   266 s
+  R5 O  n 9  kp1  250.7  stereo_es  75.35  ucgen  63.30  zamansal  128.9  aktif_derinlik   98.8  t_fe   202 s
+
+== görüntü düzeyi (temize göre; cam0, 20 karede bir) ==
+  R0 N  n 9  PSNR 22.51 dB  SSIM 0.737  RMS akış 4.497 px  dOrt -0.14 DN
+  R0 O  n 9  PSNR 22.48 dB  SSIM 0.748  RMS akış 3.819 px  dOrt +2.01 DN
+  R5 C  n 9  PSNR 23.46 dB  SSIM 0.778  RMS akış 3.502 px  dOrt +2.06 DN
+  R5 N  n 9  PSNR 23.18 dB  SSIM 0.756  RMS akış 4.299 px  dOrt -0.00 DN
+  R5 O  n 9  PSNR 24.23 dB  SSIM 0.798  RMS akış 3.101 px  dOrt +2.09 DN

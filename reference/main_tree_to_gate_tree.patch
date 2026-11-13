@@ -1,0 +1,220 @@
+--- pyeco_turb/config.py	2026-11-08 01:38:13.781127091 +0300
++++ pyeco_turb_kapi/config.py	2026-11-11 19:19:41.358927298 +0300
+@@ -429,6 +429,8 @@
+     ap.add_argument("--turb_dimm_version", type=int, default=int(tb.get("dimm_version", 2)))
+     ap.add_argument("--turb_dimm_sigma_scale", type=float, default=float(tb.get("dimm_sigma_scale", 1.0)))
+     ap.add_argument("--turb_ag_window", type=int, default=int(tb.get("ag_window", 60)))
++    ap.add_argument("--turb_gate", type=int, default=int(tb.get("gate", 0)),
++                    help="uyarlanır izleme kapısı: 0 kapalı | 1 gürültü grubu | 2 PnP eşiği | 3 ikisi (turb/backend.py)")
+     ap.add_argument("--turb_stats_out", default="")
+     # [TÜRBÜLANS/E5] pencere-göreli NEES kovaryans dökümü (boş = kapalı; kestirimi değiştirmez)
+     ap.add_argument("--cov_out", default="")
+--- pyeco_turb/gtsam_backend.py	2026-11-07 19:27:18.653155163 +0300
++++ pyeco_turb_kapi/gtsam_backend.py	2026-11-11 19:20:23.936986191 +0300
+@@ -365,9 +365,16 @@
+ 
+ def refine_pose_motion_only(T_init, obs, lm_world, K_gtsam, K_stereo, fx, baseline,
+                             meas_noise, stereo_noise, max_init_depth, args=None,
+-                            fy=None, cx=None, cy=None, return_outliers=False, init_skip=None):
++                            fy=None, cx=None, cy=None, return_outliers=False, init_skip=None, kapi=None):
+     """Motion-only BA ile poz rafinasyonu; chi2_reject açıksa iteratif χ² outlier elemesi.
+-    return_outliers=True ise (T_opt, gate) döner; gate = gevşek eşikle (chi2_gate_mult) grafa sokulmayacak landmark'lar."""
++    return_outliers=True ise (T_opt, gate) döner; gate = gevşek eşikle (chi2_gate_mult) grafa sokulmayacak landmark'lar.
++    kapi: [TÜRBÜLANS] uyarlanır izleme kapısı (mono sigma, stereo sigma); None ise args.px_noise / args.stereo_sigma."""
++    if kapi is not None:
++        _spx, _sst = float(kapi[0]), float(kapi[1])
++    elif args is not None:
++        _spx, _sst = float(args.px_noise), float(args.stereo_sigma)
++    else:
++        _spx = _sst = None
+     # init_skip: baslangic pozuyla tutarsiz gozlemler (PnP-RANSAC disi ya da ongoru penceresi disi)
+     # en bastan disarida; ORB-SLAM3 Tracking.cc:3700-3714 PoseOptimization'a yalniz RANSAC inlier'larini verir.
+     skip = set(init_skip) if init_skip else set()
+@@ -385,7 +392,7 @@
+             AUDIT['chi2_reject_rounds'] += 1
+             new_out = _chi2_outliers(
+                 T_opt, obs, lm_world, fx, fy, cx, cy, baseline, max_init_depth,
+-                float(args.px_noise), float(args.stereo_sigma),
++                _spx, _sst,
+                 float(args.chi2_thresh_mono), float(args.chi2_thresh_stereo))
+             if new_out <= skip:
+                 break
+@@ -404,7 +411,7 @@
+         mult = float(getattr(args, 'chi2_gate_mult', 9.0))
+         gate = _chi2_outliers(
+             T_opt, obs, lm_world, fx, fy, cx, cy, baseline, max_init_depth,
+-            float(args.px_noise), float(args.stereo_sigma),
++            _spx, _sst,
+             float(args.chi2_thresh_mono) * mult, float(args.chi2_thresh_stereo) * mult)
+         AUDIT['gate_calls'] += 1
+         AUDIT['gate_lids'] += len(gate)
+@@ -521,6 +528,10 @@
+         _MOBA_NP = {'fx': fx, 'fy': fy, 'cx': cx, 'cy': cy, 'b': baseline,
+                     'sm': float(args.px_noise), 'km': float(getattr(args, 'huber_mono_k', 1.345)),
+                     'ss': float(args.stereo_sigma), 'ks': float(getattr(args, 'huber_stereo_k', 0.0) or 0.0)}
++    # [TÜRBÜLANS] uyarlanır izleme kapısı durumu (--turb_gate; turb/backend.py belgesi). Kapalıyken değerler PyEco'nun
++    # kendi argümanlarıdır ve hiç değişmez; açıkken kare başında kolun son graf karesi sigmalarıyla güncellenir.
++    _kapi = {'sm': float(args.px_noise), 'ss': float(args.stereo_sigma), 'pnp': args.pnp_reproj,
++             'mn': meas_noise, 'sn': stereo_noise, 'sig': None}
+ 
+     def _kare_gurultu(fr):
+         """Aday 3: S_d > tau karede piksel gurultusu m = 1 + (S_d - tau)/(1 - tau) katina cikar; aksi halde taban."""
+@@ -846,7 +857,7 @@
+         obj_ = np.array([harita_p[lids_[j_]] for j_, _ in sec_], dtype=np.float64)
+         img_ = np.array([kps_[k_] for _, k_ in sec_], dtype=np.float64)
+         ok_, rv_, tv_, inl_ = cv2.solvePnPRansac(obj_.reshape(-1, 1, 3), img_.reshape(-1, 1, 2), K_cv, None,
+-                                                 reprojectionError=args.pnp_reproj,
++                                                 reprojectionError=_kapi['pnp'],
+                                                  iterationsCount=int(getattr(args, 'pnp_iters', 200)),
+                                                  confidence=float(getattr(args, 'pnp_confidence', 0.99)),
+                                                  flags=cv2.SOLVEPNP_ITERATIVE)
+@@ -914,6 +925,12 @@
+               f"sigma_oracle={turb_builder.c.sigma_px_oracle:.3f}px, robust: Huber mono "
+               f"{turb_builder.c.huber_mono_k:g} / stereo {turb_builder.c.huber_stereo_k:g}, gözlem başına)")
+     _tb_pf = turb_builder.model_for if (turb_builder is not None and turb_builder.c.arm == 'A2') else None
++    _turb_gate = int(getattr(args, 'turb_gate', 0) or 0)
++    if _turb_gate and turb_builder is None:
++        raise ValueError("turb_gate bir türbülans kolu ister (turb_arm != A0)")
++    if _turb_gate:
++        print(f"UYARLANIR İZLEME KAPISI: turb_gate={_turb_gate} (bit 1: motion-only BA + chi2 kapıları + harita süzgeci; "
++              f"bit 2: PnP eşiği); ölçek = kolun son graf karesi sigması")
+     # [TÜRBÜLANS/E5] pencere-göreli NEES: graf karelerinin faktörlerinin yuvarlanan geçmişi (yalnız --cov_out)
+     cov_out = str(getattr(args, 'cov_out', '') or '')
+     cov_every = max(1, int(getattr(args, 'cov_every', 1) or 1))
+@@ -928,6 +945,16 @@
+         frame_ts.append(ts)
+         obs = fr['obs']  # (N,8): id,u,v,has_depth,fresh_depth,X,Y,Z
+         f_meas, f_stereo = _kare_gurultu(fr)   # aday 3; kapaliyken meas_noise, stereo_noise
++        if _turb_gate and f > 0:
++            # [TÜRBÜLANS] izleme, f'ten önceki son graf karesinin kol sigmalarını kullanır (nedensel)
++            _gsm, _gss = turb_builder.gate_sigmas()
++            if _turb_gate & 1:
++                _kapi['sm'], _kapi['ss'], _kapi['sig'] = _gsm, _gss, (_gsm, _gss)
++                _kapi['mn'], _kapi['sn'] = turb_builder.gate_models()
++                if _MOBA_NP is not None:
++                    _MOBA_NP['sm'], _MOBA_NP['ss'] = _gsm, _gss
++            if _turb_gate & 2:
++                _kapi['pnp'] = float(args.pnp_reproj) * _gsm / float(args.px_noise)
+         AUDIT['frames'] += 1
+         AUDIT['obs_total'] += len(obs)
+         if obs.shape[0] and bool(np.any(obs[:, 4] > 0.5)):
+@@ -973,7 +1000,7 @@
+                 img_pts = np.asarray(img_pts, dtype=np.float64)
+                 ok, rvec, tvec, inliers = cv2.solvePnPRansac(
+                     obj_pts.reshape(-1, 1, 3), img_pts.reshape(-1, 1, 2), K_cv, None,
+-                    reprojectionError=args.pnp_reproj, iterationsCount=int(getattr(args, 'pnp_iters', 200)),
++                    reprojectionError=_kapi['pnp'], iterationsCount=int(getattr(args, 'pnp_iters', 200)),
+                     confidence=float(getattr(args, 'pnp_confidence', 0.99)),
+                     flags=cv2.SOLVEPNP_ITERATIVE)
+                 # inlier kapısı; pnp_min_inlier_frac>0 ise adaylarla oransal (6 ile min_inl arası)
+@@ -1043,8 +1070,8 @@
+                     AUDIT['moba_kapi_disari'] += len(init_skip)
+                 T_WC, chi2_skip = refine_pose_motion_only(
+                     T_WC, obs, lm_world, K_gtsam, K_stereo, fx,
+-                    baseline, meas_noise, stereo_noise, args.max_init_depth,
+-                    args=args, fy=fy, cx=cx, cy=cy, return_outliers=True, init_skip=init_skip)
++                    baseline, _kapi['mn'], _kapi['sn'], args.max_init_depth,
++                    args=args, fy=fy, cx=cx, cy=cy, return_outliers=True, init_skip=init_skip, kapi=_kapi['sig'])
+                 culler.on_chi2_outliers(chi2_skip)
+                 if int(getattr(args, 'izleme_basari', 0)) and f > 0:
+                     # Izleme basari olcutu: poz en az izleme_basari_min inlier gozlemle desteklenmeli
+@@ -1092,12 +1119,12 @@
+                         lmw_aug.update({l: harita_p[l] for l in yh_es})
+                         _skip0 = set() if _kayip else set(chi2_skip)
+                         T_yh, _gate = refine_pose_motion_only(
+-                            _T0, obs_aug, lmw_aug, K_gtsam, K_stereo, fx, baseline, meas_noise, stereo_noise,
++                            _T0, obs_aug, lmw_aug, K_gtsam, K_stereo, fx, baseline, _kapi['mn'], _kapi['sn'],
+                             args.max_init_depth, args=args, fy=fy, cx=cx, cy=cy, return_outliers=True,
+-                            init_skip=_skip0)
++                            init_skip=_skip0, kapi=_kapi['sig'])
+                         # ORB3 PoseOptimization sonrasi chi2 > 5.991 eslesme aykiri: haritadan gelen eslesmeler suzulur
+                         _TCW = np.linalg.inv(T_yh)
+-                        _th = float(args.chi2_thresh_mono) * float(args.px_noise) ** 2
++                        _th = float(args.chi2_thresh_mono) * _kapi['sm'] ** 2
+                         for l in list(yh_es):
+                             _pc = _TCW[:3, :3] @ harita_p[l] + _TCW[:3, 3]
+                             if _pc[2] <= 1e-3:
+--- pyeco_turb/turb/backend.py	2026-11-07 19:27:18.652086823 +0300
++++ pyeco_turb_kapi/turb/backend.py	2026-11-11 19:19:41.358482024 +0300
+@@ -40,6 +40,15 @@
+ noktasında, yalnız gürültü modelini değiştirerek ekler; böylece faktör sırası A0 ile
+ aynı kalır ve A1, D/r0=0'da A0 ile BİT DÜZEYİNDE aynıdır (P13). Yama kolları
+ gözlemleri kare sonunda gruplayıp `flush` ile ekler.
++
++UYARLANIR İZLEME KAPISI (`gate`, 2026-11-11; varsayılan 0 = kapalı, yukarıdaki KAPSAM
++aynen geçerli). gate > 0 iken izleme de kolun ölçüm ölçeğini kullanır: kare f'in izlemesi,
++f'ten önceki SON graf karesinin bireysel-faktör sigmalarını (mono, stereo) alır
++(`gate_sigmas`; nedensel, kestirici çağrı düzeni değişmez).
++    bit 1: motion-only BA gürültüsü, chi2 ayıklama ve graf kapısı, yerel harita chi2 süzgeci
++    bit 2: PnP-RANSAC yeniden-izdüşüm eşiği (pnp_reproj * sigma_mono / px_noise)
++Sabit ölçekli kolda (A0C, k) gate = 3, A0'ın `--px_noise k --stereo_sigma k
++--pnp_reproj k*pnp_reproj` ile koşulmasına bit düzeyinde eşittir (eşdeğerlik kapısı).
+ """
+ from __future__ import annotations
+ 
+@@ -83,6 +92,7 @@
+     sigma_floor_px: float = 0.05
+     huber_mono_k: float = 2.4477
+     huber_stereo_k: float = 2.7955
++    gate: int = 0
+ 
+     @property
+     def theta_c(self) -> float:
+@@ -145,6 +155,9 @@
+         self._ag_rms = np.nan
+         self._models = {}             # (mono_sigma, stereo_sigma) -> (mono_model, stereo_model)
+         self.cur_sigma_turb = 0.0
++        self.gate = int(cfg.gate or 0)
++        self._gate_sig = (self.px_noise, self.stereo_sigma)   # ilk graf karesinden önce: taban
++        self._gate_used = []          # kapı açıkken izlemede kullanılan mono sigma (kare başına)
+         self.stats = {"arm": cfg.arm, "n_patch_factors": 0, "n_patch_single": 0,
+                       "n_patch_uncorrelated": 0, "n_obs_patch": 0, "n_fac_inline": 0,
+                       "sigma_hat": [], "theta_c_hat": [], "r0_hat": [], "dimm_pinned": 0,
+@@ -229,8 +242,19 @@
+         self.cur_sigma_turb = float(s_t)
+         self.stats["sigma_turb_used"].append(float(s_t))
+         self._cur = self._model_pair(sm, ss)
++        self._gate_sig = (float(sm), float(ss))
+         return self._cur
+ 
++    def gate_sigmas(self):
++        """Uyarlanır izleme kapısı: SON graf karesinin bireysel-faktör sigmaları (mono, stereo) [px].
++        İlk graf karesinden önce PyEco tabanı. Kestiricileri çağırmaz (yan etkisi yalnız sayaç)."""
++        self._gate_used.append(self._gate_sig[0])
++        return self._gate_sig
++
++    def gate_models(self):
++        """gate_sigmas() ölçeğinde (mono, stereo) robust model (GTSAM motion-only BA yolu için)."""
++        return self._model_pair(*self._gate_sig)
++
+     def model_for(self, lid, stereo: bool):
+         """A2: iz artığından öznitelik başına model; diğer kollarda karenin modeli."""
+         if self.c.arm != "A2":
+@@ -364,6 +388,14 @@
+         s["cal_factor"] = self.c.cal_factor
+         s["dimm_version"] = int(self.c.dimm_version)
+         s["dimm_sigma_scale"] = float(self.c.dimm_sigma_scale)
++        if self.gate:
++            g = np.array(self._gate_used, dtype=float)
++            s["gate"] = int(self.gate)
++            s["gate_sigma_n"] = int(g.size)
++            for k, q in (("min", 0), ("q25", 25), ("median", 50), ("q75", 75), ("max", 100)):
++                s["gate_sigma_" + k] = float(np.percentile(g, q)) if g.size else float("nan")
++            s["gate_sigma_mean"] = float(g.mean()) if g.size else float("nan")
++            s["gate_sigma_son"] = float(g[-1]) if g.size else float("nan")
+         return s
+ 
+ 
+@@ -398,7 +430,12 @@
+         ag_window=int(getattr(args, "turb_ag_window", 60)),
+         huber_mono_k=float(getattr(args, "huber_mono_k", 1.345)),
+         huber_stereo_k=float(getattr(args, "huber_stereo_k", 0.0) or 0.0),
++        gate=int(getattr(args, "turb_gate", 0) or 0),
+     )
++    if cfg.gate not in (0, 1, 2, 3):
++        raise ValueError(f"turb_gate 0..3 olmalı: {cfg.gate}")
++    if cfg.gate and arm == "A2":
++        raise ValueError("turb_gate, öznitelik-başına kol A2 ile tanımlı değil")
+     return TurbMeasurementBuilder(cfg, fx, fy, cx, cy, baseline,
+                                   float(args.px_noise), float(args.stereo_sigma),
+                                   K_gtsam, K_stereo)

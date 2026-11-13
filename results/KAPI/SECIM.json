@@ -1,0 +1,35 @@
+{
+ "aday": "D1",
+ "c": 1.0,
+ "gate": 3,
+ "kol": "A0C+A3",
+ "argv": [
+  "--turb_cal_factor",
+  "1.0",
+  "--turb_dimm_sigma_scale",
+  "1.0",
+  "--turb_gate",
+  "3"
+ ],
+ "sigma_taban": 0.05,
+ "code_fp": "bedca2849bb2",
+ "kural": "ON_BEYAN_3.md §3 kural 2: ikisi de geçer; medyan oranların oranı D2/D1 = 1.019 in [0.90, 1.10] -> D1",
+ "gelistirme": {
+  "veri": "tohum 0, R0, D/r0 8, 9 sekans (KEŞİF)",
+  "D1_A0_ate": 0.512,
+  "D1_lt1": "9/9",
+  "D2_A0_ate": 0.522,
+  "D2_lt1": "8/9",
+  "basarisiz_D1": "0/27",
+  "basarisiz_D2": "0/27"
+ },
+ "sha256": {
+  "ON_BEYAN_3.md": "598ebfac7aba46d838911d03ba2375d089803e224bbd75b2d6f7540cdde5d698",
+  "gelistirme.jsonl": "31aef8be4847d2f1713db84cee3931fadc42e8cbdfe61ee278e32f9c0b087b61",
+  "on_test.jsonl": "a3f5dc4cb64dab71416f92c67ad828d1ad089104d9cfe9f21e9b0589bf2fe3a2",
+  "on_test_a3.jsonl": "72953a907ee020d2da5d21b6aecddc0cebece944c56b54a7b2e0c76f4fbe69c6",
+  "gelistirme_analiz.txt": "bf34585782bd61e5413373857f1c72638187fdaab4337b676603515db805e312",
+  "SONUC_GELISTIRME.md": "c6493f76b162cca2df01456fabecac7a4ff2ca0b6e0817b1d358aeafbedbb765"
+ },
+ "zaman": "2026-11-11 20:46:52"
+}

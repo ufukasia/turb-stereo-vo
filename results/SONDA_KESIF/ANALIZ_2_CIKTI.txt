@@ -1,0 +1,57 @@
+[analiz2] <project>/pyeco_turb/evidence/SONDA_KESIF/kapi2.jsonl: 87 kayıt (beklenen 87), hücre hatası 0, eksik koşum 0; code_fp {'08e28b83407c': 87}
+  K   kayıt  6; status ok 6; m_valid 6; n_valid 6; ıraksayan 0
+  Gd  kayıt 27; status ok 27; m_valid 27; n_valid 27; ıraksayan 0
+  Gn  kayıt 27; status ok 27; m_valid 27; n_valid 27; ıraksayan 0
+  Gp  kayıt 27; status ok 27; m_valid 27; n_valid 27; ıraksayan 0
+
+== B1: K kayıtları ilk sondanın A0g kayıtlarıyla bit-aynı: 6/6 ==
+
+== ATE (m_ate_se3): medyan eşli oran [en küçük, en büyük sekans] (oranı < 1 olan sekans / sekans) ==
+  A0g / A0 :  0.517 [0.38, 0.94] (9/9)
+  A1  / A0 :  1.214 [0.76, 1.71] (3/9)
+  Gd  / A0 :  0.492 [0.36, 0.89] (9/9)
+  Gn  / A0 :  0.483 [0.37, 1.00] (8/9)
+  Gp  / A0 :  1.051 [0.77, 1.32] (3/9)
+  Gd  / A0g:  0.988 [0.85, 1.13] (5/9)
+  Gn  / A0g:  1.017 [0.92, 1.28] (3/9)
+  Gp  / A0g:  2.252 [1.01, 3.44] (0/9)
+  Gd  / A1 :  0.467 [0.26, 1.05] (8/9)
+  Gn  / A1 :  0.503 [0.24, 1.21] (8/9)
+
+== konum ANEES'i (n_nees_pos_mean): medyan eşli oran [en küçük, en büyük sekans] (oranı < 1 olan sekans / sekans) ==
+  A0g / A0 :  0.044 [0.02, 0.38] (9/9)
+  A1  / A0 :  0.101 [0.06, 0.18] (9/9)
+  Gd  / A0 :  0.067 [0.04, 0.82] (9/9)
+  Gn  / A0 :  0.049 [0.02, 0.35] (9/9)
+  Gp  / A0 :  0.886 [0.72, 2.14] (7/9)
+  Gd  / A0g:  1.869 [1.54, 2.17] (0/9)
+  Gn  / A0g:  1.087 [0.85, 1.79] (4/9)
+  Gp  / A0g: 18.643 [5.60, 40.70] (0/9)
+  Gd  / A1 :  0.940 [0.31, 4.58] (6/9)
+  Gn  / A1 :  0.560 [0.16, 1.98] (7/9)
+
+== sekans bazında ATE oranı (varyant / A0) ==
+  A0g: {'MH01': 0.48, 'V1_01_easy': 0.798, 'MH02': 0.517, 'V1_02_medium': 0.719, 'MH03': 0.396, 'V2_01_easy': 0.943, 'MH04': 0.426, 'V2_02_medium': 0.56, 'MH05': 0.384}
+  Gd : {'MH01': 0.492, 'V1_01_easy': 0.714, 'MH02': 0.448, 'V1_02_medium': 0.803, 'MH03': 0.427, 'V2_01_easy': 0.891, 'MH04': 0.36, 'V2_02_medium': 0.631, 'MH05': 0.379}
+  Gn : {'MH01': 0.483, 'V1_01_easy': 0.946, 'MH02': 0.475, 'V1_02_medium': 0.921, 'MH03': 0.369, 'V2_01_easy': 1.002, 'MH04': 0.419, 'V2_02_medium': 0.616, 'MH05': 0.39}
+  Gp : {'MH01': 1.082, 'V1_01_easy': 0.841, 'MH02': 1.322, 'V1_02_medium': 1.042, 'MH03': 1.098, 'V2_01_easy': 0.95, 'MH04': 1.051, 'V2_02_medium': 0.769, 'MH05': 1.318}
+
+== düzeyler: medyan ATE [m] / medyan konum ANEES'i / başarısız pencere / n ==
+  A0    0.1339 /    909.8 / 0 / 27
+  A1    0.1974 /     90.3 / 0 / 27
+  A0g   0.1052 /     39.2 / 0 / 27
+  Gd    0.0860 /     64.0 / 0 / 27
+  Gn    0.1116 /     41.7 / 0 / 27
+  Gp    0.1483 /    809.5 / 0 / 27
+
+== ön beyan kuralları (B3-B6) ==
+  B3 (Q1) Gd / A0 ATE:  0.492 [0.36, 0.89] (9/9); beklenen 0.50-0.80; kural (<= 0.85 ve >= 7/9): TUTTU
+          Gd / A0g ATE:  0.988 [0.85, 1.13] (5/9); beklenen 1.0-1.5
+  B4 (Q2) Gn / A0 ATE:  0.483 [0.37, 1.00] (8/9); beklenen 0.55-0.90; taşıyor mu: EVET
+          Gp / A0 ATE:  1.051 [0.77, 1.32] (3/9); beklenen 0.85-1.15; taşıyor mu: HAYIR
+  B5 Gn / A0 konum ANEES'i:  0.049 [0.02, 0.35] (9/9); beklenen < 0.3
+  B5 Gd / A0 konum ANEES'i:  0.067 [0.04, 0.82] (9/9); beklenen < 0.3
+  B5 Gp / A0 konum ANEES'i:  0.886 [0.72, 2.14] (7/9); beklenen 0.5-1.5
+  B6 Gd: ıraksayan / başarısız pencere 0/27 (beklenen <= 1/27)
+  B6 Gn: ıraksayan / başarısız pencere 0/27 (beklenen <= 1/27)
+  B6 Gp: ıraksayan / başarısız pencere 0/27 (beklenen <= 1/27)

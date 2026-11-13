@@ -1,0 +1,496 @@
+[plan] 45 hücre, 135 rakip koşumu; tamamlanmış 3, kalan 132; kapılar: {'gpu': {'index': 1, 'uuid': 'GPU-9644c99d-b81c-4d78-6b84-24024c097929', 'name': 'NVIDIA GeForce RTX 3090', 'free_mb': 15726, 'bus': '00000000:2B:00.0'}, 'cikti_bos_gb': 880.0, 'sorun': []}
+[manifest] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/manifest_20261111_110230.json  kimlik_fp=2e0701051eb2
+[üretim] MH01__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 74.1 s, 0.72 GB, sha256 2418dc4933e2
+[orbslam3_si] MH01 dr4 s0 onek w721 r0: durum=ok ATE=0.0249 kapsam=1.000 ok  (129 s, yük 24.5)
+[orbslam3_si] MH01 dr4 s0 onek w1121 r0: durum=ok ATE=0.0820 kapsam=1.000 ok  (129 s, yük 24.5)
+[orbslam3_si] MH01 dr4 s0 onek w1521 r0: durum=ok ATE=0.0304 kapsam=1.000 ok  (129 s, yük 24.5)
+[orbslam3_si] MH01 dr4 s0 onek w721 r1: durum=ok ATE=0.0218 kapsam=1.000 ok  (116 s, yük 22.4)
+[orbslam3_si] MH01 dr4 s0 onek w1121 r1: durum=ok ATE=0.0854 kapsam=1.000 ok  (116 s, yük 22.4)
+[orbslam3_si] MH01 dr4 s0 onek w1521 r1: durum=ok ATE=0.0281 kapsam=1.000 ok  (116 s, yük 22.4)
+[orbslam3_si] MH01 dr4 s0 onek w721 r2: durum=ok ATE=0.0252 kapsam=1.000 ok  (122 s, yük 10.2)
+[orbslam3_si] MH01 dr4 s0 onek w1121 r2: durum=ok ATE=0.0715 kapsam=1.000 ok  (122 s, yük 10.2)
+[orbslam3_si] MH01 dr4 s0 onek w1521 r2: durum=ok ATE=0.0312 kapsam=1.000 ok  (122 s, yük 10.2)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 18 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 18}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:    9 pencere, başarısız   0 (0%), ATE medyan 0.0191 m, koşum süresi medyan 116 s
+  orbslam3_si D/r0=   4:    9 pencere, başarısız   0 (0%), ATE medyan 0.0304 m, koşum süresi medyan 122 s
+[denetim] TAMAM
+[üretim] MH01__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 75.5 s, 0.68 GB, sha256 512641a71478
+[orbslam3_si] MH01 dr8 s0 onek w721 r0: durum=ok ATE=0.0282 kapsam=1.000 ok  (127 s, yük 15.3)
+[orbslam3_si] MH01 dr8 s0 onek w1121 r0: durum=ok ATE=0.1277 kapsam=1.000 ok  (127 s, yük 15.3)
+[orbslam3_si] MH01 dr8 s0 onek w1521 r0: durum=ok ATE=0.0475 kapsam=1.000 ok  (127 s, yük 15.3)
+[orbslam3_si] MH01 dr8 s0 onek w721 r1: durum=ok ATE=0.0307 kapsam=1.000 ok  (116 s, yük 15.9)
+[orbslam3_si] MH01 dr8 s0 onek w1121 r1: durum=ok ATE=0.1394 kapsam=1.000 ok  (116 s, yük 15.9)
+[orbslam3_si] MH01 dr8 s0 onek w1521 r1: durum=ok ATE=0.0497 kapsam=1.000 ok  (116 s, yük 15.9)
+[orbslam3_si] MH01 dr8 s0 onek w721 r2: durum=ok ATE=0.0260 kapsam=1.000 ok  (120 s, yük 9.6)
+[orbslam3_si] MH01 dr8 s0 onek w1121 r2: durum=ok ATE=0.1227 kapsam=1.000 ok  (120 s, yük 9.6)
+[orbslam3_si] MH01 dr8 s0 onek w1521 r2: durum=ok ATE=0.0448 kapsam=1.000 ok  (120 s, yük 9.6)
+[üretim] MH01__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 69.7 s, 0.65 GB, sha256 2e13515fbd09
+[orbslam3_si] MH01 dr16 s0 onek w721 r0: durum=ok ATE=0.2830 kapsam=0.573 basarisiz kapsam 0.573 < 0.9 (126 s, yük 21.0)
+[orbslam3_si] MH01 dr16 s0 onek w1121 r0: durum=ok ATE=1.5337 kapsam=1.000 ok  (126 s, yük 21.0)
+[orbslam3_si] MH01 dr16 s0 onek w1521 r0: durum=ok ATE=0.0887 kapsam=1.000 ok  (126 s, yük 21.0)
+[orbslam3_si] MH01 dr16 s0 onek w721 r1: durum=ok ATE=0.2409 kapsam=0.573 basarisiz kapsam 0.573 < 0.9 (116 s, yük 18.8)
+[orbslam3_si] MH01 dr16 s0 onek w1121 r1: durum=ok ATE=0.8524 kapsam=1.000 ok  (116 s, yük 18.8)
+[orbslam3_si] MH01 dr16 s0 onek w1521 r1: durum=ok ATE=0.0920 kapsam=1.000 ok  (116 s, yük 18.8)
+[orbslam3_si] MH01 dr16 s0 onek w721 r2: durum=ok ATE=2.4939 kapsam=0.573 basarisiz kapsam 0.573 < 0.9; yayilim 2.550 bant disi; max_err 5.17 m > 5.0 (117 s, yük 8.3)
+[orbslam3_si] MH01 dr16 s0 onek w1121 r2: durum=ok ATE=1.0031 kapsam=1.000 ok  (117 s, yük 8.3)
+[orbslam3_si] MH01 dr16 s0 onek w1521 r2: durum=ok ATE=0.0992 kapsam=1.000 ok  (117 s, yük 8.3)
+[üretim] MH01__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 71.3 s, 0.63 GB, sha256 941c4d3b67f7
+[orbslam3_si] MH01 dr24 s0 onek w721 r0: durum=ok ATE=1.0724 kapsam=0.573 basarisiz kapsam 0.573 < 0.9 (119 s, yük 18.0)
+[orbslam3_si] MH01 dr24 s0 onek w1121 r0: durum=ok ATE=0.2870 kapsam=1.000 ok  (119 s, yük 18.0)
+[orbslam3_si] MH01 dr24 s0 onek w1521 r0: durum=ok ATE=19.7051 kapsam=1.000 basarisiz yayilim 14.656 bant disi; max_err 20.89 m > 5.0 (119 s, yük 18.0)
+[orbslam3_si] MH01 dr24 s0 onek w721 r1: durum=ok ATE=0.2127 kapsam=0.497 basarisiz kapsam 0.497 < 0.9 (115 s, yük 16.3)
+[orbslam3_si] MH01 dr24 s0 onek w1121 r1: durum=ok ATE=0.2299 kapsam=1.000 ok  (115 s, yük 16.3)
+[orbslam3_si] MH01 dr24 s0 onek w1521 r1: durum=ok ATE=0.1248 kapsam=1.000 ok  (115 s, yük 16.3)
+[orbslam3_si] MH01 dr24 s0 onek w721 r2: durum=ok ATE=0.2169 kapsam=0.398 basarisiz kapsam 0.398 < 0.9 (114 s, yük 10.1)
+[orbslam3_si] MH01 dr24 s0 onek w1121 r2: durum=ok ATE=0.9422 kapsam=1.000 ok  (114 s, yük 10.1)
+[orbslam3_si] MH01 dr24 s0 onek w1521 r2: durum=ok ATE=0.2044 kapsam=1.000 ok  (114 s, yük 10.1)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 45 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 45}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:    9 pencere, başarısız   0 (0%), ATE medyan 0.0191 m, koşum süresi medyan 116 s
+  orbslam3_si D/r0=   4:    9 pencere, başarısız   0 (0%), ATE medyan 0.0304 m, koşum süresi medyan 122 s
+  orbslam3_si D/r0=   8:    9 pencere, başarısız   0 (0%), ATE medyan 0.0475 m, koşum süresi medyan 120 s
+  orbslam3_si D/r0=  16:    9 pencere, başarısız   3 (33%), ATE medyan 0.4758 m, koşum süresi medyan 117 s
+  orbslam3_si D/r0=  24:    9 pencere, başarısız   4 (44%), ATE medyan 0.2299 m, koşum süresi medyan 115 s
+[denetim] TAMAM
+[üretim] MH02__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1800 36.1 s, 0.77 GB, sha256 91ca063fb901
+[orbslam3_si] MH02 dr0 s0 onek w600 r0: durum=ok ATE=0.0109 kapsam=1.000 ok  (111 s, yük 13.9)
+[orbslam3_si] MH02 dr0 s0 onek w1000 r0: durum=ok ATE=0.0177 kapsam=1.000 ok  (111 s, yük 13.9)
+[orbslam3_si] MH02 dr0 s0 onek w1400 r0: durum=ok ATE=0.0242 kapsam=1.000 ok  (111 s, yük 13.9)
+[orbslam3_si] MH02 dr0 s0 onek w600 r1: durum=ok ATE=0.0133 kapsam=1.000 ok  (111 s, yük 11.4)
+[orbslam3_si] MH02 dr0 s0 onek w1000 r1: durum=ok ATE=0.0168 kapsam=1.000 ok  (111 s, yük 11.4)
+[orbslam3_si] MH02 dr0 s0 onek w1400 r1: durum=ok ATE=0.0212 kapsam=1.000 ok  (111 s, yük 11.4)
+[orbslam3_si] MH02 dr0 s0 onek w600 r2: durum=ok ATE=0.2008 kapsam=1.000 ok  (112 s, yük 10.6)
+[orbslam3_si] MH02 dr0 s0 onek w1000 r2: durum=ok ATE=0.0150 kapsam=1.000 ok  (112 s, yük 10.6)
+[orbslam3_si] MH02 dr0 s0 onek w1400 r2: durum=ok ATE=0.0237 kapsam=1.000 ok  (112 s, yük 10.6)
+[üretim] MH02__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1800 52.4 s, 0.68 GB, sha256 f5d4c181ed39
+[orbslam3_si] MH02 dr4 s0 onek w600 r0: durum=ok ATE=0.0157 kapsam=1.000 ok  (121 s, yük 14.2)
+[orbslam3_si] MH02 dr4 s0 onek w1000 r0: durum=ok ATE=0.0415 kapsam=1.000 ok  (121 s, yük 14.2)
+[orbslam3_si] MH02 dr4 s0 onek w1400 r0: durum=ok ATE=0.0417 kapsam=1.000 ok  (121 s, yük 14.2)
+[orbslam3_si] MH02 dr4 s0 onek w600 r1: durum=ok ATE=0.0154 kapsam=1.000 ok  (109 s, yük 19.1)
+[orbslam3_si] MH02 dr4 s0 onek w1000 r1: durum=ok ATE=0.0374 kapsam=1.000 ok  (109 s, yük 19.1)
+[orbslam3_si] MH02 dr4 s0 onek w1400 r1: durum=ok ATE=0.0390 kapsam=1.000 ok  (109 s, yük 19.1)
+[orbslam3_si] MH02 dr4 s0 onek w600 r2: durum=ok ATE=0.0148 kapsam=1.000 ok  (112 s, yük 12.2)
+[orbslam3_si] MH02 dr4 s0 onek w1000 r2: durum=ok ATE=0.0323 kapsam=1.000 ok  (112 s, yük 12.2)
+[orbslam3_si] MH02 dr4 s0 onek w1400 r2: durum=ok ATE=0.0308 kapsam=1.000 ok  (112 s, yük 12.2)
+[üretim] MH02__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1800 73.9 s, 0.64 GB, sha256 58b7e1c3c5d3
+[orbslam3_si] MH02 dr8 s0 onek w600 r0: durum=ok ATE=0.0186 kapsam=1.000 ok  (120 s, yük 17.2)
+[orbslam3_si] MH02 dr8 s0 onek w1000 r0: durum=ok ATE=0.0334 kapsam=1.000 ok  (120 s, yük 17.2)
+[orbslam3_si] MH02 dr8 s0 onek w1400 r0: durum=ok ATE=0.0393 kapsam=1.000 ok  (120 s, yük 17.2)
+[orbslam3_si] MH02 dr8 s0 onek w600 r1: durum=ok ATE=0.0892 kapsam=1.000 ok  (109 s, yük 21.0)
+[orbslam3_si] MH02 dr8 s0 onek w1000 r1: durum=ok ATE=0.0267 kapsam=1.000 ok  (109 s, yük 21.0)
+[orbslam3_si] MH02 dr8 s0 onek w1400 r1: durum=ok ATE=0.0792 kapsam=1.000 ok  (109 s, yük 21.0)
+[orbslam3_si] MH02 dr8 s0 onek w600 r2: durum=ok ATE=0.0364 kapsam=1.000 ok  (112 s, yük 10.2)
+[orbslam3_si] MH02 dr8 s0 onek w1000 r2: durum=ok ATE=0.0344 kapsam=1.000 ok  (112 s, yük 10.2)
+[orbslam3_si] MH02 dr8 s0 onek w1400 r2: durum=ok ATE=0.0533 kapsam=1.000 ok  (112 s, yük 10.2)
+[üretim] MH02__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1800 74.1 s, 0.61 GB, sha256 5487aedb4037
+[orbslam3_si] MH02 dr16 s0 onek w600 r0: durum=ok ATE=0.3448 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (117 s, yük 20.9)
+[orbslam3_si] MH02 dr16 s0 onek w1000 r0: durum=ok ATE=0.8438 kapsam=1.000 ok  (117 s, yük 20.9)
+[orbslam3_si] MH02 dr16 s0 onek w1400 r0: durum=ok ATE=0.1950 kapsam=1.000 ok  (117 s, yük 20.9)
+[orbslam3_si] MH02 dr16 s0 onek w600 r1: durum=ok ATE=0.2311 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (107 s, yük 15.8)
+[orbslam3_si] MH02 dr16 s0 onek w1000 r1: durum=ok ATE=0.2503 kapsam=1.000 ok  (107 s, yük 15.8)
+[orbslam3_si] MH02 dr16 s0 onek w1400 r1: durum=ok ATE=0.1987 kapsam=1.000 ok  (107 s, yük 15.8)
+[orbslam3_si] MH02 dr16 s0 onek w600 r2: durum=ok ATE=0.2509 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (112 s, yük 16.6)
+[orbslam3_si] MH02 dr16 s0 onek w1000 r2: durum=ok ATE=0.5460 kapsam=1.000 ok  (112 s, yük 16.6)
+[orbslam3_si] MH02 dr16 s0 onek w1400 r2: durum=ok ATE=0.1772 kapsam=1.000 ok  (112 s, yük 16.6)
+[üretim] MH02__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1800 72.8 s, 0.59 GB, sha256 8bb9d6a376fb
+[orbslam3_si] MH02 dr24 s0 onek w600 r0: durum=ok ATE=0.1544 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (116 s, yük 21.0)
+[orbslam3_si] MH02 dr24 s0 onek w1000 r0: durum=ok ATE=0.8135 kapsam=1.000 ok  (116 s, yük 21.0)
+[orbslam3_si] MH02 dr24 s0 onek w1400 r0: durum=ok ATE=0.1126 kapsam=1.000 ok  (116 s, yük 21.0)
+[orbslam3_si] MH02 dr24 s0 onek w600 r1: durum=ok ATE=0.1168 kapsam=1.000 ok  (107 s, yük 17.9)
+[orbslam3_si] MH02 dr24 s0 onek w1000 r1: durum=ok ATE=0.1911 kapsam=1.000 ok  (107 s, yük 17.9)
+[orbslam3_si] MH02 dr24 s0 onek w1400 r1: durum=ok ATE=0.2153 kapsam=1.000 ok  (107 s, yük 17.9)
+[orbslam3_si] MH02 dr24 s0 onek w600 r2: durum=ok ATE=0.1158 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (107 s, yük 13.2)
+[orbslam3_si] MH02 dr24 s0 onek w1000 r2: durum=ok ATE=0.1614 kapsam=1.000 ok  (107 s, yük 13.2)
+[orbslam3_si] MH02 dr24 s0 onek w1400 r2: durum=ok ATE=0.1647 kapsam=1.000 ok  (107 s, yük 13.2)
+[üretim] MH03__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1362 33.8 s, 0.56 GB, sha256 dcb6d4a8774b
+[orbslam3_si] MH03 dr0 s0 onek w162 r0: durum=ok ATE=1.2903 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (86 s, yük 10.4)
+[orbslam3_si] MH03 dr0 s0 onek w562 r0: durum=ok ATE=1.1397 kapsam=1.000 ok  (86 s, yük 10.4)
+[orbslam3_si] MH03 dr0 s0 onek w962 r0: durum=ok ATE=0.0339 kapsam=1.000 ok  (86 s, yük 10.4)
+[orbslam3_si] MH03 dr0 s0 onek w162 r1: durum=ok ATE=0.4825 kapsam=0.425 basarisiz kapsam 0.425 < 0.9 (84 s, yük 15.4)
+[orbslam3_si] MH03 dr0 s0 onek w562 r1: durum=ok ATE=0.9555 kapsam=1.000 ok  (84 s, yük 15.4)
+[orbslam3_si] MH03 dr0 s0 onek w962 r1: durum=ok ATE=0.0353 kapsam=1.000 ok  (84 s, yük 15.4)
+[orbslam3_si] MH03 dr0 s0 onek w162 r2: durum=ok ATE=0.6794 kapsam=0.425 basarisiz kapsam 0.425 < 0.9 (85 s, yük 13.5)
+[orbslam3_si] MH03 dr0 s0 onek w562 r2: durum=ok ATE=0.6607 kapsam=1.000 ok  (85 s, yük 13.5)
+[orbslam3_si] MH03 dr0 s0 onek w962 r2: durum=ok ATE=0.0311 kapsam=1.000 ok  (85 s, yük 13.5)
+[üretim] MH03__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1362 48.6 s, 0.49 GB, sha256 81f6251d6b14
+[orbslam3_si] MH03 dr4 s0 onek w162 r0: durum=ok ATE=0.4027 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (89 s, yük 10.7)
+[orbslam3_si] MH03 dr4 s0 onek w562 r0: durum=ok ATE=1.3197 kapsam=1.000 ok  (89 s, yük 10.7)
+[orbslam3_si] MH03 dr4 s0 onek w962 r0: durum=ok ATE=0.0417 kapsam=1.000 ok  (89 s, yük 10.7)
+[orbslam3_si] MH03 dr4 s0 onek w162 r1: durum=ok ATE=0.6989 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (85 s, yük 24.6)
+[orbslam3_si] MH03 dr4 s0 onek w562 r1: durum=ok ATE=1.6959 kapsam=1.000 ok  (85 s, yük 24.6)
+[orbslam3_si] MH03 dr4 s0 onek w962 r1: durum=ok ATE=0.0348 kapsam=1.000 ok  (85 s, yük 24.6)
+[orbslam3_si] MH03 dr4 s0 onek w162 r2: durum=ok ATE=0.2783 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (83 s, yük 10.7)
+[orbslam3_si] MH03 dr4 s0 onek w562 r2: durum=ok ATE=1.1502 kapsam=1.000 ok  (83 s, yük 10.7)
+[orbslam3_si] MH03 dr4 s0 onek w962 r2: durum=ok ATE=0.0442 kapsam=1.000 ok  (83 s, yük 10.7)
+[üretim] MH03__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1362 45.6 s, 0.47 GB, sha256 0034737bfe46
+[orbslam3_si] MH03 dr8 s0 onek w162 r0: durum=ok ATE=0.2496 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (90 s, yük 10.0)
+[orbslam3_si] MH03 dr8 s0 onek w562 r0: durum=ok ATE=0.7855 kapsam=1.000 ok  (90 s, yük 10.0)
+[orbslam3_si] MH03 dr8 s0 onek w962 r0: durum=ok ATE=0.0564 kapsam=1.000 ok  (90 s, yük 10.0)
+[orbslam3_si] MH03 dr8 s0 onek w162 r1: durum=ok ATE=0.5850 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (86 s, yük 18.5)
+[orbslam3_si] MH03 dr8 s0 onek w562 r1: durum=ok ATE=0.3704 kapsam=1.000 ok  (86 s, yük 18.5)
+[orbslam3_si] MH03 dr8 s0 onek w962 r1: durum=ok ATE=0.0481 kapsam=1.000 ok  (86 s, yük 18.5)
+[orbslam3_si] MH03 dr8 s0 onek w162 r2: durum=ok ATE=0.5216 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (85 s, yük 12.6)
+[orbslam3_si] MH03 dr8 s0 onek w562 r2: durum=ok ATE=0.6918 kapsam=1.000 ok  (85 s, yük 12.6)
+[orbslam3_si] MH03 dr8 s0 onek w962 r2: durum=ok ATE=0.0418 kapsam=1.000 ok  (85 s, yük 12.6)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 117 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 117}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:   27 pencere, başarısız   3 (11%), ATE medyan 0.0240 m, koşum süresi medyan 111 s
+  !! orbslam3_si D/r0=0'da 3 başarısız pencere: incele
+  !! orbslam3_si temiz ATE > 0.15 m: 1.140
+  orbslam3_si D/r0=   4:   27 pencere, başarısız   3 (11%), ATE medyan 0.0361 m, koşum süresi medyan 112 s
+  orbslam3_si D/r0=   8:   27 pencere, başarısız   3 (11%), ATE medyan 0.0478 m, koşum süresi medyan 112 s
+  orbslam3_si D/r0=  16:   18 pencere, başarısız   6 (33%), ATE medyan 0.2245 m, koşum süresi medyan 116 s
+  orbslam3_si D/r0=  24:   18 pencere, başarısız   6 (33%), ATE medyan 0.1978 m, koşum süresi medyan 114 s
+[denetim] SORUN VAR — kuyruğu durdurup incele
+[üretim] MH03__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1362 53.2 s, 0.45 GB, sha256 328872b3c770
+[orbslam3_si] MH03 dr16 s0 onek w162 r0: durum=ok ATE=0.2516 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (89 s, yük 12.2)
+[orbslam3_si] MH03 dr16 s0 onek w562 r0: durum=ok ATE=1.8671 kapsam=0.958 ok  (89 s, yük 12.2)
+[orbslam3_si] MH03 dr16 s0 onek w962 r0: durum=ok ATE=0.2007 kapsam=1.000 ok  (89 s, yük 12.2)
+[orbslam3_si] MH03 dr16 s0 onek w162 r1: durum=ok ATE=0.2839 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (86 s, yük 25.7)
+[orbslam3_si] MH03 dr16 s0 onek w562 r1: durum=ok ATE=0.8933 kapsam=1.000 ok  (86 s, yük 25.7)
+[orbslam3_si] MH03 dr16 s0 onek w962 r1: durum=ok ATE=0.1789 kapsam=1.000 ok  (86 s, yük 25.7)
+[orbslam3_si] MH03 dr16 s0 onek w162 r2: durum=ok ATE=0.2733 kapsam=0.445 basarisiz kapsam 0.445 < 0.9 (83 s, yük 21.3)
+[orbslam3_si] MH03 dr16 s0 onek w562 r2: durum=ok ATE=0.3205 kapsam=0.960 ok  (83 s, yük 21.3)
+[orbslam3_si] MH03 dr16 s0 onek w962 r2: durum=ok ATE=0.1533 kapsam=1.000 ok  (83 s, yük 21.3)
+[üretim] MH03__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1362 72.7 s, 0.44 GB, sha256 052c502cfe8d
+[orbslam3_si] MH03 dr24 s0 onek w162 r0: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (86 s, yük 13.6)
+[orbslam3_si] MH03 dr24 s0 onek w562 r0: durum=ok ATE=0.6184 kapsam=0.125 basarisiz kapsam 0.125 < 0.9 (86 s, yük 13.6)
+[orbslam3_si] MH03 dr24 s0 onek w962 r0: durum=ok ATE=2.3834 kapsam=1.000 ok  (86 s, yük 13.6)
+[orbslam3_si] MH03 dr24 s0 onek w162 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (87 s, yük 17.5)
+[orbslam3_si] MH03 dr24 s0 onek w562 r1: durum=ok ATE=0.6209 kapsam=0.125 basarisiz kapsam 0.125 < 0.9 (87 s, yük 17.5)
+[orbslam3_si] MH03 dr24 s0 onek w962 r1: durum=ok ATE=0.2349 kapsam=1.000 ok  (87 s, yük 17.5)
+[orbslam3_si] MH03 dr24 s0 onek w162 r2: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (84 s, yük 18.6)
+[orbslam3_si] MH03 dr24 s0 onek w562 r2: durum=ok ATE=0.4283 kapsam=0.125 basarisiz kapsam 0.125 < 0.9 (84 s, yük 18.6)
+[orbslam3_si] MH03 dr24 s0 onek w962 r2: durum=ok ATE=0.6398 kapsam=1.000 ok  (84 s, yük 18.6)
+[üretim] MH04__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1332 20.1 s, 0.52 GB, sha256 6708adf30b91
+[orbslam3_si] MH04 dr0 s0 onek w132 r0: durum=ok ATE=0.3039 kapsam=0.302 basarisiz kapsam 0.302 < 0.9 (85 s, yük 11.3)
+[orbslam3_si] MH04 dr0 s0 onek w532 r0: durum=ok ATE=0.6271 kapsam=1.000 ok  (85 s, yük 11.3)
+[orbslam3_si] MH04 dr0 s0 onek w932 r0: durum=ok ATE=0.0615 kapsam=1.000 ok  (85 s, yük 11.3)
+[orbslam3_si] MH04 dr0 s0 onek w132 r1: durum=ok ATE=0.2683 kapsam=0.740 basarisiz kapsam 0.740 < 0.9 (82 s, yük 13.8)
+[orbslam3_si] MH04 dr0 s0 onek w532 r1: durum=ok ATE=0.3666 kapsam=1.000 ok  (82 s, yük 13.8)
+[orbslam3_si] MH04 dr0 s0 onek w932 r1: durum=ok ATE=0.0662 kapsam=1.000 ok  (82 s, yük 13.8)
+[orbslam3_si] MH04 dr0 s0 onek w132 r2: durum=ok ATE=0.1351 kapsam=0.740 basarisiz kapsam 0.740 < 0.9 (82 s, yük 10.9)
+[orbslam3_si] MH04 dr0 s0 onek w532 r2: durum=ok ATE=0.2743 kapsam=1.000 ok  (82 s, yük 10.9)
+[orbslam3_si] MH04 dr0 s0 onek w932 r2: durum=ok ATE=0.0635 kapsam=1.000 ok  (82 s, yük 10.9)
+[üretim] MH04__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1332 56.6 s, 0.46 GB, sha256 7da1ddef85b1
+[orbslam3_si] MH04 dr4 s0 onek w132 r0: durum=ok ATE=0.2936 kapsam=0.302 basarisiz kapsam 0.302 < 0.9 (95 s, yük 9.3)
+[orbslam3_si] MH04 dr4 s0 onek w532 r0: durum=ok ATE=1.0584 kapsam=1.000 ok  (95 s, yük 9.3)
+[orbslam3_si] MH04 dr4 s0 onek w932 r0: durum=ok ATE=0.1035 kapsam=1.000 ok  (95 s, yük 9.3)
+[orbslam3_si] MH04 dr4 s0 onek w132 r1: durum=ok ATE=0.2868 kapsam=0.302 basarisiz kapsam 0.302 < 0.9 (84 s, yük 29.4)
+[orbslam3_si] MH04 dr4 s0 onek w532 r1: durum=ok ATE=1.9957 kapsam=1.000 ok  (84 s, yük 29.4)
+[orbslam3_si] MH04 dr4 s0 onek w932 r1: durum=ok ATE=0.1166 kapsam=1.000 ok  (84 s, yük 29.4)
+[orbslam3_si] MH04 dr4 s0 onek w132 r2: durum=ok ATE=0.6547 kapsam=0.302 basarisiz kapsam 0.302 < 0.9 (88 s, yük 17.5)
+[orbslam3_si] MH04 dr4 s0 onek w532 r2: durum=ok ATE=0.3602 kapsam=1.000 ok  (88 s, yük 17.5)
+[orbslam3_si] MH04 dr4 s0 onek w932 r2: durum=ok ATE=0.1297 kapsam=1.000 ok  (88 s, yük 17.5)
+[üretim] MH04__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1332 84.3 s, 0.44 GB, sha256 300d5d4ae12d
+[orbslam3_si] MH04 dr8 s0 onek w132 r0: durum=ok ATE=0.6659 kapsam=0.302 basarisiz kapsam 0.302 < 0.9 (101 s, yük 38.4)
+[orbslam3_si] MH04 dr8 s0 onek w532 r0: durum=ok ATE=4.2684 kapsam=1.000 basarisiz max_err 6.13 m > 5.0 (101 s, yük 38.4)
+[orbslam3_si] MH04 dr8 s0 onek w932 r0: durum=ok ATE=0.1424 kapsam=1.000 ok  (101 s, yük 38.4)
+[orbslam3_si] MH04 dr8 s0 onek w132 r1: durum=ok ATE=0.4340 kapsam=0.570 basarisiz kapsam 0.570 < 0.9 (110 s, yük 40.9)
+[orbslam3_si] MH04 dr8 s0 onek w532 r1: durum=ok ATE=1.1871 kapsam=1.000 ok  (110 s, yük 40.9)
+[orbslam3_si] MH04 dr8 s0 onek w932 r1: durum=ok ATE=0.1515 kapsam=1.000 ok  (110 s, yük 40.9)
+[orbslam3_si] MH04 dr8 s0 onek w132 r2: durum=ok ATE=4.0937 kapsam=0.780 basarisiz kapsam 0.780 < 0.9; yayilim 5.544 bant disi; max_err 9.74 m > 5.0 (82 s, yük 17.7)
+[orbslam3_si] MH04 dr8 s0 onek w532 r2: durum=ok ATE=0.2567 kapsam=1.000 ok  (82 s, yük 17.7)
+[orbslam3_si] MH04 dr8 s0 onek w932 r2: durum=ok ATE=0.1381 kapsam=1.000 ok  (82 s, yük 17.7)
+[üretim] MH04__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1332 100.6 s, 0.43 GB, sha256 367c1ce384ed
+[orbslam3_si] MH04 dr16 s0 onek w132 r0: durum=ok ATE=0.1430 kapsam=1.000 ok  (101 s, yük 14.4)
+[orbslam3_si] MH04 dr16 s0 onek w532 r0: durum=ok ATE=2.8913 kapsam=1.000 basarisiz max_err 5.19 m > 5.0 (101 s, yük 14.4)
+[orbslam3_si] MH04 dr16 s0 onek w932 r0: durum=ok ATE=0.1532 kapsam=1.000 ok  (101 s, yük 14.4)
+[orbslam3_si] MH04 dr16 s0 onek w132 r1: durum=ok ATE=0.1281 kapsam=1.000 ok  (140 s, yük 32.8)
+[orbslam3_si] MH04 dr16 s0 onek w532 r1: durum=ok ATE=0.5400 kapsam=1.000 ok  (140 s, yük 32.8)
+[orbslam3_si] MH04 dr16 s0 onek w932 r1: durum=ok ATE=0.1731 kapsam=1.000 ok  (140 s, yük 32.8)
+[orbslam3_si] MH04 dr16 s0 onek w132 r2: durum=ok ATE=0.1218 kapsam=0.978 ok  (82 s, yük 19.3)
+[orbslam3_si] MH04 dr16 s0 onek w532 r2: durum=ok ATE=6.9182 kapsam=1.000 basarisiz yayilim 2.322 bant disi; max_err 9.77 m > 5.0 (82 s, yük 19.3)
+[orbslam3_si] MH04 dr16 s0 onek w932 r2: durum=ok ATE=0.1426 kapsam=1.000 ok  (82 s, yük 19.3)
+[üretim] MH04__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1332 51.6 s, 0.42 GB, sha256 bde549fdef1d
+[orbslam3_si] MH04 dr24 s0 onek w132 r0: durum=ok ATE=0.2494 kapsam=0.235 basarisiz kapsam 0.235 < 0.9 (84 s, yük 15.2)
+[orbslam3_si] MH04 dr24 s0 onek w532 r0: durum=ok ATE=0.4002 kapsam=1.000 ok  (84 s, yük 15.2)
+[orbslam3_si] MH04 dr24 s0 onek w932 r0: durum=ok ATE=0.5156 kapsam=1.000 ok  (84 s, yük 15.2)
+[orbslam3_si] MH04 dr24 s0 onek w132 r1: durum=ok ATE=0.3059 kapsam=0.235 basarisiz kapsam 0.235 < 0.9 (87 s, yük 27.7)
+[orbslam3_si] MH04 dr24 s0 onek w532 r1: durum=ok ATE=0.7679 kapsam=1.000 ok  (87 s, yük 27.7)
+[orbslam3_si] MH04 dr24 s0 onek w932 r1: durum=ok ATE=0.7441 kapsam=1.000 ok  (87 s, yük 27.7)
+[orbslam3_si] MH04 dr24 s0 onek w132 r2: durum=ok ATE=0.2132 kapsam=0.235 basarisiz kapsam 0.235 < 0.9 (83 s, yük 29.0)
+[orbslam3_si] MH04 dr24 s0 onek w532 r2: durum=ok ATE=2.0659 kapsam=1.000 ok  (83 s, yük 29.0)
+[orbslam3_si] MH04 dr24 s0 onek w932 r2: durum=ok ATE=0.4656 kapsam=1.000 ok  (83 s, yük 29.0)
+[üretim] MH05__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1302 24.2 s, 0.52 GB, sha256 4c62414095da
+[orbslam3_si] MH05 dr0 s0 onek w102 r0: durum=ok ATE=0.4129 kapsam=0.220 basarisiz kapsam 0.220 < 0.9 (99 s, yük 22.7)
+[orbslam3_si] MH05 dr0 s0 onek w502 r0: durum=ok ATE=8.6879 kapsam=1.000 basarisiz yayilim 2.656 bant disi; max_err 12.58 m > 5.0 (99 s, yük 22.7)
+[orbslam3_si] MH05 dr0 s0 onek w902 r0: durum=ok ATE=0.0612 kapsam=1.000 ok  (99 s, yük 22.7)
+[orbslam3_si] MH05 dr0 s0 onek w102 r1: durum=ok ATE=0.5516 kapsam=0.220 basarisiz kapsam 0.220 < 0.9 (87 s, yük 36.9)
+[orbslam3_si] MH05 dr0 s0 onek w502 r1: durum=ok ATE=8.3018 kapsam=1.000 basarisiz yayilim 2.699 bant disi; max_err 11.43 m > 5.0 (87 s, yük 36.9)
+[orbslam3_si] MH05 dr0 s0 onek w902 r1: durum=ok ATE=0.0629 kapsam=1.000 ok  (87 s, yük 36.9)
+[orbslam3_si] MH05 dr0 s0 onek w102 r2: durum=ok ATE=0.7416 kapsam=0.220 basarisiz kapsam 0.220 < 0.9; yayilim 2.023 bant disi (88 s, yük 32.6)
+[orbslam3_si] MH05 dr0 s0 onek w502 r2: durum=ok ATE=2.0107 kapsam=1.000 ok  (88 s, yük 32.6)
+[orbslam3_si] MH05 dr0 s0 onek w902 r2: durum=ok ATE=0.0686 kapsam=1.000 ok  (88 s, yük 32.6)
+[üretim] MH05__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1302 76.3 s, 0.46 GB, sha256 744f7e5327c4
+[orbslam3_si] MH05 dr4 s0 onek w102 r0: durum=ok ATE=0.3380 kapsam=0.220 basarisiz kapsam 0.220 < 0.9 (175 s, yük 29.0)
+[orbslam3_si] MH05 dr4 s0 onek w502 r0: durum=ok ATE=0.3699 kapsam=1.000 ok  (175 s, yük 29.0)
+[orbslam3_si] MH05 dr4 s0 onek w902 r0: durum=ok ATE=0.0642 kapsam=1.000 ok  (175 s, yük 29.0)
+[orbslam3_si] MH05 dr4 s0 onek w102 r1: durum=ok ATE=0.3412 kapsam=0.220 basarisiz kapsam 0.220 < 0.9 (107 s, yük 59.0)
+[orbslam3_si] MH05 dr4 s0 onek w502 r1: durum=ok ATE=3.7991 kapsam=1.000 basarisiz max_err 7.15 m > 5.0 (107 s, yük 59.0)
+[orbslam3_si] MH05 dr4 s0 onek w902 r1: durum=ok ATE=0.1721 kapsam=1.000 ok  (107 s, yük 59.0)
+[orbslam3_si] MH05 dr4 s0 onek w102 r2: durum=ok ATE=0.3455 kapsam=0.220 basarisiz kapsam 0.220 < 0.9 (107 s, yük 51.3)
+[orbslam3_si] MH05 dr4 s0 onek w502 r2: durum=ok ATE=0.5211 kapsam=1.000 ok  (107 s, yük 51.3)
+[orbslam3_si] MH05 dr4 s0 onek w902 r2: durum=ok ATE=0.0600 kapsam=1.000 ok  (107 s, yük 51.3)
+[üretim] MH05__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1302 142.4 s, 0.44 GB, sha256 f0593c2d1928
+[orbslam3_si] MH05 dr8 s0 onek w102 r0: durum=ok ATE=0.8652 kapsam=0.220 basarisiz kapsam 0.220 < 0.9; yayilim 2.229 bant disi (217 s, yük 62.0)
+[orbslam3_si] MH05 dr8 s0 onek w502 r0: durum=ok ATE=2.3306 kapsam=1.000 ok  (217 s, yük 62.0)
+[orbslam3_si] MH05 dr8 s0 onek w902 r0: durum=ok ATE=0.1722 kapsam=1.000 ok  (217 s, yük 62.0)
+[orbslam3_si] MH05 dr8 s0 onek w102 r1: durum=ok ATE=0.7895 kapsam=0.220 basarisiz kapsam 0.220 < 0.9; yayilim 2.125 bant disi (144 s, yük 83.4)
+[orbslam3_si] MH05 dr8 s0 onek w502 r1: durum=ok ATE=2.2719 kapsam=1.000 basarisiz max_err 5.40 m > 5.0 (144 s, yük 83.4)
+[orbslam3_si] MH05 dr8 s0 onek w902 r1: durum=ok ATE=0.1308 kapsam=1.000 ok  (144 s, yük 83.4)
+[orbslam3_si] MH05 dr8 s0 onek w102 r2: durum=ok ATE=0.8952 kapsam=0.220 basarisiz kapsam 0.220 < 0.9; yayilim 2.297 bant disi (107 s, yük 84.0)
+[orbslam3_si] MH05 dr8 s0 onek w502 r2: durum=ok ATE=1.0387 kapsam=1.000 ok  (107 s, yük 84.0)
+[orbslam3_si] MH05 dr8 s0 onek w902 r2: durum=ok ATE=0.1578 kapsam=1.000 ok  (107 s, yük 84.0)
+[üretim] MH05__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1302 247.1 s, 0.42 GB, sha256 5e7131300fdd
+[orbslam3_si] MH05 dr16 s0 onek w102 r0: durum=ok ATE=0.3110 kapsam=0.190 basarisiz kapsam 0.190 < 0.9 (143 s, yük 76.6)
+[orbslam3_si] MH05 dr16 s0 onek w502 r0: durum=ok ATE=1.3261 kapsam=1.000 ok  (143 s, yük 76.6)
+[orbslam3_si] MH05 dr16 s0 onek w902 r0: durum=ok ATE=0.4814 kapsam=1.000 ok  (143 s, yük 76.6)
+[orbslam3_si] MH05 dr16 s0 onek w102 r1: durum=ok ATE=0.1282 kapsam=0.098 basarisiz kapsam 0.098 < 0.9 (163 s, yük 79.1)
+[orbslam3_si] MH05 dr16 s0 onek w502 r1: durum=ok ATE=1.0842 kapsam=1.000 ok  (163 s, yük 79.1)
+[orbslam3_si] MH05 dr16 s0 onek w902 r1: durum=ok ATE=0.4447 kapsam=1.000 ok  (163 s, yük 79.1)
+[orbslam3_si] MH05 dr16 s0 onek w102 r2: durum=ok ATE=0.2776 kapsam=0.190 basarisiz kapsam 0.190 < 0.9 (106 s, yük 62.2)
+[orbslam3_si] MH05 dr16 s0 onek w502 r2: durum=ok ATE=0.5966 kapsam=1.000 ok  (106 s, yük 62.2)
+[orbslam3_si] MH05 dr16 s0 onek w902 r2: durum=ok ATE=0.5912 kapsam=1.000 ok  (106 s, yük 62.2)
+[üretim] MH05__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1302 136.3 s, 0.41 GB, sha256 756a06f81e79
+[orbslam3_si] MH05 dr24 s0 onek w102 r0: durum=ok ATE=0.2324 kapsam=0.098 basarisiz kapsam 0.098 < 0.9 (240 s, yük 62.4)
+[orbslam3_si] MH05 dr24 s0 onek w502 r0: durum=ok ATE=0.8124 kapsam=1.000 ok  (240 s, yük 62.4)
+[orbslam3_si] MH05 dr24 s0 onek w902 r0: durum=ok ATE=0.6958 kapsam=1.000 ok  (240 s, yük 62.4)
+[orbslam3_si] MH05 dr24 s0 onek w102 r1: durum=ok ATE=0.2078 kapsam=0.098 basarisiz kapsam 0.098 < 0.9 (177 s, yük 63.6)
+[orbslam3_si] MH05 dr24 s0 onek w502 r1: durum=ok ATE=0.9165 kapsam=1.000 ok  (177 s, yük 63.6)
+[orbslam3_si] MH05 dr24 s0 onek w902 r1: durum=ok ATE=0.4753 kapsam=1.000 ok  (177 s, yük 63.6)
+[orbslam3_si] MH05 dr24 s0 onek w102 r2: durum=ok ATE=0.2005 kapsam=0.098 basarisiz kapsam 0.098 < 0.9 (106 s, yük 60.3)
+[orbslam3_si] MH05 dr24 s0 onek w502 r2: durum=ok ATE=3.7551 kapsam=1.000 basarisiz max_err 7.87 m > 5.0 (106 s, yük 60.3)
+[orbslam3_si] MH05 dr24 s0 onek w902 r2: durum=ok ATE=0.3613 kapsam=1.000 ok  (106 s, yük 60.3)
+[üretim] V1_01_easy__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 74.7 s, 0.64 GB, sha256 95b0bf123397
+[orbslam3_si] V1_01_easy dr0 s0 onek w100 r0: durum=ok ATE=0.7758 kapsam=0.993 ok  (224 s, yük 76.2)
+[orbslam3_si] V1_01_easy dr0 s0 onek w500 r0: durum=ok ATE=0.0170 kapsam=1.000 ok  (224 s, yük 76.2)
+[orbslam3_si] V1_01_easy dr0 s0 onek w900 r0: durum=ok ATE=0.0150 kapsam=1.000 ok  (224 s, yük 76.2)
+[orbslam3_si] V1_01_easy dr0 s0 onek w100 r1: durum=ok ATE=0.2363 kapsam=0.993 ok  (171 s, yük 80.0)
+[orbslam3_si] V1_01_easy dr0 s0 onek w500 r1: durum=ok ATE=0.0179 kapsam=1.000 ok  (171 s, yük 80.0)
+[orbslam3_si] V1_01_easy dr0 s0 onek w900 r1: durum=ok ATE=0.0158 kapsam=1.000 ok  (171 s, yük 80.0)
+[orbslam3_si] V1_01_easy dr0 s0 onek w100 r2: durum=ok ATE=1.0699 kapsam=0.993 ok  (105 s, yük 62.0)
+[orbslam3_si] V1_01_easy dr0 s0 onek w500 r2: durum=ok ATE=0.0176 kapsam=1.000 ok  (105 s, yük 62.0)
+[orbslam3_si] V1_01_easy dr0 s0 onek w900 r2: durum=ok ATE=0.0162 kapsam=1.000 ok  (105 s, yük 62.0)
+[üretim] V1_01_easy__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 236.6 s, 0.58 GB, sha256 2bbeba3c332a
+[orbslam3_si] V1_01_easy dr4 s0 onek w100 r0: durum=ok ATE=0.4960 kapsam=0.993 ok  (194 s, yük 58.4)
+[orbslam3_si] V1_01_easy dr4 s0 onek w500 r0: durum=ok ATE=0.0189 kapsam=1.000 ok  (194 s, yük 58.4)
+[orbslam3_si] V1_01_easy dr4 s0 onek w900 r0: durum=ok ATE=0.0217 kapsam=1.000 ok  (194 s, yük 58.4)
+[orbslam3_si] V1_01_easy dr4 s0 onek w100 r1: durum=ok ATE=0.6074 kapsam=0.993 ok  (118 s, yük 77.9)
+[orbslam3_si] V1_01_easy dr4 s0 onek w500 r1: durum=ok ATE=0.0199 kapsam=1.000 ok  (118 s, yük 77.9)
+[orbslam3_si] V1_01_easy dr4 s0 onek w900 r1: durum=ok ATE=0.0224 kapsam=1.000 ok  (118 s, yük 77.9)
+[orbslam3_si] V1_01_easy dr4 s0 onek w100 r2: durum=ok ATE=8.3114 kapsam=0.993 basarisiz yayilim 8.182 bant disi; max_err 17.04 m > 5.0 (102 s, yük 74.4)
+[orbslam3_si] V1_01_easy dr4 s0 onek w500 r2: durum=ok ATE=0.0189 kapsam=1.000 ok  (102 s, yük 74.4)
+[orbslam3_si] V1_01_easy dr4 s0 onek w900 r2: durum=ok ATE=0.0215 kapsam=1.000 ok  (102 s, yük 74.4)
+[üretim] V1_01_easy__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 160.8 s, 0.56 GB, sha256 3078be1bb3ec
+[orbslam3_si] V1_01_easy dr8 s0 onek w100 r0: durum=ok ATE=0.2010 kapsam=0.993 ok  (218 s, yük 71.5)
+[orbslam3_si] V1_01_easy dr8 s0 onek w500 r0: durum=ok ATE=0.0244 kapsam=1.000 ok  (218 s, yük 71.5)
+[orbslam3_si] V1_01_easy dr8 s0 onek w900 r0: durum=ok ATE=0.0230 kapsam=1.000 ok  (218 s, yük 71.5)
+[orbslam3_si] V1_01_easy dr8 s0 onek w100 r1: durum=ok ATE=1.0654 kapsam=0.993 ok  (272 s, yük 77.1)
+[orbslam3_si] V1_01_easy dr8 s0 onek w500 r1: durum=ok ATE=0.0245 kapsam=1.000 ok  (272 s, yük 77.1)
+[orbslam3_si] V1_01_easy dr8 s0 onek w900 r1: durum=ok ATE=0.0191 kapsam=1.000 ok  (272 s, yük 77.1)
+[orbslam3_si] V1_01_easy dr8 s0 onek w100 r2: durum=ok ATE=15.4789 kapsam=0.993 basarisiz yayilim 14.603 bant disi; max_err 33.24 m > 5.0 (115 s, yük 91.3)
+[orbslam3_si] V1_01_easy dr8 s0 onek w500 r2: durum=ok ATE=0.0258 kapsam=1.000 ok  (115 s, yük 91.3)
+[orbslam3_si] V1_01_easy dr8 s0 onek w900 r2: durum=ok ATE=0.0247 kapsam=1.000 ok  (115 s, yük 91.3)
+[üretim] V1_01_easy__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 204.7 s, 0.53 GB, sha256 fd3d8b5aa010
+[orbslam3_si] V1_01_easy dr16 s0 onek w100 r0: durum=ok ATE=0.3315 kapsam=0.650 basarisiz kapsam 0.650 < 0.9 (188 s, yük 85.4)
+[orbslam3_si] V1_01_easy dr16 s0 onek w500 r0: durum=ok ATE=0.3657 kapsam=1.000 ok  (188 s, yük 85.4)
+[orbslam3_si] V1_01_easy dr16 s0 onek w900 r0: durum=ok ATE=0.0603 kapsam=1.000 ok  (188 s, yük 85.4)
+[orbslam3_si] V1_01_easy dr16 s0 onek w100 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (165 s, yük 84.0)
+[orbslam3_si] V1_01_easy dr16 s0 onek w500 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (165 s, yük 84.0)
+[orbslam3_si] V1_01_easy dr16 s0 onek w900 r1: durum=ok ATE=0.0878 kapsam=0.440 basarisiz kapsam 0.440 < 0.9 (165 s, yük 84.0)
+[orbslam3_si] V1_01_easy dr16 s0 onek w100 r2: durum=ok ATE=0.2392 kapsam=0.650 basarisiz kapsam 0.650 < 0.9 (137 s, yük 69.8)
+[orbslam3_si] V1_01_easy dr16 s0 onek w500 r2: durum=ok ATE=0.1578 kapsam=1.000 ok  (137 s, yük 69.8)
+[orbslam3_si] V1_01_easy dr16 s0 onek w900 r2: durum=ok ATE=0.0468 kapsam=1.000 ok  (137 s, yük 69.8)
+[üretim] V1_01_easy__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 138.5 s, 0.52 GB, sha256 c05c01db85c9
+[orbslam3_si] V1_01_easy dr24 s0 onek w100 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (168 s, yük 87.3)
+[orbslam3_si] V1_01_easy dr24 s0 onek w500 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (168 s, yük 87.3)
+[orbslam3_si] V1_01_easy dr24 s0 onek w900 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (168 s, yük 87.3)
+[orbslam3_si] V1_01_easy dr24 s0 onek w100 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (171 s, yük 76.4)
+[orbslam3_si] V1_01_easy dr24 s0 onek w500 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (171 s, yük 76.4)
+[orbslam3_si] V1_01_easy dr24 s0 onek w900 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (171 s, yük 76.4)
+[orbslam3_si] V1_01_easy dr24 s0 onek w100 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (93 s, yük 93.7)
+[orbslam3_si] V1_01_easy dr24 s0 onek w500 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (93 s, yük 93.7)
+[orbslam3_si] V1_01_easy dr24 s0 onek w900 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (93 s, yük 93.7)
+[üretim] V1_02_medium__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 68.5 s, 0.60 GB, sha256 20c70b48a94f
+[orbslam3_si] V1_02_medium dr0 s0 onek w100 r0: durum=ok ATE=0.1889 kapsam=1.000 ok  (174 s, yük 91.6)
+[orbslam3_si] V1_02_medium dr0 s0 onek w500 r0: durum=ok ATE=0.0176 kapsam=1.000 ok  (174 s, yük 91.6)
+[orbslam3_si] V1_02_medium dr0 s0 onek w900 r0: durum=ok ATE=0.0182 kapsam=1.000 ok  (174 s, yük 91.6)
+[orbslam3_si] V1_02_medium dr0 s0 onek w100 r1: durum=ok ATE=0.3856 kapsam=0.787 basarisiz kapsam 0.787 < 0.9 (147 s, yük 76.7)
+[orbslam3_si] V1_02_medium dr0 s0 onek w500 r1: durum=ok ATE=0.0190 kapsam=1.000 ok  (147 s, yük 76.7)
+[orbslam3_si] V1_02_medium dr0 s0 onek w900 r1: durum=ok ATE=0.0201 kapsam=1.000 ok  (147 s, yük 76.7)
+[orbslam3_si] V1_02_medium dr0 s0 onek w100 r2: durum=ok ATE=1.1580 kapsam=1.000 ok  (198 s, yük 61.7)
+[orbslam3_si] V1_02_medium dr0 s0 onek w500 r2: durum=ok ATE=0.0161 kapsam=1.000 ok  (198 s, yük 61.7)
+[orbslam3_si] V1_02_medium dr0 s0 onek w900 r2: durum=ok ATE=0.0232 kapsam=1.000 ok  (198 s, yük 61.7)
+[üretim] V1_02_medium__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 123.9 s, 0.55 GB, sha256 8169803efa03
+[orbslam3_si] V1_02_medium dr4 s0 onek w100 r0: durum=ok ATE=0.2637 kapsam=1.000 ok  (191 s, yük 64.9)
+[orbslam3_si] V1_02_medium dr4 s0 onek w500 r0: durum=ok ATE=0.0251 kapsam=1.000 ok  (191 s, yük 64.9)
+[orbslam3_si] V1_02_medium dr4 s0 onek w900 r0: durum=ok ATE=0.0348 kapsam=1.000 ok  (191 s, yük 64.9)
+[orbslam3_si] V1_02_medium dr4 s0 onek w100 r1: durum=ok ATE=0.3311 kapsam=1.000 ok  (115 s, yük 69.5)
+[orbslam3_si] V1_02_medium dr4 s0 onek w500 r1: durum=ok ATE=0.0296 kapsam=1.000 ok  (115 s, yük 69.5)
+[orbslam3_si] V1_02_medium dr4 s0 onek w900 r1: durum=ok ATE=0.0327 kapsam=1.000 ok  (115 s, yük 69.5)
+[orbslam3_si] V1_02_medium dr4 s0 onek w100 r2: durum=ok ATE=0.3426 kapsam=1.000 ok  (109 s, yük 72.6)
+[orbslam3_si] V1_02_medium dr4 s0 onek w500 r2: durum=ok ATE=0.0304 kapsam=1.000 ok  (109 s, yük 72.6)
+[orbslam3_si] V1_02_medium dr4 s0 onek w900 r2: durum=ok ATE=0.0331 kapsam=1.000 ok  (109 s, yük 72.6)
+[üretim] V1_02_medium__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 107.2 s, 0.54 GB, sha256 970cf01ed4c0
+[orbslam3_si] V1_02_medium dr8 s0 onek w100 r0: durum=ok ATE=0.2605 kapsam=1.000 ok  (180 s, yük 71.6)
+[orbslam3_si] V1_02_medium dr8 s0 onek w500 r0: durum=ok ATE=0.0615 kapsam=1.000 ok  (180 s, yük 71.6)
+[orbslam3_si] V1_02_medium dr8 s0 onek w900 r0: durum=ok ATE=0.0427 kapsam=1.000 ok  (180 s, yük 71.6)
+[orbslam3_si] V1_02_medium dr8 s0 onek w100 r1: durum=ok ATE=0.4574 kapsam=0.787 basarisiz kapsam 0.787 < 0.9 (174 s, yük 77.1)
+[orbslam3_si] V1_02_medium dr8 s0 onek w500 r1: durum=ok ATE=0.0566 kapsam=1.000 ok  (174 s, yük 77.1)
+[orbslam3_si] V1_02_medium dr8 s0 onek w900 r1: durum=ok ATE=0.0652 kapsam=1.000 ok  (174 s, yük 77.1)
+[orbslam3_si] V1_02_medium dr8 s0 onek w100 r2: durum=ok ATE=0.5570 kapsam=1.000 ok  (103 s, yük 60.9)
+[orbslam3_si] V1_02_medium dr8 s0 onek w500 r2: durum=ok ATE=0.0579 kapsam=1.000 ok  (103 s, yük 60.9)
+[orbslam3_si] V1_02_medium dr8 s0 onek w900 r2: durum=ok ATE=0.0715 kapsam=1.000 ok  (103 s, yük 60.9)
+[üretim] V1_02_medium__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 125.0 s, 0.52 GB, sha256 91f8de95cca3
+[orbslam3_si] V1_02_medium dr16 s0 onek w100 r0: durum=ok ATE=0.3482 kapsam=0.718 basarisiz kapsam 0.718 < 0.9 (197 s, yük 71.2)
+[orbslam3_si] V1_02_medium dr16 s0 onek w500 r0: durum=ok ATE=0.1678 kapsam=1.000 ok  (197 s, yük 71.2)
+[orbslam3_si] V1_02_medium dr16 s0 onek w900 r0: durum=ok ATE=0.0707 kapsam=1.000 ok  (197 s, yük 71.2)
+[orbslam3_si] V1_02_medium dr16 s0 onek w100 r1: durum=ok ATE=0.4138 kapsam=0.472 basarisiz kapsam 0.472 < 0.9 (202 s, yük 68.9)
+[orbslam3_si] V1_02_medium dr16 s0 onek w500 r1: durum=ok ATE=0.1693 kapsam=1.000 ok  (202 s, yük 68.9)
+[orbslam3_si] V1_02_medium dr16 s0 onek w900 r1: durum=ok ATE=0.0591 kapsam=1.000 ok  (202 s, yük 68.9)
+[orbslam3_si] V1_02_medium dr16 s0 onek w100 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (44 s, yük 64.1)
+[orbslam3_si] V1_02_medium dr16 s0 onek w500 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (44 s, yük 64.1)
+[orbslam3_si] V1_02_medium dr16 s0 onek w900 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (44 s, yük 64.1)
+[üretim] V1_02_medium__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 132.3 s, 0.51 GB, sha256 a49497e28a03
+[orbslam3_si] V1_02_medium dr24 s0 onek w100 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (96 s, yük 65.8)
+[orbslam3_si] V1_02_medium dr24 s0 onek w500 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (96 s, yük 65.8)
+[orbslam3_si] V1_02_medium dr24 s0 onek w900 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (96 s, yük 65.8)
+[orbslam3_si] V1_02_medium dr24 s0 onek w100 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (177 s, yük 78.2)
+[orbslam3_si] V1_02_medium dr24 s0 onek w500 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (177 s, yük 78.2)
+[orbslam3_si] V1_02_medium dr24 s0 onek w900 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (177 s, yük 78.2)
+[orbslam3_si] V1_02_medium dr24 s0 onek w100 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (127 s, yük 80.5)
+[orbslam3_si] V1_02_medium dr24 s0 onek w500 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (127 s, yük 80.5)
+[orbslam3_si] V1_02_medium dr24 s0 onek w900 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (127 s, yük 80.5)
+[üretim] V2_01_easy__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 51.1 s, 0.61 GB, sha256 6ed67e75632e
+[orbslam3_si] V2_01_easy dr0 s0 onek w100 r0: durum=ok ATE=0.1751 kapsam=1.000 ok  (213 s, yük 87.3)
+[orbslam3_si] V2_01_easy dr0 s0 onek w500 r0: durum=ok ATE=0.0173 kapsam=1.000 ok  (213 s, yük 87.3)
+[orbslam3_si] V2_01_easy dr0 s0 onek w900 r0: durum=ok ATE=0.0092 kapsam=1.000 ok  (213 s, yük 87.3)
+[orbslam3_si] V2_01_easy dr0 s0 onek w100 r1: durum=ok ATE=0.2153 kapsam=1.000 ok  (216 s, yük 80.7)
+[orbslam3_si] V2_01_easy dr0 s0 onek w500 r1: durum=ok ATE=0.0197 kapsam=1.000 ok  (216 s, yük 80.7)
+[orbslam3_si] V2_01_easy dr0 s0 onek w900 r1: durum=ok ATE=0.0100 kapsam=1.000 ok  (216 s, yük 80.7)
+[orbslam3_si] V2_01_easy dr0 s0 onek w100 r2: durum=ok ATE=0.1452 kapsam=1.000 ok  (212 s, yük 78.3)
+[orbslam3_si] V2_01_easy dr0 s0 onek w500 r2: durum=ok ATE=0.0199 kapsam=1.000 ok  (212 s, yük 78.3)
+[orbslam3_si] V2_01_easy dr0 s0 onek w900 r2: durum=ok ATE=0.0105 kapsam=1.000 ok  (212 s, yük 78.3)
+[üretim] V2_01_easy__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 143.0 s, 0.56 GB, sha256 7d5a9acb0ef4
+[orbslam3_si] V2_01_easy dr4 s0 onek w100 r0: durum=ok ATE=0.1921 kapsam=1.000 ok  (235 s, yük 79.4)
+[orbslam3_si] V2_01_easy dr4 s0 onek w500 r0: durum=ok ATE=0.0300 kapsam=1.000 ok  (235 s, yük 79.4)
+[orbslam3_si] V2_01_easy dr4 s0 onek w900 r0: durum=ok ATE=0.0141 kapsam=1.000 ok  (235 s, yük 79.4)
+[orbslam3_si] V2_01_easy dr4 s0 onek w100 r1: durum=ok ATE=0.6600 kapsam=1.000 ok  (146 s, yük 102.7)
+[orbslam3_si] V2_01_easy dr4 s0 onek w500 r1: durum=ok ATE=0.0262 kapsam=1.000 ok  (146 s, yük 102.7)
+[orbslam3_si] V2_01_easy dr4 s0 onek w900 r1: durum=ok ATE=0.0156 kapsam=1.000 ok  (146 s, yük 102.7)
+[orbslam3_si] V2_01_easy dr4 s0 onek w100 r2: durum=ok ATE=0.2617 kapsam=1.000 ok  (114 s, yük 92.5)
+[orbslam3_si] V2_01_easy dr4 s0 onek w500 r2: durum=ok ATE=0.0284 kapsam=1.000 ok  (114 s, yük 92.5)
+[orbslam3_si] V2_01_easy dr4 s0 onek w900 r2: durum=ok ATE=0.0150 kapsam=1.000 ok  (114 s, yük 92.5)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 333 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 333}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:   72 pencere, başarısız  12 (17%), ATE medyan 0.0240 m, koşum süresi medyan 112 s
+  !! orbslam3_si D/r0=0'da 12 başarısız pencere: incele
+  !! orbslam3_si temiz ATE > 0.15 m: 2.011
+  orbslam3_si D/r0=   4:   72 pencere, başarısız  11 (15%), ATE medyan 0.0374 m, koşum süresi medyan 113 s
+  orbslam3_si D/r0=   8:   63 pencere, başarısız  13 (21%), ATE medyan 0.0597 m, koşum süresi medyan 115 s
+  orbslam3_si D/r0=  16:   63 pencere, başarısız  24 (38%), ATE medyan 0.1950 m, koşum süresi medyan 117 s
+  orbslam3_si D/r0=  24:   63 pencere, başarısız  37 (59%), ATE medyan 0.4329 m, koşum süresi medyan 107 s
+[denetim] SORUN VAR — kuyruğu durdurup incele
+[üretim] V2_01_easy__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 151.6 s, 0.54 GB, sha256 dab3aa1af0b2
+[orbslam3_si] V2_01_easy dr8 s0 onek w100 r0: durum=ok ATE=0.2701 kapsam=1.000 ok  (271 s, yük 90.0)
+[orbslam3_si] V2_01_easy dr8 s0 onek w500 r0: durum=ok ATE=0.0240 kapsam=1.000 ok  (271 s, yük 90.0)
+[orbslam3_si] V2_01_easy dr8 s0 onek w900 r0: durum=ok ATE=0.0150 kapsam=1.000 ok  (271 s, yük 90.0)
+[orbslam3_si] V2_01_easy dr8 s0 onek w100 r1: durum=ok ATE=0.2922 kapsam=1.000 ok  (129 s, yük 81.7)
+[orbslam3_si] V2_01_easy dr8 s0 onek w500 r1: durum=ok ATE=0.0441 kapsam=1.000 ok  (129 s, yük 81.7)
+[orbslam3_si] V2_01_easy dr8 s0 onek w900 r1: durum=ok ATE=0.0195 kapsam=1.000 ok  (129 s, yük 81.7)
+[orbslam3_si] V2_01_easy dr8 s0 onek w100 r2: durum=ok ATE=0.2773 kapsam=1.000 ok  (106 s, yük 86.0)
+[orbslam3_si] V2_01_easy dr8 s0 onek w500 r2: durum=ok ATE=0.0307 kapsam=1.000 ok  (106 s, yük 86.0)
+[orbslam3_si] V2_01_easy dr8 s0 onek w900 r2: durum=ok ATE=0.0185 kapsam=1.000 ok  (106 s, yük 86.0)
+[üretim] V2_01_easy__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 172.3 s, 0.53 GB, sha256 a21b28b35c1f
+[orbslam3_si] V2_01_easy dr16 s0 onek w100 r0: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (233 s, yük 82.8)
+[orbslam3_si] V2_01_easy dr16 s0 onek w500 r0: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (233 s, yük 82.8)
+[orbslam3_si] V2_01_easy dr16 s0 onek w900 r0: durum=ok ATE=0.1764 kapsam=0.330 basarisiz kapsam 0.330 < 0.9 (233 s, yük 82.8)
+[orbslam3_si] V2_01_easy dr16 s0 onek w100 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (149 s, yük 93.4)
+[orbslam3_si] V2_01_easy dr16 s0 onek w500 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (149 s, yük 93.4)
+[orbslam3_si] V2_01_easy dr16 s0 onek w900 r1: durum=ok ATE=0.0294 kapsam=0.060 basarisiz kapsam 0.060 < 0.9 (149 s, yük 93.4)
+[orbslam3_si] V2_01_easy dr16 s0 onek w100 r2: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (98 s, yük 73.9)
+[orbslam3_si] V2_01_easy dr16 s0 onek w500 r2: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (98 s, yük 73.9)
+[orbslam3_si] V2_01_easy dr16 s0 onek w900 r2: durum=ok ATE=0.0305 kapsam=0.060 basarisiz kapsam 0.060 < 0.9 (98 s, yük 73.9)
+[üretim] V2_01_easy__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 168.1 s, 0.52 GB, sha256 78fa3d231fee
+[orbslam3_si] V2_01_easy dr24 s0 onek w100 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (117 s, yük 99.5)
+[orbslam3_si] V2_01_easy dr24 s0 onek w500 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (117 s, yük 99.5)
+[orbslam3_si] V2_01_easy dr24 s0 onek w900 r0: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (117 s, yük 99.5)
+[orbslam3_si] V2_01_easy dr24 s0 onek w100 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (190 s, yük 94.0)
+[orbslam3_si] V2_01_easy dr24 s0 onek w500 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (190 s, yük 94.0)
+[orbslam3_si] V2_01_easy dr24 s0 onek w900 r1: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (190 s, yük 94.0)
+[orbslam3_si] V2_01_easy dr24 s0 onek w100 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (114 s, yük 90.9)
+[orbslam3_si] V2_01_easy dr24 s0 onek w500 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (114 s, yük 90.9)
+[orbslam3_si] V2_01_easy dr24 s0 onek w900 r2: durum=cokme ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (114 s, yük 90.9)
+[üretim] V2_02_medium__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 59.4 s, 0.60 GB, sha256 5cb641714a4d
+[orbslam3_si] V2_02_medium dr0 s0 onek w100 r0: durum=ok ATE=0.6892 kapsam=1.000 ok  (182 s, yük 91.0)
+[orbslam3_si] V2_02_medium dr0 s0 onek w500 r0: durum=ok ATE=0.0223 kapsam=1.000 ok  (182 s, yük 91.0)
+[orbslam3_si] V2_02_medium dr0 s0 onek w900 r0: durum=ok ATE=0.0133 kapsam=1.000 ok  (182 s, yük 91.0)
+[orbslam3_si] V2_02_medium dr0 s0 onek w100 r1: durum=ok ATE=0.1757 kapsam=1.000 ok  (186 s, yük 89.3)
+[orbslam3_si] V2_02_medium dr0 s0 onek w500 r1: durum=ok ATE=0.0227 kapsam=1.000 ok  (186 s, yük 89.3)
+[orbslam3_si] V2_02_medium dr0 s0 onek w900 r1: durum=ok ATE=0.0130 kapsam=1.000 ok  (186 s, yük 89.3)
+[orbslam3_si] V2_02_medium dr0 s0 onek w100 r2: durum=ok ATE=0.2760 kapsam=1.000 ok  (136 s, yük 94.9)
+[orbslam3_si] V2_02_medium dr0 s0 onek w500 r2: durum=ok ATE=0.0246 kapsam=1.000 ok  (136 s, yük 94.9)
+[orbslam3_si] V2_02_medium dr0 s0 onek w900 r2: durum=ok ATE=0.0133 kapsam=1.000 ok  (136 s, yük 94.9)
+[üretim] V2_02_medium__dr4_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 160.8 s, 0.55 GB, sha256 70af3b441735
+[orbslam3_si] V2_02_medium dr4 s0 onek w100 r0: durum=ok ATE=9.6904 kapsam=1.000 basarisiz yayilim 6.076 bant disi; max_err 14.77 m > 5.0 (229 s, yük 100.9)
+[orbslam3_si] V2_02_medium dr4 s0 onek w500 r0: durum=ok ATE=0.0389 kapsam=1.000 ok  (229 s, yük 100.9)
+[orbslam3_si] V2_02_medium dr4 s0 onek w900 r0: durum=ok ATE=0.0244 kapsam=1.000 ok  (229 s, yük 100.9)
+[orbslam3_si] V2_02_medium dr4 s0 onek w100 r1: durum=ok ATE=0.1529 kapsam=1.000 ok  (198 s, yük 111.2)
+[orbslam3_si] V2_02_medium dr4 s0 onek w500 r1: durum=ok ATE=0.0371 kapsam=1.000 ok  (198 s, yük 111.2)
+[orbslam3_si] V2_02_medium dr4 s0 onek w900 r1: durum=ok ATE=0.0213 kapsam=1.000 ok  (198 s, yük 111.2)
+[orbslam3_si] V2_02_medium dr4 s0 onek w100 r2: durum=ok ATE=0.1889 kapsam=1.000 ok  (106 s, yük 90.8)
+[orbslam3_si] V2_02_medium dr4 s0 onek w500 r2: durum=ok ATE=0.0365 kapsam=1.000 ok  (106 s, yük 90.8)
+[orbslam3_si] V2_02_medium dr4 s0 onek w900 r2: durum=ok ATE=0.0193 kapsam=1.000 ok  (106 s, yük 90.8)
+[üretim] V2_02_medium__dr8_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 202.7 s, 0.54 GB, sha256 74e7132cee40
+[orbslam3_si] V2_02_medium dr8 s0 onek w100 r0: durum=ok ATE=0.2209 kapsam=1.000 ok  (195 s, yük 100.8)
+[orbslam3_si] V2_02_medium dr8 s0 onek w500 r0: durum=ok ATE=0.0598 kapsam=1.000 ok  (195 s, yük 100.8)
+[orbslam3_si] V2_02_medium dr8 s0 onek w900 r0: durum=ok ATE=0.0453 kapsam=1.000 ok  (195 s, yük 100.8)
+[orbslam3_si] V2_02_medium dr8 s0 onek w100 r1: durum=ok ATE=0.1587 kapsam=1.000 ok  (124 s, yük 94.7)
+[orbslam3_si] V2_02_medium dr8 s0 onek w500 r1: durum=ok ATE=0.0570 kapsam=1.000 ok  (124 s, yük 94.7)
+[orbslam3_si] V2_02_medium dr8 s0 onek w900 r1: durum=ok ATE=0.0440 kapsam=1.000 ok  (124 s, yük 94.7)
+[orbslam3_si] V2_02_medium dr8 s0 onek w100 r2: durum=ok ATE=0.4391 kapsam=1.000 ok  (106 s, yük 88.3)
+[orbslam3_si] V2_02_medium dr8 s0 onek w500 r2: durum=ok ATE=0.0592 kapsam=1.000 ok  (106 s, yük 88.3)
+[orbslam3_si] V2_02_medium dr8 s0 onek w900 r2: durum=ok ATE=0.0348 kapsam=1.000 ok  (106 s, yük 88.3)
+[üretim] V2_02_medium__dr16_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 126.1 s, 0.53 GB, sha256 d66316cbc296
+[orbslam3_si] V2_02_medium dr16 s0 onek w100 r0: durum=ok ATE=0.3231 kapsam=0.917 ok  (159 s, yük 80.8)
+[orbslam3_si] V2_02_medium dr16 s0 onek w500 r0: durum=ok ATE=0.2793 kapsam=0.927 ok  (159 s, yük 80.8)
+[orbslam3_si] V2_02_medium dr16 s0 onek w900 r0: durum=ok ATE=0.0662 kapsam=1.000 ok  (159 s, yük 80.8)
+[orbslam3_si] V2_02_medium dr16 s0 onek w100 r1: durum=ok ATE=0.3172 kapsam=0.917 ok  (114 s, yük 91.7)
+[orbslam3_si] V2_02_medium dr16 s0 onek w500 r1: durum=ok ATE=0.3506 kapsam=0.927 ok  (114 s, yük 91.7)
+[orbslam3_si] V2_02_medium dr16 s0 onek w900 r1: durum=ok ATE=0.0555 kapsam=1.000 ok  (114 s, yük 91.7)
+[orbslam3_si] V2_02_medium dr16 s0 onek w100 r2: durum=ok ATE=0.5900 kapsam=0.917 ok  (98 s, yük 84.9)
+[orbslam3_si] V2_02_medium dr16 s0 onek w500 r2: durum=ok ATE=0.1189 kapsam=0.927 ok  (98 s, yük 84.9)
+[orbslam3_si] V2_02_medium dr16 s0 onek w900 r2: durum=ok ATE=0.0501 kapsam=1.000 ok  (98 s, yük 84.9)
+[üretim] V2_02_medium__dr24_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1300 111.3 s, 0.52 GB, sha256 e7a118e359b6
+[orbslam3_si] V2_02_medium dr24 s0 onek w100 r0: durum=ok ATE=0.2452 kapsam=0.190 basarisiz kapsam 0.190 < 0.9 (96 s, yük 92.4)
+[orbslam3_si] V2_02_medium dr24 s0 onek w500 r0: durum=ok ATE=0.2409 kapsam=0.927 ok  (96 s, yük 92.4)
+[orbslam3_si] V2_02_medium dr24 s0 onek w900 r0: durum=ok ATE=0.0945 kapsam=1.000 ok  (96 s, yük 92.4)
+[orbslam3_si] V2_02_medium dr24 s0 onek w100 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (150 s, yük 103.2)
+[orbslam3_si] V2_02_medium dr24 s0 onek w500 r1: durum=ok ATE=NA kapsam=0.000 basarisiz pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9 (150 s, yük 103.2)
+[orbslam3_si] V2_02_medium dr24 s0 onek w900 r1: durum=ok ATE=0.1336 kapsam=0.050 basarisiz kapsam 0.050 < 0.9 (150 s, yük 103.2)
+[orbslam3_si] V2_02_medium dr24 s0 onek w100 r2: durum=ok ATE=0.2632 kapsam=0.190 basarisiz kapsam 0.190 < 0.9 (134 s, yük 90.2)
+[orbslam3_si] V2_02_medium dr24 s0 onek w500 r2: durum=ok ATE=0.2138 kapsam=0.927 ok  (134 s, yük 90.2)
+[orbslam3_si] V2_02_medium dr24 s0 onek w900 r2: durum=ok ATE=0.0916 kapsam=1.000 ok  (134 s, yük 90.2)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 405 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 405}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:   81 pencere, başarısız  12 (15%), ATE medyan 0.0237 m, koşum süresi medyan 115 s
+  !! orbslam3_si D/r0=0'da 12 başarısız pencere: incele
+  !! orbslam3_si temiz ATE > 0.15 m: 2.011
+  orbslam3_si D/r0=   4:   81 pencere, başarısız  12 (15%), ATE medyan 0.0371 m, koşum süresi medyan 114 s
+  orbslam3_si D/r0=   8:   81 pencere, başarısız  13 (16%), ATE medyan 0.0574 m, koşum süresi medyan 116 s
+  orbslam3_si D/r0=  16:   81 pencere, başarısız  33 (41%), ATE medyan 0.1969 m, koşum süresi medyan 117 s
+  orbslam3_si D/r0=  24:   81 pencere, başarısız  51 (63%), ATE medyan 0.3242 m, koşum süresi medyan 114 s
+[denetim] SORUN VAR — kuyruğu durdurup incele
+BITTI 2026-11-11 15:55:35

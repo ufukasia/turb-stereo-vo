@@ -1,0 +1,16 @@
+fbaa431f2fd5f9ba1554ff6ced545c02e763986543fa9953a403cefecbd71a9c  onarim_kos.py (ön-test başlangıcı; --kipler eklenmeden önce)
+99270271d846439a10a4701dc753a0922d5d518c8c17fe9e8295e78d5a4782b9  onarim_kos.py (13:14; hazirla --kipler süzgeci eklendi, plan çıktısı aynı)
+8d66978b18c12d1cd413448ede93beb12140dc895020db425831bf100965179d  turb/uret_sekans.py
+92e1dc7fdb1a05759a1e40ad93fc7fe3e3c1d2627ad0b117fcc9b0f646948aa1  config.yaml
+c3887829cb39d50659e6b8398cc21751ac06a286b43f78c06d2620e06cb571e8  ../kod/derin_onarim/betikler/onar_sekans.py
+2d2ab71d9931379b92d913f010f1ae80d0689318c0a497a48a853432203d68ed  ../kod/derin_onarim/betikler/onar.py
+e144f294210f1a80626016331bc14da9e4cc4ace346f33a13e0c90a7e2052680  onarim_analiz.py
+# 2026-11-11 15:05 G3 incelemesi kapandı; Sapma 3 eki sonrası, ızgara başlamadan önce
+02ac5aef0f977f0791bb72d5737b1ad0a066854e50d850806e5c9f3844d7cef3  evidence/ONARIM/ON_TEST.md
+fcf3326bc718c61a4defe75919c2208a7ff3a0e287d624e9a0a522d59cd67a39  evidence/ONARIM/g3_duyarlilik.jsonl
+e1c6d27018802200f703e2fcf062a020af12d3a6b5e570b4d414b4a2b6530cb0  g3_duyarlilik.py
+611e8f585a907e80561b5f197f9ef5a91bab8a97e0c9deabd6ef9e924d22cc82  ikiz_kos.py
+116ba2ba47cca68536c5313c31a744d4ddc9b0deb68842bc92d56b85c324a2a3  onarim_analiz.py
+99270271d846439a10a4701dc753a0922d5d518c8c17fe9e8295e78d5a4782b9  onarim_kos.py
+# 2026-11-11 15:07 koşum planı güncellemesi sonrası (ızgara başlamadan önce)
+e2791d0164a851a1244fb1fa08b0ad4d1131db404a285f5251a746cda6d36de0  evidence/ONARIM/ON_TEST.md

@@ -1,0 +1,3 @@
+bireysel bağıl fark 2.02e-16 Hll blok-köşegen
+yama bağıl fark 2.02e-16 Hll bağlı
+P12-PyEco GEÇTİ 2.02e-16

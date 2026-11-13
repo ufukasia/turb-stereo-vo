@@ -1,0 +1,26 @@
+[plan] 45 hücre, 135 rakip koşumu; tamamlanmış 0, kalan 135; kapılar: {'gpu': {'index': 1, 'uuid': 'GPU-9644c99d-b81c-4d78-6b84-24024c097929', 'name': 'NVIDIA GeForce RTX 3090', 'free_mb': 23124, 'bus': '00000000:2B:00.0'}, 'cikti_bos_gb': 880.4, 'sorun': []}
+[manifest] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/manifest_20261111_105551.json  kimlik_fp=2e0701051eb2
+[üretim] MH01__dr0_tc0.15_t01_s0_speckle_global_sc0_sy_n1_ns0__k0-1921 26.5 s, 0.83 GB, sha256 7e505e5038a7
+[orbslam3_si] MH01 dr0 s0 onek w721 r0: durum=ok ATE=0.0191 kapsam=1.000 ok  (117 s, yük 8.0)
+[orbslam3_si] MH01 dr0 s0 onek w1121 r0: durum=ok ATE=0.0417 kapsam=1.000 ok  (117 s, yük 8.0)
+[orbslam3_si] MH01 dr0 s0 onek w1521 r0: durum=ok ATE=0.0157 kapsam=1.000 ok  (117 s, yük 8.0)
+[orbslam3_si] MH01 dr0 s0 onek w721 r1: durum=ok ATE=0.0405 kapsam=1.000 ok  (115 s, yük 6.2)
+[orbslam3_si] MH01 dr0 s0 onek w1121 r1: durum=ok ATE=0.0362 kapsam=1.000 ok  (115 s, yük 6.2)
+[orbslam3_si] MH01 dr0 s0 onek w1521 r1: durum=ok ATE=0.0165 kapsam=1.000 ok  (115 s, yük 6.2)
+[orbslam3_si] MH01 dr0 s0 onek w721 r2: durum=ok ATE=0.0170 kapsam=1.000 ok  (116 s, yük 6.2)
+[orbslam3_si] MH01 dr0 s0 onek w1121 r2: durum=ok ATE=0.0370 kapsam=1.000 ok  (116 s, yük 6.2)
+[orbslam3_si] MH01 dr0 s0 onek w1521 r2: durum=ok ATE=0.0169 kapsam=1.000 ok  (116 s, yük 6.2)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 9 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 9}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:    9 pencere, başarısız   0 (0%), ATE medyan 0.0191 m, koşum süresi medyan 116 s
+[denetim] TAMAM
+[dur] 1 hücre (--en_cok_hucre)
+[denetim] <project>/pyeco_turb/evidence/FAZ2_rakip_si_t0/rakip_kayitlari.jsonl: 9 pencere kaydı
+  kimlik_fp: {'2e0701051eb2': 9}
+  GPU: {}
+  altyapı hatası (sonuç değil): 0
+  orbslam3_si D/r0=   0:    9 pencere, başarısız   0 (0%), ATE medyan 0.0191 m, koşum süresi medyan 116 s
+[denetim] TAMAM
+BITTI 2026-11-11 11:02:10

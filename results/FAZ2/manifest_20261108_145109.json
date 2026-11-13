@@ -1,0 +1,27 @@
+{
+ "deney": "FAZ2",
+ "kirilma": null,
+ "zaman": "2026-11-08 14:51:08",
+ "code_fp": "08e28b83407c",
+ "gpu": "NVIDIA GeForce RTX 3090",
+ "env": {
+  "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+  "CUDA_VISIBLE_DEVICES": "1",
+  "OMP_NUM_THREADS": "4",
+  "SLAM_DATA_ROOT": "/media/masa24/2tb ana/sdata"
+ },
+ "config": "/home/masa24/Desktop/makaleler/turbulans vio/pyeco_turb/config.yaml",
+ "config_sha256": "92e1dc7fdb1a05759a1e40ad93fc7fe3e3c1d2627ad0b117fcc9b0f646948aa1",
+ "pencere_dosyasi": "/home/masa24/Desktop/makaleler/turbulans vio/pyeco_turb/evidence/pencereler_faz2_kapsam1m.json",
+ "pencere_sha256": "cd788381a90ee1f0be6f53727b29a94e34c2321f341ae35d1b9f81df46109e95",
+ "k_a0c": 12.0,
+ "hucre": 315,
+ "kol_kosumu": 1960,
+ "kalan_hucre": 315,
+ "jobs": 8,
+ "gpu_jobs": 1,
+ "chunk": 24,
+ "out": "/home/masa24/Desktop/makaleler/turbulans vio/pyeco_turb/evidence/FAZ2/records.jsonl",
+ "spool": "/tmp/turb_spool_faz2",
+ "kuru": false
+}

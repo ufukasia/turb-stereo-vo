@@ -1,0 +1,138 @@
+{
+ "etiket": "pilot_gpu1",
+ "testler": [
+  {
+   "sekans": "AF_F15_h5",
+   "C0": 1e-12,
+   "n": 3,
+   "medyan_oran": 1.1488201525393482,
+   "boot95": [
+    0.7736577844920771,
+    1.1854492044672356
+   ],
+   "ort_logoran": 0.01741053253410842,
+   "ga90_oran": [
+    0.6814352257334844,
+    1.5194905953405184
+   ],
+   "p_tost": 0.23346882985623935,
+   "esdeger": false,
+   "p_wilcoxon": 0.625,
+   "oran_gt1": 2,
+   "medyan_ate_oran": 1.1594377303488708,
+   "p_holm": 0.625,
+   "bozulma": false
+  },
+  {
+   "sekans": "AF_F15_h5",
+   "C0": 1e-11,
+   "n": 3,
+   "medyan_oran": 1.0570772922253748,
+   "boot95": [
+    0.990614370413658,
+    1.5132318152629352
+   ],
+   "ort_logoran": 0.15344183830577962,
+   "ga90_oran": [
+    0.7935434221152913,
+    1.7128021179960216
+   ],
+   "p_tost": 0.5366135113793251,
+   "esdeger": false,
+   "p_wilcoxon": 0.25,
+   "oran_gt1": 2,
+   "medyan_ate_oran": 0.9660029741180424,
+   "p_holm": 0.5,
+   "bozulma": false
+  },
+  {
+   "sekans": "AF_F5_h5",
+   "C0": 1e-12,
+   "n": 3,
+   "medyan_oran": 1.2328217811143019,
+   "boot95": [
+    1.181120214607343,
+    1.278870660940625
+   ],
+   "ort_logoran": 0.20724879592252168,
+   "ga90_oran": [
+    1.1504543829987182,
+    1.3156628562960877
+   ],
+   "p_tost": 0.9504998452496359,
+   "esdeger": false,
+   "p_wilcoxon": 0.125,
+   "oran_gt1": 3,
+   "medyan_ate_oran": 1.0552466394042137,
+   "p_holm": 0.375,
+   "bozulma": false
+  },
+  {
+   "sekans": "AF_F5_h5",
+   "C0": 3e-12,
+   "n": 3,
+   "medyan_oran": 1.4451268702165445,
+   "boot95": [
+    1.252171365827421,
+    1.4745608897642848
+   ],
+   "ort_logoran": 0.3271454992529226,
+   "ga90_oran": [
+    1.193479647564149,
+    1.6119068943784964
+   ],
+   "p_tost": 0.9660788756457006,
+   "esdeger": false,
+   "p_wilcoxon": 0.125,
+   "oran_gt1": 3,
+   "medyan_ate_oran": 1.061999439240081,
+   "p_holm": 0.375,
+   "bozulma": false
+  },
+  {
+   "sekans": "AF_F5_h5",
+   "C0": 1e-11,
+   "n": 3,
+   "medyan_oran": 2.654340094691954,
+   "boot95": [
+    2.165157325473998,
+    2.7907416233018165
+   ],
+   "ort_logoran": 0.9249988245595556,
+   "ga90_oran": [
+    2.010473357450246,
+    3.1633369066412125
+   ],
+   "p_tost": 0.9951857474415796,
+   "esdeger": false,
+   "p_wilcoxon": 0.125,
+   "oran_gt1": 3,
+   "medyan_ate_oran": 2.1926588761132613,
+   "p_holm": 0.375,
+   "bozulma": false
+  }
+ ],
+ "uyari": [
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C00e00_s0_g1t0_k1157-1994",
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C00e00_s1_g1t1_k1157-1994",
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C00e00_s2_g1t2_k1157-1994",
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C01e-11_s0_g1t0_k1157-1994",
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C01e-11_s1_g1t1_k1157-1994",
+  "ezilmi\u015f y\u00f6r\u00fcnge, d\u0131\u015fland\u0131: AF_F5_h5__C01e-11_s2_g1t2_k1157-1994"
+ ],
+ "spearman_AF_F15_h5": {
+  "rho": 0.09759000729485333,
+  "p_tek": 0.42703985168908587,
+  "n": 6
+ },
+ "spearman_AF_F5_h5": {
+  "rho": 0.8959786703810407,
+  "p_tek": 0.0005391091086139899,
+  "n": 9
+ },
+ "HA5": {
+  "n": 21,
+  "max_hata": 0.0036304936843620794,
+  "gecti": true
+ }
+}

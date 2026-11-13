@@ -1,0 +1,64 @@
+{
+ "tablo": [
+  {
+   "D_over_r0": 0.0,
+   "n": 135,
+   "medyan_ate": 0.02657003093449559,
+   "irak_oran": 0.0,
+   "sekans_tohum": 45,
+   "oran": 1.0
+  },
+  {
+   "D_over_r0": 4.0,
+   "n": 135,
+   "medyan_ate": 0.05987992085863702,
+   "irak_oran": 0.0,
+   "sekans_tohum": 45,
+   "oran": 2.253663949668028,
+   "kirilma_nedeni": "ATE>2x"
+  },
+  {
+   "D_over_r0": 8.0,
+   "n": 135,
+   "medyan_ate": 0.1856141174060644,
+   "irak_oran": 0.0,
+   "sekans_tohum": 45,
+   "oran": 6.985844986920341
+  },
+  {
+   "D_over_r0": 12.0,
+   "n": 135,
+   "medyan_ate": 0.3607198156696979,
+   "irak_oran": 0.022222222222222223,
+   "sekans_tohum": 45,
+   "oran": 13.576191031128202
+  },
+  {
+   "D_over_r0": 16.0,
+   "n": 135,
+   "medyan_ate": 0.5679278097972488,
+   "irak_oran": 0.037037037037037035,
+   "sekans_tohum": 45,
+   "oran": 21.374751546108065
+  },
+  {
+   "D_over_r0": 20.0,
+   "n": 135,
+   "medyan_ate": 0.7276540981621668,
+   "irak_oran": 0.14074074074074075,
+   "sekans_tohum": 45,
+   "oran": 27.386272148349708
+  },
+  {
+   "D_over_r0": 24.0,
+   "n": 135,
+   "medyan_ate": 0.9213827521200647,
+   "irak_oran": 0.1925925925925926,
+   "sekans_tohum": 45,
+   "oran": 34.67751898338376
+  }
+ ],
+ "tam": true,
+ "kirilma": 4.0,
+ "taban_medyan": 0.02657003093449559
+}

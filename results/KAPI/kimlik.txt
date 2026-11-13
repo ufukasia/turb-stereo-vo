@@ -1,0 +1,12 @@
+598ebfac7aba46d838911d03ba2375d089803e224bbd75b2d6f7540cdde5d698  evidence/KAPI/ON_BEYAN_3.md
+87e479e6188bcc9428e0cc86d24084ad053a3908ba162fd6ce2de314c4e8ea45  gtsam_backend.py
+72ac913c0612802d3cc7fb27dd80cb2865cea91a7617d9d1fc6a7e17cf7074f0  turb/backend.py
+629381667446f8dc0245847960542ce1160a8ff923fb077dc4838b6f8705ebf7  config.py
+ef3d310ab6b09b177281df13143e40396f042ed7a70cfdc945070407bbc5231a  kapi_kol.py
+code_fp bedca2849bb2
+Files ./config.py and ../pyeco_turb_kapi/config.py differ
+Files ./gtsam_backend.py and ../pyeco_turb_kapi/gtsam_backend.py differ
+Only in ../pyeco_turb_kapi: kapi_kol.py
+Files ./turb/backend.py and ../pyeco_turb_kapi/turb/backend.py differ
+yazım 2026-11-11 19:29:49
+ON_BEYAN_3 saat düzeltmesi (19:55 -> 19:30; içerik aynı) 2026-11-11 19:29:58

@@ -1,0 +1,43 @@
+{
+ "yok_dr8": {
+  "sha1": "2b5dec3e74c5f4dfbb49b2e54c95e7994ae74dc9",
+  "D/r0=0 ile bayt-aynı": true,
+  "ortalama |fark| DN": 0.0
+ },
+ "yok_dr16": {
+  "sha1": "2b5dec3e74c5f4dfbb49b2e54c95e7994ae74dc9",
+  "D/r0=0 ile bayt-aynı": true,
+  "ortalama |fark| DN": 0.0
+ },
+ "tilt_dr8": {
+  "sha1": "bb3901041064160bbeedbe707a9e26ebcbd9235b",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 13.82518196105957
+ },
+ "tilt_dr16": {
+  "sha1": "26d160311b430b9e86eee190692d4dd49c6b82ea",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 21.128936767578125
+ },
+ "blur_dr8": {
+  "sha1": "26684b04649bc02eabc838515c02e968d4846880",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 8.99609661102295
+ },
+ "blur_dr16": {
+  "sha1": "9900e103037e53bb5c084363054ae12a3f66abf6",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 14.996339797973633
+ },
+ "ikisi_dr8": {
+  "sha1": "2f241ec475ecb12d6f61a68223ee818bc32694ab",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 13.261262893676758
+ },
+ "ikisi_dr16": {
+  "sha1": "88f138d0299685a54899b2178534e3dbb828695e",
+  "D/r0=0 ile bayt-aynı": false,
+  "ortalama |fark| DN": 19.386808395385742
+ },
+ "dr0_sha1": "2b5dec3e74c5f4dfbb49b2e54c95e7994ae74dc9"
+}

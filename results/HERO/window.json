@@ -1,0 +1,18 @@
+{
+ "sequence": "MH05",
+ "seed": 3,
+ "regime": "fast (R5)",
+ "D_over_r0": 8.0,
+ "window_first_frame": 502,
+ "window_frames": 400,
+ "frame_shown": 780,
+ "t_start_ns": 1403638543177829376,
+ "t_end_ns": 1403638563127829504,
+ "t_frame_s": 13.9,
+ "ate_m": {
+  "A0": 1.4332466221006812,
+  "KAPI": 0.12188616224731395
+ },
+ "selection": "window with the smallest KAPI/A0 ATE ratio (0.085) among the 432 turbulent windows of the confirmatory grid (parts I and II)",
+ "source": "hero_kos.py rerun of the cell with trajectories kept; per-window ATE equals the grid records"
+}

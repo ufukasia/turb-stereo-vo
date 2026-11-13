@@ -1,0 +1,4 @@
+günlük: evidence/A3S/kosum_1414.log; başlangıç 2026-11-11 14:14:53; gpu_jobs 1 jobs 4
+2026-11-11 15:29:36 durduruldu (bellek: boş 1.8 GB'a indi; rakip SI kuyruklarının üç eşzamanlı sekans üretimi ≈ 7 GB anlık yük). Tamamlanan hücreler yukarıdaki günlükte; koşum kaldığı yerden sürdürülecek.
+2026-11-11 16:54:11 sürdürüldü (rakip kuyrukları 16:53'te bitti, bellek ≈ 20 GB boş): --gpu_jobs 2 --jobs 5, günlük evidence/A3S/kosum_1654.log, code_fp 08e28b83407c
+A3S ağacı nice 10 (17:48): öncelik sırası hızlı rejim > onarma > A3S

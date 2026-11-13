@@ -1,0 +1,65 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "ViewMode": "NoDisplay",
+  "ClockSpeed": 1.0,
+  "CameraDefaults": {
+    "CaptureSettings": []
+  },
+  "Vehicles": {
+    "CV": {
+      "VehicleType": "ComputerVision",
+      "AutoCreate": true,
+      "Cameras": {
+        "cam0": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 768,
+              "FOV_Degrees": 70.0,
+              "MotionBlurAmount": 0,
+              "AutoExposureSpeed": 100
+            },
+            {
+              "ImageType": 1,
+              "Width": 256,
+              "Height": 192,
+              "FOV_Degrees": 70.0
+            }
+          ],
+          "X": 0.0,
+          "Y": -0.2,
+          "Z": 0.0,
+          "Pitch": -25.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "cam1": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1024,
+              "Height": 768,
+              "FOV_Degrees": 70.0,
+              "MotionBlurAmount": 0,
+              "AutoExposureSpeed": 100
+            },
+            {
+              "ImageType": 1,
+              "Width": 256,
+              "Height": 192,
+              "FOV_Degrees": 70.0
+            }
+          ],
+          "X": 0.0,
+          "Y": 0.2,
+          "Z": 0.0,
+          "Pitch": -25.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        }
+      }
+    }
+  }
+}

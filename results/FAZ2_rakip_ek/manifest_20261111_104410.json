@@ -1,0 +1,108 @@
+{
+ "zaman": "2026-11-11 10:44:10",
+ "kimlik_fp": "f578efb6ff85",
+ "kimlik": {
+  "orbslam3": {
+   "kok": "/home/masa24/Desktop/makaleler/rakipler/ORB_SLAM3",
+   "git": null,
+   "lib_sha256": "f66b1bc411247169a187686ad83dab08339fae9eae902678755e84324e9ff1a2",
+   "ikili_sha256": "4720d029bdfdb4cc20806676e480b70f05dfea630f84f41624326b4cc23fc5f0",
+   "Tracking.cc_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+   "voc_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+   "yazar_ayari_sha256": "721602964ef5ffd5b5d594900ed6ee52069bafa32ea2482e5c7987fdad2ab442",
+   "kosucu": "/home/masa24/Desktop/makaleler/slam/slam_hakem_kosum/rakip/orbslam3/run_orbslam3_asl.py",
+   "kosucu_sha256": "1caa39927313d1853bda410e27fb5ae1b2462580aece740443bec7296a5fb317",
+   "ayar": "koşucu sensor.yaml'dan settings.yaml üretir (EuRoC.yaml ORB değerleri, nFeatures 1200, loopClosing 0); üretilen dosya her koşumun yan dizininde (settings.yaml) ve sha256'sı kayıtta"
+  },
+  "airslam": {
+   "ws": "/home/masa24/Desktop/makaleler/rakipler/airslam_ws_ek11c",
+   "src": "/home/masa24/Desktop/makaleler/rakipler/AirSLAM_ek11",
+   "src_git": "c633b516832d15769245bdb49048fc61077265b1",
+   "yazar_commit": "d1265771026091db97ee8f7a6d80692f0edd5fef",
+   "visual_odometry_sha256": "c79c5199cca1fa475802e9386d7dd5e4b2970508ff506f2d778c2a0cb32cf807",
+   "vo_euroc.yaml_sha256": "cd3903a45ed897987292a137dbe64d993d671e0ab04fd6802da519b300bfdb80",
+   "docker_imaj": "xukuanhit/air_slam:v4",
+   "kosucu": "/home/masa24/Desktop/makaleler/slam/slam_hakem_kosum/rakip/airslam/run_airslam_asl.py",
+   "kosucu_sha256": "709a684573563c630b3b4e37a745f1e50e2a3ae3bbb69f732ee7e84d05195087",
+   "ek": {
+    "belirlenimci": 2
+   },
+   "motorlar": {
+    "plnet_s0.engine": "86dd79ad11a13dc99fa9d056c4d48560d06fa31d107f426b418b192df548bea3",
+    "plnet_s1.engine": "f26c8e2b76ad76d27bcec4e3c3279d5e7944e5c4d206a6d6f5cd5d1c9dd49d87",
+    "superpoint_lightglue.engine": "958889f0176722a5e90719ee942ba3648184b93087af8ade7bc9a456c1647856",
+    "superpoint_v1_sim_int32.engine": "2af2710bcf8667fe7a4bbbce773b49931618c55e601f77eda02d5334c63b5112"
+   },
+   "docker_imaj_id": "sha256:9df819fdbb0ef0925adcd32f1f6d543e12272d4cc5c35118cb259597ebb508e7"
+  },
+  "droid": {
+   "kok": "/home/masa24/Desktop/makaleler/rakipler/DROID-SLAM",
+   "git": "2dfd39f0dcad44012ca7bbb8aa70b55edbfa9c99",
+   "agirlik_sha256": "46476ef64cde45a97504910d6f3de2eef7b398ec1c6e4e668815c29076024526",
+   "kosucu": "/home/masa24/Desktop/makaleler/slam/slam_hakem_kosum/rakip/droid/run_droid_asl.py",
+   "kosucu_sha256": "1a75fb929aa7da3f0a357fa04d55edefe7987b401c21b667493d639455afe644",
+   "python": "/home/masa24/anaconda3/envs/droid/bin/python",
+   "ayar": "test_euroc.py varsayilanlari (koşucu argümanları), stereo, --causal-out"
+  },
+  "bu_modul_sha256": "a30efbf71bec7d2d8d0bd243134e94a8f50b202a5a183ed426608c63de2ddf69",
+  "metrics.py_sha256": "923c06a67e141073c5bc63f25c85ceca03fa104d84e0d19a1f767fcf3c395405"
+ },
+ "on_kayit_sha256": "2d7daaa8dd1f7beddd66d698ab03cff33c4e794dbf4374542ae5c8624be31504",
+ "pencere_dosyasi": "/home/masa24/Desktop/makaleler/turbulans vio/pyeco_turb/evidence/pencereler_faz2_kapsam1m.json",
+ "pencere_sha256": "cd788381a90ee1f0be6f53727b29a94e34c2321f341ae35d1b9f81df46109e95",
+ "uret_sekans_sha256": "8d66978b18c12d1cd413448ede93beb12140dc895020db425831bf100965179d",
+ "stereo_dis": "sensor_yaml",
+ "hooks_sha256": "9d51d1baf3ff5c94076eca9acfd6852878d37d712256651720c52499f2ceaac6",
+ "uretici_yapilandirma_sha256": "0ff1acde6ddadcb9145af59d9859edeb88adf1316315935c1916921be8dceed7",
+ "kuyruk_sha256": "63dfcde484cd582a9d57fb2340af84ceeef54c3f630b963405f01ed7233b7064",
+ "plan": {
+  "sekanslar": [
+   "MH01",
+   "MH02",
+   "MH03",
+   "MH04",
+   "MH05",
+   "V1_01_easy",
+   "V1_02_medium",
+   "V2_01_easy",
+   "V2_02_medium"
+  ],
+  "D_over_r0": [
+   0,
+   8,
+   16,
+   24
+  ],
+  "tohumlar": [
+   0,
+   1,
+   2
+  ],
+  "sigma_dn": 1.0,
+  "tekrar": {
+   "orbslam3": 3,
+   "airslam": 1,
+   "droid": 1
+  },
+  "protokol": "onek (kare 0 -> max(pencere)+400)",
+  "n_hucre": 27,
+  "n_rakip_kosumu": 135
+ },
+ "kapilar": {
+  "gpu": {
+   "index": 1,
+   "uuid": "GPU-9644c99d-b81c-4d78-6b84-24024c097929",
+   "name": "NVIDIA GeForce RTX 3090",
+   "free_mb": 23126,
+   "bus": "00000000:2B:00.0"
+  },
+  "cikti_bos_gb": 881.2,
+  "sorun": []
+ },
+ "ortam": {
+  "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+  "CUDA_VISIBLE_DEVICES": null,
+  "SLAM_DATA_ROOT": null,
+  "OMP_NUM_THREADS": null
+ }
+}

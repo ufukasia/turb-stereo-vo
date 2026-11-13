@@ -1,0 +1,1360 @@
+{
+ "R2": [
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "a_ate": 0.03261283960927257,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 69.28,
+   "b_ate": 0.032990898645599835,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 208.33,
+   "oran_a_b": 0.9885405050529689
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "a_ate": 0.026140921454790828,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 37.94,
+   "b_ate": 0.025964987097883016,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 1.0067758307078902
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "a_ate": 0.027673826967757515,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 114.86,
+   "b_ate": 0.027737154748179327,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 205.79,
+   "oran_a_b": 0.9977168609759453
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "a_ate": 0.021881894129798504,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 75.54,
+   "b_ate": 0.02555599871590176,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 208.33,
+   "oran_a_b": 0.8562331831775719
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "a_ate": 0.019475266213276624,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 36.13,
+   "b_ate": 0.019420861572609117,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 1.0028013505201148
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "a_ate": 0.020435124858068483,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 111.72,
+   "b_ate": 0.02063273012575535,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 205.79,
+   "oran_a_b": 0.9904227280402316
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "a_ate": 0.01825291194144156,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 47.43,
+   "b_ate": 0.019728527058414293,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 208.33,
+   "oran_a_b": 0.925203989501924
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "a_ate": 0.018941102983101032,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 25.49,
+   "b_ate": 0.01860595881486871,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 1.0180127329941469
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "a_ate": 0.020874017500351044,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 76.02,
+   "b_ate": 0.01993296558659417,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 205.79,
+   "oran_a_b": 1.0472108332133867
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 600,
+   "a_ate": 0.007647597036504438,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 32.58,
+   "b_ate": 0.008766564723478549,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 135.64,
+   "oran_a_b": 0.8723596160788843
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 600,
+   "a_ate": 0.012395589652772413,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 17.35,
+   "b_ate": 0.015968466129254764,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 0.7762542471166519
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 600,
+   "a_ate": 0.007460920467655323,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 40.26,
+   "b_ate": 0.007721281804013249,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 325.79,
+   "oran_a_b": 0.9662800370499882
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "a_ate": 0.009585448621575031,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 32.19,
+   "b_ate": 0.017080907015568813,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 135.64,
+   "oran_a_b": 0.5611791348573081
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "a_ate": 0.011629589932891598,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 19.27,
+   "b_ate": 0.011863694326461897,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 0.9802671590207672
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "a_ate": 0.00979376548906107,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 32.0,
+   "b_ate": 0.012355881861649648,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 325.79,
+   "oran_a_b": 0.7926399425571631
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "a_ate": 0.014819310232084576,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 31.35,
+   "b_ate": 0.016490076863557482,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 135.64,
+   "oran_a_b": 0.8986804824927624
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "a_ate": 0.05235754786139905,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 19.12,
+   "b_ate": 0.044247002594968804,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 79.56,
+   "oran_a_b": 1.183301575039401
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "a_ate": 0.011904607371512888,
+   "a_kapsam": 1.0,
+   "a_durum": "ok",
+   "a_ilk_poz_kare_ofseti": 0,
+   "a_sure_s": 34.85,
+   "b_ate": 0.014815851549363651,
+   "b_kapsam": 1.0,
+   "b_durum": "ok",
+   "b_sure_s": 325.79,
+   "oran_a_b": 0.8035047686492375
+  }
+ ],
+ "R3b": [
+  {
+   "rakip": "orbslam3",
+   "pencere": 100,
+   "rekt_ate": 0.024521122047411158,
+   "rekt_olcek": 1.002198916274463,
+   "ham_ate": 0.037486623571020915,
+   "ham_olcek": 1.0066225369462796,
+   "oran": 0.6541299191951564
+  },
+  {
+   "rakip": "orbslam3",
+   "pencere": 500,
+   "rekt_ate": 0.031584457858844145,
+   "rekt_olcek": 1.0196733713474873,
+   "ham_ate": 0.02556850074967614,
+   "ham_olcek": 1.005360403912858,
+   "oran": 1.2352878320111986
+  },
+  {
+   "rakip": "orbslam3",
+   "pencere": 900,
+   "rekt_ate": 0.016957641902384996,
+   "rekt_olcek": 1.003643173314844,
+   "ham_ate": 0.015402311573909692,
+   "ham_olcek": 1.0072138109167166,
+   "oran": 1.1009803185068605
+  },
+  {
+   "rakip": "airslam",
+   "pencere": 100,
+   "rekt_ate": 0.028400929781768124,
+   "rekt_olcek": 1.0099644317001415,
+   "ham_ate": 0.02619680280329469,
+   "ham_olcek": 1.0084275140805659,
+   "oran": 1.084137251214344
+  },
+  {
+   "rakip": "airslam",
+   "pencere": 500,
+   "rekt_ate": 0.01680678810978201,
+   "rekt_olcek": 1.009578947168874,
+   "ham_ate": 0.018182144557981946,
+   "ham_olcek": 1.0090548632953709,
+   "oran": 0.9243567531974023
+  },
+  {
+   "rakip": "airslam",
+   "pencere": 900,
+   "rekt_ate": 0.014840785571261847,
+   "rekt_olcek": 1.0050708094122889,
+   "ham_ate": 0.017586229169324917,
+   "ham_olcek": 1.007670332321922,
+   "oran": 0.8438867382183409
+  },
+  {
+   "rakip": "droid",
+   "pencere": 100,
+   "rekt_ate": 0.02715275768629301,
+   "rekt_olcek": 1.0062437446271395,
+   "ham_ate": 0.02715357714109523,
+   "ham_olcek": 1.006245719389345,
+   "oran": 0.9999698214788438
+  },
+  {
+   "rakip": "droid",
+   "pencere": 500,
+   "rekt_ate": 0.020583354271270126,
+   "rekt_olcek": 1.0098486614333748,
+   "ham_ate": 0.020585502594562047,
+   "ham_olcek": 1.00985345182614,
+   "oran": 0.9998956390167277
+  },
+  {
+   "rakip": "droid",
+   "pencere": 900,
+   "rekt_ate": 0.018855635846409105,
+   "rekt_olcek": 1.007655551539687,
+   "ham_ate": 0.018854795889068368,
+   "ham_olcek": 1.0076520222353378,
+   "oran": 1.0000445487368668
+  }
+ ],
+ "R4": [
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 600,
+   "dr0": {
+    "ate": 0.015968466129254764,
+    "ate_son": 0.016268774467901773,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 47.8,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 0.9890316601002408
+   },
+   "dr8": {
+    "ate": 0.04210291193950571,
+    "ate_son": 0.03887166410017379,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 73.06,
+    "yuk": 23.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0275634528689488
+   },
+   "oran8": 2.636628439995985,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 183.39,
+    "yuk": 52.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "dr0": {
+    "ate": 0.011863694326461897,
+    "ate_son": 0.011631070807652265,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 47.8,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 0.9961820323752343
+   },
+   "dr8": {
+    "ate": 0.07520640593418483,
+    "ate_son": 0.07110987001678654,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 73.06,
+    "yuk": 23.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0335436283801218
+   },
+   "oran8": 6.339206309997166,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 183.39,
+    "yuk": 52.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "dr0": {
+    "ate": 0.044247002594968804,
+    "ate_son": 0.04264645063930052,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 47.8,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0146457353762564
+   },
+   "dr8": {
+    "ate": 0.05417803327674001,
+    "ate_son": 0.05211461921929849,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 73.06,
+    "yuk": 23.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0151030747287033
+   },
+   "oran8": 1.224445275371047,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 183.39,
+    "yuk": 52.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "dr0": {
+    "ate": 0.025964987097883016,
+    "ate_son": 0.025851141956658986,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 127.9,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0085094104450314
+   },
+   "dr8": {
+    "ate": 0.02681411083844035,
+    "ate_son": 0.02588262370014702,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 78.78,
+    "yuk": 32.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 0.9939123750099401
+   },
+   "oran8": 1.0327026444248288,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 157.37,
+    "yuk": 35.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "dr0": {
+    "ate": 0.019420861572609117,
+    "ate_son": 0.019811808959897977,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 127.9,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0126121154711376
+   },
+   "dr8": {
+    "ate": 0.042086341706699185,
+    "ate_son": 0.04050641064264993,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 78.78,
+    "yuk": 32.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 0.9866689376059915
+   },
+   "oran8": 2.167068723977576,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 157.37,
+    "yuk": 35.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "airslam",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "dr0": {
+    "ate": 0.01860595881486871,
+    "ate_son": 0.018575396685906374,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 79.56,
+    "yuk": 127.9,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0085713517111736
+   },
+   "dr8": {
+    "ate": 0.04587080723418633,
+    "ate_son": 0.04478423572138527,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 78.78,
+    "yuk": 32.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": 1.0243940881860651
+   },
+   "oran8": 2.465382606218029,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ilklenemedi",
+    "sure_s": 157.37,
+    "yuk": 35.0,
+    "n_kare": 1300,
+    "gpu": "NVIDIA_GeForce_RTX_3090",
+    "olcek": null
+   }
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 600,
+   "dr0": {
+    "ate": 0.007721281804013249,
+    "ate_son": 0.007621269735215537,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 325.79,
+    "yuk": 41.1,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9953220191313839
+   },
+   "dr8": {
+    "ate": 0.037003422066715023,
+    "ate_son": 0.030435959431944718,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 275.37,
+    "yuk": 27.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9830807482834063
+   },
+   "oran8": 4.792393673221712,
+   "dr24": {
+    "ate": 0.10516985122440695,
+    "ate_son": 0.04446505437114909,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 167.94,
+    "yuk": 23.2,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0739031768120864
+   },
+   "oran24": 13.620776173425424
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "dr0": {
+    "ate": 0.012355881861649648,
+    "ate_son": 0.013372414217682649,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 325.79,
+    "yuk": 41.1,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9975165564735862
+   },
+   "dr8": {
+    "ate": 0.1367180036899507,
+    "ate_son": 0.08981966550266667,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 275.37,
+    "yuk": 27.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9387503343344008
+   },
+   "oran8": 11.06501383072445,
+   "dr24": {
+    "ate": 0.1149005896366876,
+    "ate_son": 0.1291402947391183,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 167.94,
+    "yuk": 23.2,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0412570476280474
+   },
+   "oran24": 9.299262563631139
+  },
+  {
+   "rakip": "droid",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "dr0": {
+    "ate": 0.014815851549363651,
+    "ate_son": 0.013308067684609992,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 325.79,
+    "yuk": 41.1,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0035065241190115
+   },
+   "dr8": {
+    "ate": 0.13749917811977638,
+    "ate_son": 0.03532247341602748,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 275.37,
+    "yuk": 27.3,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9538478071279322
+   },
+   "oran8": 9.280545074419434,
+   "dr24": {
+    "ate": 0.2863451329602378,
+    "ate_son": 0.24634297228304136,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 167.94,
+    "yuk": 23.2,
+    "n_kare": 1800,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.915699610665513
+   },
+   "oran24": 19.32694398335386
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "dr0": {
+    "ate": 0.027737154748179327,
+    "ate_son": 0.02822981969073134,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 205.79,
+    "yuk": 102.6,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0051032087412703
+   },
+   "dr8": {
+    "ate": 0.05108361306401006,
+    "ate_son": 0.02423676792468098,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 181.39,
+    "yuk": 36.4,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9677218070308818
+   },
+   "oran8": 1.8417034309318694,
+   "dr24": {
+    "ate": 0.08075320061201863,
+    "ate_son": 0.1545551335887909,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 186.17,
+    "yuk": 41.7,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9998210908133319
+   },
+   "oran24": 2.911372898379899
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "dr0": {
+    "ate": 0.02063273012575535,
+    "ate_son": 0.022006110673051815,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 205.79,
+    "yuk": 102.6,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0105975118536399
+   },
+   "dr8": {
+    "ate": 0.023146043941210257,
+    "ate_son": 0.02912518098608386,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 181.39,
+    "yuk": 36.4,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.9905215962457744
+   },
+   "oran8": 1.121811985138971,
+   "dr24": {
+    "ate": 0.1426893750773055,
+    "ate_son": 0.09965734556353543,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 186.17,
+    "yuk": 41.7,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 0.868865535142502
+   },
+   "oran24": 6.91568077552615
+  },
+  {
+   "rakip": "droid",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "dr0": {
+    "ate": 0.01993296558659417,
+    "ate_son": 0.018347938486008422,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 205.79,
+    "yuk": 102.6,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0089933981628463
+   },
+   "dr8": {
+    "ate": 0.03040819864459451,
+    "ate_son": 0.03292165995685184,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 181.39,
+    "yuk": 36.4,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.0090459012075739
+   },
+   "oran8": 1.525523059400926,
+   "dr24": {
+    "ate": 0.14634468940762538,
+    "ate_son": 0.1626759278468647,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 186.17,
+    "yuk": 41.7,
+    "n_kare": 1300,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "olcek": 1.065611694879046
+   },
+   "oran24": 7.341842274892045
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 600,
+   "dr0": {
+    "ate": 0.008766564723478549,
+    "ate_son": 0.009374162742665195,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 135.64,
+    "yuk": 54.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 0.9957618464310043
+   },
+   "dr8": {
+    "ate": 0.020353718772792607,
+    "ate_son": 0.012768391254212688,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 127.72,
+    "yuk": 21.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.0103261122709062
+   },
+   "oran8": 2.3217439686815324,
+   "dr24": {
+    "ate": 0.38022213383367043,
+    "ate_son": 0.3708111359653163,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 144.05,
+    "yuk": 62.8,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.3679215168787937
+   },
+   "oran24": 43.37185041426345
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 1000,
+   "dr0": {
+    "ate": 0.017080907015568813,
+    "ate_son": 0.018187837398667472,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 135.64,
+    "yuk": 54.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.0068957387017814
+   },
+   "dr8": {
+    "ate": 0.04806003006575019,
+    "ate_son": 0.0316447124983166,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 127.72,
+    "yuk": 21.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.0018564031225576
+   },
+   "oran8": 2.813669673510001,
+   "dr24": {
+    "ate": 0.5839248357659459,
+    "ate_son": 0.5858798864547091,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 144.05,
+    "yuk": 62.8,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.3514548296110303
+   },
+   "oran24": 34.18582135209291
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "MH02",
+   "pencere": 1400,
+   "dr0": {
+    "ate": 0.016490076863557482,
+    "ate_son": 0.014331971943751996,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 135.64,
+    "yuk": 54.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 0.9997298014070554
+   },
+   "dr8": {
+    "ate": 0.10017460316943115,
+    "ate_son": 0.05176834766575621,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 127.72,
+    "yuk": 21.2,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.0165594896692989
+   },
+   "oran8": 6.074841493966209,
+   "dr24": {
+    "ate": 0.8950043413998394,
+    "ate_son": 0.8901855305742291,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 144.05,
+    "yuk": 62.8,
+    "n_kare": 1800,
+    "gpu": null,
+    "olcek": 1.4224047011374499
+   },
+   "oran24": 54.27532866009673
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 100,
+   "dr0": {
+    "ate": 0.032990898645599835,
+    "ate_son": 0.03102567979116874,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 208.33,
+    "yuk": 177.8,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0128365885805977
+   },
+   "dr8": {
+    "ate": 0.06692688224990265,
+    "ate_son": 0.06291262948172803,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 103.42,
+    "yuk": 29.9,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0097145800745628
+   },
+   "oran8": 2.028646838901099,
+   "dr24": {
+    "ate": 0.16475935130096392,
+    "ate_son": 0.1529305897307305,
+    "kapsam": 0.69,
+    "durum_p": "basarisiz",
+    "neden": "kapsam 0.690 < 0.9",
+    "kosum_durum": "ok",
+    "sure_s": 93.11,
+    "yuk": 40.1,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.1318514914270374
+   }
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 500,
+   "dr0": {
+    "ate": 0.02555599871590176,
+    "ate_son": 0.022977667365704904,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 208.33,
+    "yuk": 177.8,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0173440677207646
+   },
+   "dr8": {
+    "ate": 0.12728531552156971,
+    "ate_son": 0.11385082214797447,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 103.42,
+    "yuk": 29.9,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0577731405119484
+   },
+   "oran8": 4.980643368179883,
+   "dr24": {
+    "ate": 0.1452873546661061,
+    "ate_son": 0.13138559521593288,
+    "kapsam": 0.62,
+    "durum_p": "basarisiz",
+    "neden": "kapsam 0.620 < 0.9",
+    "kosum_durum": "ok",
+    "sure_s": 93.11,
+    "yuk": 40.1,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.186294649873005
+   }
+  },
+  {
+   "rakip": "orbslam3",
+   "sekans": "V1_01_easy",
+   "pencere": 900,
+   "dr0": {
+    "ate": 0.019728527058414293,
+    "ate_son": 0.019745276691302136,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 208.33,
+    "yuk": 177.8,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0077048542656848
+   },
+   "dr8": {
+    "ate": 0.1490351510607705,
+    "ate_son": 0.12885209887158652,
+    "kapsam": 1.0,
+    "durum_p": "ok",
+    "neden": "",
+    "kosum_durum": "ok",
+    "sure_s": 103.42,
+    "yuk": 29.9,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": 1.0966866149517536
+   },
+   "oran8": 7.554296913271406,
+   "dr24": {
+    "ate": null,
+    "ate_son": null,
+    "kapsam": 0.0,
+    "durum_p": "basarisiz",
+    "neden": "pencerede < 5 kestirim (yörünge yok); kapsam 0.000 < 0.9",
+    "kosum_durum": "ok",
+    "sure_s": 93.11,
+    "yuk": 40.1,
+    "n_kare": 1300,
+    "gpu": null,
+    "olcek": null
+   }
+  }
+ ],
+ "R5": {
+  "airslam": {
+   "100": {
+    "ate": [
+     0.02681411083844035,
+     0.02681411083844035,
+     0.02681411083844035
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "70e397f85c4102cd",
+     "70e397f85c4102cd",
+     "70e397f85c4102cd"
+    ],
+    "bayt_ayni": true,
+    "cv": 0.0
+   },
+   "500": {
+    "ate": [
+     0.042086341706699185,
+     0.042086341706699185,
+     0.042086341706699185
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "70e397f85c4102cd",
+     "70e397f85c4102cd",
+     "70e397f85c4102cd"
+    ],
+    "bayt_ayni": true,
+    "cv": 2.0192714256720464e-16
+   },
+   "900": {
+    "ate": [
+     0.04587080723418633,
+     0.04587080723418633,
+     0.04587080723418633
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "70e397f85c4102cd",
+     "70e397f85c4102cd",
+     "70e397f85c4102cd"
+    ],
+    "bayt_ayni": true,
+    "cv": 0.0
+   },
+   "cv_medyan": 0.0
+  },
+  "droid": {
+   "100": {
+    "ate": [
+     0.05108361306401006,
+     0.05099274551739248,
+     0.051109786027105565
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "48e9ba4415c88ea1",
+     "2562e0cb7bd024e2",
+     "343d65016d6dbab3"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.0012030075256933216
+   },
+   "500": {
+    "ate": [
+     0.023146043941210257,
+     0.02314338857738645,
+     0.02314066639141912
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "48e9ba4415c88ea1",
+     "2562e0cb7bd024e2",
+     "343d65016d6dbab3"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.00011618206506781833
+   },
+   "900": {
+    "ate": [
+     0.03040819864459451,
+     0.030399232871518533,
+     0.03041253229218369
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "48e9ba4415c88ea1",
+     "2562e0cb7bd024e2",
+     "343d65016d6dbab3"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.00022307036791036154
+   },
+   "cv_medyan": 0.00022307036791036154
+  },
+  "orbslam3": {
+   "100": {
+    "ate": [
+     0.06692688224990265,
+     0.08293333709702246,
+     0.07516976633322339
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "ac9d39519bc07588",
+     "e9f8ceeb98441f6d",
+     "f4359475cba190ee"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.10671142421114604
+   },
+   "500": {
+    "ate": [
+     0.12728531552156971,
+     0.11771437525498946,
+     0.12634623869166883
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "ac9d39519bc07588",
+     "e9f8ceeb98441f6d",
+     "f4359475cba190ee"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.04262036586767423
+   },
+   "900": {
+    "ate": [
+     0.1490351510607705,
+     0.102857493836472,
+     0.11968487292848545
+    ],
+    "durum_p": [
+     "ok",
+     "ok",
+     "ok"
+    ],
+    "sha256_nedensel": [
+     "ac9d39519bc07588",
+     "e9f8ceeb98441f6d",
+     "f4359475cba190ee"
+    ],
+    "bayt_ayni": false,
+    "cv": 0.18868301188950862
+   },
+   "cv_medyan": 0.10671142421114604
+  }
+ }
+}

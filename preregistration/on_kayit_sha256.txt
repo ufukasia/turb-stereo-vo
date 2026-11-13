@@ -1,0 +1,22 @@
+2026-11-08T11:21:51+03:00
+e119c0f7997fd18b19ab9fa7465cd3909ee624319f4409743989c078d5bbbe27  ON_KAYIT_FAZ2.md
+v0.3 dondurma; kullanıcı onayı 2026-11-08 (dosya: turbulans vio/ON_KAYIT_FAZ2.md)
+2026-11-08 17:51 sapma1 (AirSim kolları) sonrası: 0f0a43a1266fa1714d6bbd9906ec9c28c1781e6a7edc55300fdffedb3e74b528
+2026-11-11 10:43 sapma2 (TAES ek rakip koşumları) sonrası: 2d7daaa8dd1f7beddd66d698ab03cff33c4e794dbf4374542ae5c8624be31504
+2d7daaa8dd1f7beddd66d698ab03cff33c4e794dbf4374542ae5c8624be31504  ON_KAYIT_FAZ2.md
+2026-11-11 10:54 sapma2 eki (SI son yörünge) sonrası: 01d1cff77f95c593b84ef6097d4af2948261cf7f7ce4d4d6ca916a3cadb8facc
+01d1cff77f95c593b84ef6097d4af2948261cf7f7ce4d4d6ca916a3cadb8facc  ON_KAYIT_FAZ2.md
+2026-11-11 12:55 sapma3 (derin onarma kolu) sonrası: 58a19b03b97676fb4cc603a94fca84b2f9eb384d03208a2a3277972214bbeba0
+58a19b03b97676fb4cc603a94fca84b2f9eb384d03208a2a3277972214bbeba0  ON_KAYIT_FAZ2.md
+2026-11-11 13:22 sapma4 (A3S ayırma kolu) sonrası: 2c2590c73c5cfa1169288bc0e50485084b46d6915ba16a3a48c9354fa7222891
+2c2590c73c5cfa1169288bc0e50485084b46d6915ba16a3a48c9354fa7222891  ON_KAYIT_FAZ2.md
+2026-11-11 13:22 sapma4 saat düzeltmesi (13:35 -> 13:22, başka değişiklik yok) sonrası: 140472d6ce49afbebda4926afaadeaaafd8424f8b2f074a2c172640a7aa9bf83
+140472d6ce49afbebda4926afaadeaaafd8424f8b2f074a2c172640a7aa9bf83  ON_KAYIT_FAZ2.md
+2026-11-11 15:05 sapma3 eki (G3 kapısı + sayısal ikiz denetimi; onarım ızgarası sonucu görülmeden) sonrası: e2b86f21b69ae7d49fa7b5b78a2846550b2886846f1e3993f1239802477fa76f
+e2b86f21b69ae7d49fa7b5b78a2846550b2886846f1e3993f1239802477fa76f  ON_KAYIT_FAZ2.md
+2026-11-11 18:43 sapma5 (hızlı rejim doğrulayıcı ızgarası; sonda bittikten sonra, R5 tohum 1–4 ve A3/AG/A0C/A0C+A3 sonuçları görülmeden) sonrası: 119d594627e64c519fafa69be86cb81a2e70b765c453adf56a9d87208d3bdcce
+119d594627e64c519fafa69be86cb81a2e70b765c453adf56a9d87208d3bdcce  ON_KAYIT_FAZ2.md
+2026-11-11 21:20 sapma6 (uyarlanır izleme kapısı kolu ve doğrulayıcı ızgarası; geliştirme ve koşucu ön testi sonrası, tohum 1–4 kapılı kol sonuçları görülmeden) sonrası: 48b754750686227d5fb736882d1d96663625891063552f77c088cda3b0ede806
+48b754750686227d5fb736882d1d96663625891063552f77c088cda3b0ede806  ON_KAYIT_FAZ2.md
+2026-11-12 22:41 sapma7 (kapılı genel uyarlamalı taban çizgisi AGg; AGg'nin hiçbir koşumu yapılmadan, ön testten önce) sonrası: 47c481c7a23983f473268b2f6a65c5e2ae9feeedf02a5a33e4007ef0c4a4aeb8
+47c481c7a23983f473268b2f6a65c5e2ae9feeedf02a5a33e4007ef0c4a4aeb8  ON_KAYIT_FAZ2.md

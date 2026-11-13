@@ -1,0 +1,1385 @@
+{
+ "kayit": "evidence/FAZ2_rakip/on_test/on_test.jsonl",
+ "protokol": "onek",
+ "n_kayit": 72,
+ "birincil": {
+  "metrik": "m_ate_se3",
+  "rakipler": {
+   "airslam": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.019013410193738915,
+     "p10_p90": [
+      0.01391608022785833,
+      0.03510599484642591
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.019013410193738915,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 2.316225665097803,
+      "medyan_oran_ga95": [
+       1.1285739598979379,
+       4.4879173749965755
+      ],
+      "medyan_oran_basarisiz_dahil": 2.316225665097803,
+      "medyan_ate": 0.04398685958684602,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 2.251174075546383,
+       "ga95": [
+        1.7670307220682306,
+        2.735317429024536
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 2.735317429024536,
+        "V1_01_easy/s0": 1.7670307220682306
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 2.636628439995985,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 2.167068723977576,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0327026444248288
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 2.167068723977576
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 2.465382606218029
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 2.636628439995985
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 6.339206309997166
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.224445275371047
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 6,
+      "basarisizlik_orani": 1.0,
+      "n_cift": 0,
+      "medyan_oran": null,
+      "medyan_oran_ga95": [
+       null,
+       null
+      ],
+      "medyan_oran_basarisiz_dahil": Infinity,
+      "medyan_ate": null,
+      "birim_sekans_tohum": {
+       "n": 0,
+       "medyan_oran": null,
+       "ga95": [
+        null,
+        null
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {}
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": []
+     }
+    }
+   },
+   "droid": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.01737440856797891,
+     "p10_p90": [
+      0.01003858183283145,
+      0.024184942436967338
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.01737440856797891,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 3.3170485520767907,
+      "medyan_oran_ga95": [
+       1.3236031739309835,
+       10.172779452571941
+      ],
+      "medyan_oran_basarisiz_dahil": 3.3170485520767907,
+      "medyan_ate": 0.04404351756536254,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 4.68062532333351,
+       "ga95": [
+        1.4661201899608796,
+        7.89513045670614
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 7.89513045670614,
+        "V1_01_easy/s0": 1.4661201899608796
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 9.280545074419434,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.525523059400926,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.8417034309318694
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.121683288461041
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.525523059400926
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 4.792393673221712
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 11.06501383072445
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 9.280545074419434
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 8.320552419261592,
+      "medyan_oran_ga95": [
+       4.913526836953024,
+       16.47386007838964
+      ],
+      "medyan_oran_basarisiz_dahil": 8.320552419261592,
+      "medyan_ate": 0.12879498235699655,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 9.38239815036517,
+       "ga95": [
+        5.287445952912083,
+        13.477350347818254
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 13.477350347818254,
+        "V1_01_easy/s0": 5.287445952912083
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 13.620776173425424,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 6.91568077552615,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 2.911372898379899
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 6.91568077552615
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 7.341842274892045
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 13.620776173425424
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 9.299262563631139
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 19.32694398335386
+       }
+      ]
+     }
+    }
+   },
+   "orbslam3": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.018404717036991553,
+     "p10_p90": [
+      0.012628320793518015,
+      0.029273448680750797
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.018404717036991553,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 3.878783597126712,
+      "medyan_oran_ga95": [
+       2.300122041465978,
+       6.070715441871119
+      ],
+      "medyan_oran_basarisiz_dahil": 3.878783597126712,
+      "medyan_ate": 0.08767218475132726,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 3.74967486235294,
+       "ga95": [
+        3.410940383019604,
+        4.088409341686276
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 3.410940383019604,
+        "V1_01_easy/s0": 4.088409341686276
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 2.813669673510001,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 4.943897520743423,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 2.2785001142504244
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 4.943897520743423
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 6.06658938977603
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 2.3217439686815324
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 2.813669673510001
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 6.074841493966209
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 3,
+      "basarisizlik_orani": 0.5,
+      "n_cift": 3,
+      "medyan_oran": 43.37185041426345,
+      "medyan_oran_ga95": [
+       34.18582135209291,
+       54.27532866009673
+      ],
+      "medyan_oran_basarisiz_dahil": Infinity,
+      "medyan_ate": 0.5839248357659459,
+      "birim_sekans_tohum": {
+       "n": 1,
+       "medyan_oran": 43.17365439393352,
+       "ga95": [
+        null,
+        null
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 43.17365439393352
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 43.37185041426345,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 43.37185041426345
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 34.18582135209291
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 54.27532866009673
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "ikincil_son_yorunge": {
+  "metrik": "ms_ate_se3",
+  "rakipler": {
+   "airslam": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.019193602822902174,
+     "p10_p90": [
+      0.013949922637777019,
+      0.03424879629797975
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.019193602822902174,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 2.2169503955672747,
+      "medyan_oran_ga95": [
+       1.1116166017622433,
+       4.262364515320493
+      ],
+      "medyan_oran_basarisiz_dahil": 2.2169503955672747,
+      "medyan_ate": 0.0426453231820176,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 2.1580328557207755,
+       "ga95": [
+        1.7025704381897753,
+        2.6134952732517758
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 2.6134952732517758,
+        "V1_01_easy/s0": 1.7025704381897753
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 2.3893418755584466,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 2.0445589155761033,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.001217808619086
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 2.0445589155761033
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 2.410943705733305
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 2.3893418755584466
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 6.11378532490768
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.2220153949054005
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 6,
+      "basarisizlik_orani": 1.0,
+      "n_cift": 0,
+      "medyan_oran": null,
+      "medyan_oran_ga95": [
+       null,
+       null
+      ],
+      "medyan_oran_basarisiz_dahil": Infinity,
+      "medyan_ate": null,
+      "birim_sekans_tohum": {
+       "n": 0,
+       "medyan_oran": null,
+       "ga95": [
+        null,
+        null
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {}
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": []
+     }
+    }
+   },
+   "droid": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.015860176351845535,
+     "p10_p90": [
+      0.010464668709912764,
+      0.025117965181891577
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.015860176351845535,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 2.2242562651173694,
+      "medyan_oran_ga95": [
+       1.0917240071602936,
+       5.355171253513556
+      ],
+      "medyan_oran_basarisiz_dahil": 2.2242562651173694,
+      "medyan_ate": 0.03167880969439828,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 2.7065993382796067,
+       "ga95": [
+        1.268568409525952,
+        4.1446302670332615
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 4.1446302670332615,
+        "V1_01_easy/s0": 1.268568409525952
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 3.9935549441728244,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.324340224217746,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 0.8591077901028413
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.324340224217746
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.7942974891678918
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 3.9935549441728244
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 6.716787562854288
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 2.6542150410668466
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 7.350253013607237,
+      "medyan_oran_ga95": [
+       5.001755317798258,
+       14.08400781866919
+      ],
+      "medyan_oran_basarisiz_dahil": 7.350253013607237,
+      "medyan_ate": 0.14184771416395459,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 8.088207748658013,
+       "ga95": [
+        6.035210978257331,
+        10.141204519058693
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 10.141204519058693,
+        "V1_01_easy/s0": 6.035210978257331
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 9.657216164329785,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 5.474889152038608,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 5.474889152038608
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 4.528621483557909
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 8.866169241351903
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 5.834336785862569
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 9.657216164329785
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 18.510799473008596
+       }
+      ]
+     }
+    }
+   },
+   "orbslam3": {
+    "temiz": {
+     "n_pencere": 6,
+     "n_basarisiz": 0,
+     "medyan": 0.018966557044984803,
+     "p10_p90": [
+      0.011853067343208595,
+      0.027001673578436823
+     ],
+     "tekrar_cv_medyan": null
+    },
+    "D_over_r0": {
+     "0": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 1.0,
+      "medyan_oran_ga95": [
+       1.0,
+       1.0
+      ],
+      "medyan_oran_basarisiz_dahil": 1.0,
+      "medyan_ate": 0.018966557044984803,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 1.0,
+       "ga95": [
+        1.0,
+        1.0
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 1.0,
+        "V1_01_easy/s0": 1.0
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 1.0,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 1.0
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.0
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 1.0
+       }
+      ]
+     },
+     "8": {
+      "n_pencere": 6,
+      "n_basarisiz": 0,
+      "basarisizlik_orani": 0.0,
+      "n_cift": 6,
+      "medyan_oran": 2.9217956821097886,
+      "medyan_oran_ga95": [
+       1.5509832825006207,
+       5.164486008946598
+      ],
+      "medyan_oran_basarisiz_dahil": 2.9217956821097886,
+      "medyan_ate": 0.060501124144693455,
+      "birim_sekans_tohum": {
+       "n": 2,
+       "medyan_oran": 2.973926078270506,
+       "ga95": [
+        2.0456313913279462,
+        3.9022207652130665
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 2.0456313913279462,
+        "V1_01_easy/s0": 3.9022207652130665
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 1.73988318702668,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 3,
+        "medyan_oran": 4.954846823046164,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 100,
+        "oran": 2.231503099678663
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 500,
+        "oran": 4.954846823046164
+       },
+       {
+        "sekans": "V1_01_easy",
+        "tohum": 0,
+        "pencere": 900,
+        "oran": 5.374125194847033
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 1.3620833779745614
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 1.73988318702668
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 3.612088264540914
+       }
+      ]
+     },
+     "24": {
+      "n_pencere": 6,
+      "n_basarisiz": 3,
+      "basarisizlik_orani": 0.5,
+      "n_cift": 3,
+      "medyan_oran": 39.556720546105,
+      "medyan_oran_ga95": [
+       32.21272950777718,
+       62.11186667598134
+      ],
+      "medyan_oran_basarisiz_dahil": Infinity,
+      "medyan_ate": 0.5858798864547091,
+      "birim_sekans_tohum": {
+       "n": 1,
+       "medyan_oran": 42.93460405453273,
+       "ga95": [
+        null,
+        null
+       ],
+       "wilcoxon_tek_p": null,
+       "oranlar": {
+        "MH02/s0": 42.93460405453273
+       }
+      },
+      "sekans_basina": {
+       "MH02": {
+        "n_cift": 3,
+        "medyan_oran": 39.556720546105,
+        "n_basarisiz": 0,
+        "n_pencere": 3
+       },
+       "V1_01_easy": {
+        "n_cift": 0,
+        "medyan_oran": null,
+        "n_basarisiz": 3,
+        "n_pencere": 3
+       }
+      },
+      "ciftler": [
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 600,
+        "oran": 39.556720546105
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1000,
+        "oran": 32.21272950777718
+       },
+       {
+        "sekans": "MH02",
+        "tohum": 0,
+        "pencere": 1400,
+        "oran": 62.11186667598134
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}
