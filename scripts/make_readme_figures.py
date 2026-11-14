@@ -28,8 +28,8 @@ fs.SYS = {
     "orb":      (GREEN, (0, (6, 2, 1.5, 2)), 1.5, "ORB-SLAM3"),
     "airslam":  (ORANGE, (0, (5, 2)), 1.5, "AirSLAM"),
     "droid":    (GREY, (0, (8, 3)), 1.5, "DROID-SLAM"),
-    "generic":  (PINK, (0, (6, 2, 1, 2, 1, 2)), 1.5, "Generic adaptive noise + gate"),
-    "scalar":   (fs.NEUTRAL_BAR, "-", 1.5, "Scalar variant (online noise, fixed gates)"),
+    "generic":  (PINK, (0, (6, 2, 1, 2, 1, 2)), 1.5, "Gated generic"),
+    "scalar":   (fs.NEUTRAL_BAR, "-", 1.5, "Scalar variant (fixed gates)"),
 }
 COND = ["R0-8", "R5-8", "R5-4", "R0-16", "R0-0"]
 COND_LABEL = ["Quasi-static\nD/r0 = 8", "Fast\nD/r0 = 8", "Fast\nD/r0 = 4", "Quasi-static\nD/r0 = 16", "Clean\n"]
@@ -151,8 +151,10 @@ def gate(plt):
     a.axhline(1, color="#888888", lw=0.8, ls=":")
     a.set_xticks(x5); a.set_xticklabels(COND_LABEL); a.set_ylabel("ATE / baseline ATE"); a.set_ylim(0.2, 1.2)
     a.set_title("(a) Accuracy, paired ratio with 95% CI")
-    _pts(b, "gate", x4 - 0.12, [K["I5_poz"][f"KAPI/A0@{c}"] for c in COND[:4]], "o")
-    _pts(b, "oracle", x4 + 0.12, [K["I5_poz"][f"A1g/A0@{c}"] for c in COND[:4]], "D")
+    _pts(b, "gate", x4 - 0.18, [K["I5_poz"][f"KAPI/A0@{c}"] for c in COND[:4]], "o")
+    if G is not None:   # S3: position ANEES ratios of Deviation 7
+        _pts(b, "generic", x4, [G["S3"][f"AGg/A0@{c}"] for c in COND[:4]], "^")
+    _pts(b, "oracle", x4 + 0.18, [K["I5_poz"][f"A1g/A0@{c}"] for c in COND[:4]], "D")
     b.axhline(1, color="#888888", lw=0.8, ls=":")
     b.set_yscale("log"); b.set_yticks([0.02, 0.05, 0.1, 0.2, 0.5, 1]); b.set_ylim(0.015, 1.3)
     b.set_yticklabels(["0.02", "0.05", "0.1", "0.2", "0.5", "1"])

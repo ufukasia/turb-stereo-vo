@@ -109,7 +109,23 @@ def factorial():
     return out
 
 
-TABLES = [("hero cell", hero_cell), ("highlights", highlights), ("degradation", degradation),
+def at_a_glance():
+    """Headline strip at the top of the README: four numbers, each read from an analysis file."""
+    F = J("results", "FAZ2", "analiz.json")["H1"]
+    K = J("results", "KAPI", "dogrula_analiz.json")
+    S = J("results", "GERCEK_VERI", "saha_ozet.json")["ort15"]["2021-07"]
+    best = min(K["B"][f"KAPI/A0@{c}"]["medyan_oran"] for c in ("R0-8", "R5-8", "R5-4"))
+    clean = K["T"]["KAPI/A0@R0-0"]
+    return [f"| **{F['oran8_medyan']:.2f}×** | **−{100 * (1 - best):.0f}%** | **{clean['medyan_oran']:.3f}** | "
+            f"**{S['G1_spearman']:.3f}** |",
+            "|:---:|:---:|:---:|:---:|",
+            "| ATE of the baseline at D/r0 = 8 relative to clear air (median paired ratio) | median ATE of the adaptive gate against the "
+            "baseline (fast regime, D/r0 = 8) | ATE ratio in clear air: the gate costs nothing when it is not needed "
+            f"(95% CI up to {clean['ga95'][1]:.3f}) | rank correlation of the online estimate with a scintillometer "
+            "on real imagery |"]
+
+
+TABLES = [("at a glance", at_a_glance), ("hero cell", hero_cell), ("highlights", highlights), ("degradation", degradation),
           ("real imagery", real), ("tilt/blur factorial", factorial)]
 
 if __name__ == "__main__":

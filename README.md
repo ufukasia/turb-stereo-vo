@@ -1,18 +1,31 @@
 # turb-stereo-vo: Stereo Visual Odometry Under Atmospheric Optical Turbulence
 
-> Code, run records, and pre-registration of the study "Stereo Visual Odometry Under Atmospheric Optical
-> Turbulence: Online Image-Motion Estimation and Adaptive Outlier Gating" (Ufuk Asil).
+<p align="center">
+<img src="https://img.shields.io/badge/license-MIT-0072B2" alt="License: MIT">
+<img src="https://img.shields.io/badge/python-3.12-0072B2" alt="Python 3.12">
+<img src="https://img.shields.io/badge/study-pre--registered-0072B2" alt="Pre-registered study">
+<img src="https://img.shields.io/badge/paper%20numbers-re--derived%20by%20script-0072B2" alt="Paper numbers re-derived by script">
+</p>
 
-Long-range cameras look through air whose refractive index fluctuates; the image of a static scene then
-moves by several pixels, differently in every part of the field. This repository measures what that does to
-stereo visual odometry (VO) and tests a remedy inside a factor-graph stereo pipeline (PyEco-SLAM):
+> Code, run records, and pre-registration of the paper "Stereo Visual Odometry Under Atmospheric Optical
+> Turbulence: Online Image-Motion Estimation and Adaptive Outlier Gating" (Ufuk Asil, OSTIM Technical University).
+
+Look at a distant scene above a hot road and it shimmers. For a camera that navigates, the shimmer is not a
+cosmetic problem: every tracked feature wanders by several pixels, differently across the image, and the
+odometry starts throwing away correct matches as outliers. This repository measures how much that costs
+stereo visual odometry (VO), finds where the loss comes from, and removes most of it with a remedy that reuses
+the residuals the odometry already computes.
+
+| **9.03×** | **−64%** | **1.020** | **0.863** |
+|:---:|:---:|:---:|:---:|
+| ATE of the baseline at D/r0 = 8 relative to clear air (median paired ratio) | median ATE of the adaptive gate against the baseline (fast regime, D/r0 = 8) | ATE ratio in clear air: the gate costs nothing when it is not needed (95% CI up to 1.047) | rank correlation of the online estimate with a scintillometer on real imagery |
 
 - **Simulator.** Anisoplanatic tilt and short-exposure blur from Kolmogorov phase screens, injected after
   rectification, with a quasi-static and a fast temporal regime (`turb/`).
 - **Online estimator.** The tilt standard deviation is estimated during flight from the differential motion
   of tracked features, by a structure-function fit, without a reference target (`turb/dimm_v2.py`).
 - **Adaptive gate.** The estimate scales the pixel noise and the outlier gates of tracking together
-  (`--turb_gate 3`); scaling the noise alone does not change the accuracy.
+  (`--turb_gate 3`) inside a factor-graph stereo pipeline (PyEco-SLAM).
 
 <p align="center"><img src="docs/figures/hero.png" width="100%"></p>
 <p align="center"><sub><b>Figure 1.</b> EuRoC MH05, frames 502–901, fast regime, D/r0 = 8, seed 3: the window with the largest gain in the confirmatory grid, shown as a selected example. Top: the same left-camera frame without and with turbulence. Bottom: causal trajectories and position error of the baseline and of the adaptive gate. The median gain over the grid is smaller; see Highlights.</sub></p>
@@ -40,21 +53,23 @@ pre-registered and analysed once.
 | Fast, D/r0 = 4 | **0.613 [0.564, 0.712]** | 0.672 | 0.952 [0.923, 1.023] | 0.937 | 0.662 | 0.401 |
 | No turbulence | 1.020 [0.976, 1.047] | 0.989 | 1.019 [0.999, 1.037] | 0.991 | – | 0.683 |
 
-- Turbulence degrades every tested system: at D/r0 = 8 the ATE grows by a factor of 2.6 to 7.0, and two of the
-  four systems lose more than 40% of the windows at D/r0 = 16.
-- Geometric displacement (tilt), not blur, drives the loss.
-- Scaling only the measurement noise leaves the ATE unchanged (ratios 0.94 to 1.03); scaling the gates with
-  the same estimate lowers it by 21% to 64%.
-- Most of the gain comes from scaling the gates: the gated generic arm also lowers the ATE (ratios 0.44 to
-  0.85). Compared directly, the turbulence estimate is more accurate by 5% to 11% in three conditions and
-  equivalent in the fourth, and it gives a lower position ANEES in all four.
-- Without turbulence the gate is neutral (upper end of the interval 1.047, pre-registered bound 1.10).
-- On real imagery with scintillometer references the estimate follows the measured turbulence strength
-  (rank correlation 0.863).
+- **Up to 64% lower trajectory error.** The adaptive gate cuts the median ATE to 0.362–0.613 of the baseline
+  in the three pre-registered turbulent conditions (Holm-adjusted p ≤ 4.0×10⁻⁹) and improves 35, 36, and 33
+  of the 36 units.
+- **Free in clear air.** Without turbulence the gate is neutral: 1.020 [0.976, 1.047], inside the
+  pre-registered bound of 1.10.
+- **The physics adds to the gain.** Against the same gate driven by a generic residual scale, the turbulence
+  estimate is 5% to 11% more accurate in three of four conditions and equivalent in the fourth, and its
+  position ANEES is 16% to 26% lower in all four.
+- **The cause is found, not guessed.** Inflating the noise alone, even with the true turbulence strength,
+  leaves the ATE unchanged (ratios 0.94 to 1.03): correct matches are lost at the tracking gates, which are
+  tuned for one-pixel noise. Tilt, not blur, carries the loss, and it hits all four tested systems.
+- **Checked against real air.** On 119 one-minute recordings over a 724 m path, the unchanged estimator
+  follows the scintillometer reading (rank correlation 0.863).
 
-Limitations: the accuracy results are obtained with simulated turbulence on EuRoC and a rendered scene, the
-gate does not reach the oracle at D/r0 = 16, and ten pre-registered predictions failed (reported in the
-paper and in `results/`).
+Limitations: the accuracy results come from simulated turbulence on EuRoC and a rendered scene, the online gate
+does not reach the oracle gate at D/r0 ≥ 8, and ten pre-registered predictions failed; all of them are reported
+in the paper and in `results/`.
 
 ## Results
 
@@ -75,7 +90,7 @@ paper and in `results/`).
 ### 2. Adaptive gate
 
 <p align="center"><img src="docs/figures/gate.png" width="100%"></p>
-<p align="center"><sub><b>Figure 3.</b> (a) ATE ratio to the baseline with 95% confidence intervals and (b) position ANEES ratio to the baseline, for the scalar variant, the adaptive gate, and the oracle gate in the four turbulent conditions and without turbulence.</sub></p>
+<p align="center"><sub><b>Figure 3.</b> (a) ATE ratio and (b) position ANEES ratio to the baseline, with 95% confidence intervals, in the four turbulent conditions and without turbulence. The gated generic arm uses the same gate rule with a residual-based scale; the scalar variant uses the online noise level with fixed gates; the oracle gate is given the true tilt strength.</sub></p>
 
 ### 3. Online estimate on real imagery
 
@@ -99,7 +114,20 @@ applied (45 units). The shares sum to more than one at D/r0 = 16; the effects ar
 | D/r0 = 8 | 0.818 | 0.087 |
 | D/r0 = 16 | 0.836 | 0.362 |
 
-## Protocol
+## Why the numbers can be trusted
+
+- **Written down before the runs.** Hypotheses, metrics, tests, and decision rules were fixed in a
+  pre-registration document whose SHA-256 was recorded before the confirmatory runs; each of the seven later
+  deviations was dated and hashed before its results existed (`preregistration/`).
+- **Failures are kept.** Ten predictions failed, among them the expectation that blur would dominate the loss; they
+  are reported in the paper and its supplementary material next to the ones that held.
+- **No number is typed by hand.** Every table of this README and every headline number of the paper is
+  re-derived from the stored records by a script (see [Reproducing the paper](#reproducing-the-paper)).
+- **Every record knows its code.** Each run record carries the fingerprint of the code that produced it
+  (`docs/IDENTITY.md`), and the grids added by the deviations were started only after pre-tests that include
+  bit-identity checks against the reference runs.
+
+### Protocol
 
 | Item | Setting |
 |:---|:---|
@@ -190,6 +218,10 @@ Every record in `results/` carries the fingerprint of the code that produced it 
 ## License
 
 MIT for the code of this repository (`LICENSE`). Vendored third-party code keeps its own license (`NOTICE`).
+
+## Contact
+
+Questions, bug reports, and replication attempts are welcome through GitHub issues.
 
 ## Citation
 
